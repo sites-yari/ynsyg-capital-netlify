@@ -1,3 +1,2 @@
-_site
-.sass-cache
-.jekyll-metadata
+assets
+s3_website.yml
