@@ -1,0 +1,322 @@
+grestel:
+  sobre: 
+    - 
+      topico: Sector
+      resposta: Produção de louça de forno, cozinha e mesa em grés fino
+
+    - 
+      topico: Tipo de Operação
+      resposta: Entrada de fundo de capital de risco no capital
+
+    - 
+      topico: Data
+      resposta: 2014
+
+    - 
+      topico: Vendas
+      resposta: €13 Milhões (2014)
+
+    - 
+      topico: CEO
+      resposta: Miguel Casal
+
+    - 
+      topico: Descrição
+      resposta: A Explorer Investments, uma capital de risco de referência em Portugal, adquiriu aos accionistas-fundadores uma participação accionista maioritária.
+
+
+critical:
+  sobre: 
+    - 
+      topico: Sector
+      resposta: Tecnologias de Informação
+
+    - 
+      topico: Tipo de Operação
+      resposta: Venda de participação minoritária
+
+    - 
+      topico: Data
+      resposta: 2013
+
+    - 
+      topico: Vendas
+      resposta: €22 Milhões (2013)
+
+    - 
+      topico: CEO
+      resposta: Gonçalo Quadros
+
+    - 
+      topico: Descrição
+      resposta: A operação consistiu na venda de uma participação minoritária na Critical Software aos atuais acionistas.
+
+
+quimitecnica:
+  sobre: 
+    - 
+      topico: Sector
+      resposta: Distribuição Química
+
+    - 
+      topico: Tipo de Operação
+      resposta: Aquisição Internacional
+
+    - 
+      topico: Data
+      resposta: 2014
+
+    - 
+      topico: Vendas
+      resposta: €30 Milhões (2014)
+
+    - 
+      topico: CEO
+      resposta: José António Magalhães
+
+    - 
+      topico: Descrição
+      resposta: A Quimitécnica, uma empresa portuguesa de referência na distribuição de produtos químicos, adquiriu a Cofarcas, uma empresa espanhola de distribuição química. Esta aquisição permitiu à Quimitécnica reforçar a presença na distribuição química no norte de Espanha e assim complementar as actividades que já detinha na Galiza, Andaluzia e Estremadura.
+
+
+bmcar:
+  sobre: 
+    - 
+      topico: Sector
+      resposta: Distribuição e reparação de automóveis — Concessionário BMW e MINI
+
+    - 
+      topico: Tipo de Operação
+      resposta: Assessoria financeira
+
+    - 
+      topico: Data
+      resposta: 2013
+
+    - 
+      topico: Vendas
+      resposta: €43,7 Milhões (2013)
+
+    - 
+      topico: CEO
+      resposta: Pedro Rodrigues
+
+    - 
+      topico: Descrição
+      resposta: Assessoria financeira na elaboração do plano de negócios
+
+
+purever:
+  sobre: 
+    - 
+      topico: Sector
+      resposta: Construção de salas limpas, indústria e logística agroalimentar, equipamentos para hotelaria e restauração e construção modular.
+
+    - 
+      topico: Tipo de Operação
+      resposta: Assessoria financeira na captação de novos investidores
+
+    - 
+      topico: Data
+      resposta: 2014
+
+    - 
+      topico: Vendas
+      resposta: € 45,8 Milhões (2014)
+
+    - 
+      topico: CEO
+      resposta: Luís Coelho Borges
+
+    - 
+      topico: Descrição
+      resposta: Assessoria financeira na captação de novos investidores
+
+
+impetus:
+  sobre: 
+    - 
+      topico: Sector
+      resposta: Têxtil – Produção e comercialização de underwear
+
+    - 
+      topico: Tipo de Operação
+      resposta: Assessoria Financeira
+
+    - 
+      topico: Data
+      resposta: 2013
+
+    - 
+      topico: Vendas
+      resposta: € 42 Milhões (2014)
+
+    - 
+      topico: CEO
+      resposta: Alberto Figueiredo
+
+    - 
+      topico: Descrição
+      resposta: A operação consistiu na assessoria financeira aos accionistas na definição da estratégia de expansão.
+
+
+edol:
+  sobre: 
+    - 
+      topico: Sector
+      resposta: Indústria Farmacêutica
+
+    - 
+      topico: Tipo de Operação
+      resposta: Assessoria Financeira
+
+    - 
+      topico: Data
+      resposta: 2014
+
+    - 
+      topico: Vendas
+      resposta: €14,1 Milhões (2013)
+
+    - 
+      topico: CEO
+      resposta: Carlos Setra
+
+    - 
+      topico: Descrição
+      resposta: Assessoria financeira na avaliação de activos.
+
+
+lifecooler:
+  sobre: 
+    - 
+      topico: Sector
+      resposta: Turismo e Lazer
+
+    - 
+      topico: Tipo de Operação
+      resposta: Assessoria Financeira
+
+    - 
+      topico: Data
+      resposta: 2015
+
+    - 
+      topico: Vendas
+      resposta: €4,3 Milhões (2014)
+
+    - 
+      topico: CEO
+      resposta: Paulo Parreira
+
+    - 
+      topico: Descrição
+      resposta: Assessoria financeira.
+
+
+energia-simples:
+  sobre: 
+    - 
+      topico: Sector
+      resposta: Energia
+
+    - 
+      topico: Tipo de Operação
+      resposta: Assessoria Financeira
+
+    - 
+      topico: Data
+      resposta: 2016
+
+    - 
+      topico: Vendas
+      resposta: €12,0 Milhões (2015)
+
+    - 
+      topico: CEO
+      resposta: Manuel Azevedo
+
+    - 
+      topico: Descrição
+      resposta: Estruturação de financiamento - Trade Finance
+
+
+somelos:
+  sobre: 
+    - 
+      topico: Sector
+      resposta: Têxtil
+
+    - 
+      topico: Tipo de Operação
+      resposta: Aquisição de participações sociais
+
+    - 
+      topico: Data
+      resposta: 2016
+
+    - 
+      topico: Vendas
+      resposta: €49,0 Milhões (2015)
+
+    - 
+      topico: CEO
+      resposta: Paulo Melo
+
+    - 
+      topico: Descrição
+      resposta: Assessoria financeira a actuais accionistas na aquisição de participações sociais a fundo de capital de risco gerido pela Portugal Ventures.
+
+
+ceriart:
+  sobre: 
+    - 
+      topico: Sector
+      resposta: Cerâmica Utilitária
+
+    - 
+      topico: Tipo de Operação
+      resposta: Assessoria financeira na venda de participações sociais
+
+    - 
+      topico: Data
+      resposta: Abril 2017
+
+    - 
+      topico: Vendas
+      resposta: €12,0 Milhões (2016)
+
+    - 
+      topico: CEO
+      resposta: Jorge Louro / Carlos Louro
+
+    - 
+      topico: Descrição
+      resposta: O OXY Capital Mezzannine Fund adquiriu uma participação social no capital do Grupo Ceriart. A Ceriart é grupo cerâmico focado na produção de peças de mesa e decorativas em grés e faiança, estando em rápido crescimento, exportando 100% da sua produção.
+
+
+farmacia:
+  sobre: 
+    - 
+      topico: Sector
+      resposta: Farmácia
+
+    - 
+      topico: Tipo de Operação
+      resposta: Assessoria na venda de 100% do capital social
+
+    - 
+      topico: Data
+      resposta: Outobro de 2016
+
+    - 
+      topico: Vendas
+      resposta: €1,0 Milhões (2015)
+
+    - 
+      topico: CEO
+      resposta: Maria João Serrenho
+
+    - 
+      topico: Descrição
+      resposta: A Farmácia de Gondarém é uma conhecida farmácia portuense situada na zona da Foz.
