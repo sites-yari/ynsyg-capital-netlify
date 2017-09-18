@@ -11,13 +11,13 @@ class: port_lifecooler
 
         <div class="c4 imagem-operacao">
           <div class="person-image">
-            <img src=/assets/sites/55afc063f6e35ff303000002/content_entry55afc163f6e35f51e000001c/55afc169f6e35fcc50000033/files/lifecooler05c5.png?1469187979 alt="Lifecooler" />
+            <img src={{site.data.operacoes.lifecooler.img}} alt="Lifecooler" />
           </div>
         </div>
 
         <div class="c8 texto-operacao" style="padding-left: 75px;">
-          <h3>Lifecooler</h3>
-          <p class="url_empresa"><a href="http://www.lifecooler.com/" target="_blank">www.lifecooler.com</a></p>
+          <h3>{{site.data.operacoes.lifecooler.titulo}}</h3>
+          <p class="url_empresa"><a href="{{site.data.operacoes.lifecooler.link}}" target="_blank">{{site.data.operacoes.lifecooler.endereco}}</a></p>
           <p class="url_empresa"><a href="#" target="_blank"></a></p>
 
           {% for lifecooler in site.data.operacoes.lifecooler.sobre %} 

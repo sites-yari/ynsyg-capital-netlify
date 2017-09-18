@@ -11,13 +11,13 @@ class: port_edol
 
         <div class="c4 imagem-operacao">
           <div class="person-image">
-            <img src=/assets/sites/55afc063f6e35ff303000002/content_entry55afc163f6e35f51e000001c/55afc169f6e35fc0bf000032/files/edol05c5.png?1469187979 alt="Laboratório Edol – Produtos Farmacêuticos S.A." />
+            <img src={{site.data.operacoes.edol.img}} alt="Laboratório Edol – Produtos Farmacêuticos S.A." />
           </div>
         </div>
 
         <div class="c8 texto-operacao" style="padding-left: 75px;">
-          <h3>Laboratório Edol – Produtos Farmacêuticos S.A.</h3>
-          <p class="url_empresa"><a href="http://www.edol.pt/" target="_blank">www.edol.pt</a></p>
+          <h3>{{site.data.operacoes.edol.titulo}}</h3>
+          <p class="url_empresa"><a href="{{site.data.operacoes.edol.link}}" target="_blank">{{site.data.operacoes.edol.endereco}}</a></p>
           <p class="url_empresa"><a href="#" target="_blank"></a></p>
 
           {% for laboratorio-edol-produtos-farmaceuticos-sa in site.data.operacoes.edol.sobre %} 
