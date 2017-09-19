@@ -11,18 +11,18 @@ class: worker
         <div class="c1"></div>
         <div class="c3">
           <div class="person-image">
-            <img src="/assets/sites/55afc063f6e35ff303000002/content_entry55afc163f6e35fe497000012/55afc165f6e35fab8b000029/files/Ruid6e1.jpg?1437847856" alt="Rui Lusquinhos">
+            <img src="{{site.data.equipa.analisador1.img}}" alt="Rui Lusquinhos">
           </div>
 
-          <p class="foto-description">Rui Lusquinhos</p>
-          <p class="align-left">Analista</p>
-          <p class="email">rui.lusquinhos@insignyacapital.com</p>
+          <p class="foto-description">{{site.data.equipa.analisador1.nome}}</p>
+          <p class="align-left">{{site.data.equipa.analisador1.titulos}}</p>
+          <p class="email">{{site.data.equipa.analisador1.email}}</p>
         </div>
 
         <div class="c7 light-text" style="padding-left: 75px;">
-          <p>Faz parte da equipa da Insignya Capital desde Janeiro de 2015.</p> 
-          <p>Anteriormente prestou serviços de auditoria para o grupo INDITEX, integrando o departamento de responsabilidade social corporativa.</p> 
-          <p>Licenciado em Gestão (2011) e Mestre em Finanças (2013) pela Universidade Católica do Porto.</p>
+          {% for rui-lusquinhos in site.data.equipa.analisador1.sobre %}                        
+            <p>{{rui-lusquinhos}}</p> 
+          {% endfor %}
         </div>
         
         <div class="c1"></div>

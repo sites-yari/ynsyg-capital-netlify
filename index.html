@@ -94,7 +94,6 @@ class: index
     <!--Seccão 2 -->
     <div id='equipa' class="page small-padding" style='background-color:#ffffff;' >
       <div class="grid">
-        <div class="content editable">
 
           <!-- header -->
           <div class="c12 end">
@@ -115,10 +114,10 @@ class: index
           </div>
 
           <!-- comissao executiva -->
-          {% for index in site.data.operacoes.operacao.executiva %}           
-            <div id="comissao-executiva" class="tabcontent">
-              <div class="c12 end">
-                <ul class="portfolioinner fotos">
+          <div id="comissao-executiva" class="tabcontent">
+            <div class="c12 end">
+              <ul class="portfolioinner fotos">
+                {% for index in site.data.equipa.operacao.executiva %}                               
                   <li class="mix comissão-executiva">
                     <figure class="rift">
                       <img width="282" height="282" src={{index.img}} class="attachment-portfolioThumbCropped wp-post-image" alt={{index.alt}} />
@@ -126,19 +125,19 @@ class: index
                         <a class="box" href="{{index.link}}" >{{index.titulo}}</a>
                       </figcaption>
                     </figure>
-                    <p class="subcaption">Miguel Oliveira</p>
+                    <p class="subcaption">{{index.titulo}}</p>
                   </li>
-                </ul>
-              </div>
+                {% endfor %}
+              </ul>
             </div>
-          {% endfor %}
+          </div>
+          
 
-          <!-- equipa investimento -->
-          {% for index in site.data.operacoes.operacao.analise %}                     
-            <div id="equipa-investimento" class="tabcontent">
-              <div class="c12 end">
-                <ul class="portfolioinner fotos">
-
+          <!-- equipa investimento -->                    
+          <div id="equipa-investimento" class="tabcontent">
+            <div class="c12 end">
+              <ul class="portfolioinner fotos">
+                {% for index in site.data.equipa.operacao.analise %} 
                   <li class="mix equipa-de-análise">
                     <figure class="rift">
                       <img width="282" height="282" src={{index.img}} class="attachment-portfolioThumbCropped wp-post-image" alt={{index.alt}} />
@@ -146,20 +145,19 @@ class: index
                         <a class="box" href="{{index.link}}" >{{index.titulo}}</a>
                       </figcaption>
                     </figure>
-                    <p class="subcaption">Rui Lusquinhos</p>
+                    <p class="subcaption">{{index.titulo}}</p>
                   </li>
-
-                </ul>
-              </div>
+                {% endfor %}                  
+              </ul>
             </div>
-          {% endfor %}
+          </div>
 
           <!-- conselho consultivo -->
-          {% for index in site.data.operacoes.operacao.consultivo %}                               
-            <div id="conselho-consultivo" class="tabcontent">
-              <div class="c12 end">
-                <ul class="portfolioinner fotos">
-
+          <div id="conselho-consultivo" class="tabcontent">
+            <div class="c12 end">
+              <ul class="portfolioinner fotos">
+                
+                {% for index in site.data.equipa.operacao.consultivo %}                               
                   <li class="mix conselho-consultivo">
                     <figure class="rift">
                       <img width="282" height="282" src={{index.img}} class="attachment-portfolioThumbCropped wp-post-image" alt={{index.alt}} />
@@ -167,15 +165,14 @@ class: index
                         <a class="box" href={{index.link}} >{{index.titulo}}</a>
                       </figcaption>
                     </figure>
-                    <p class="subcaption">José Mendes</p>
+                    <p class="subcaption">{{index.titulo}}</p>
                   </li>
+                {% endfor %}
 
-                </ul>
-              </div>
+              </ul>
             </div>
-          {% endfor %}
+          </div>
 
-        </div>
       </div>
     </div>
 
