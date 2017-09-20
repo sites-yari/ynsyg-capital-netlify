@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-09-20T12:32:17+01:00</updated><id>http://localhost:4000/</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-09-20T16:30:12+01:00</updated><id>http://localhost:4000/</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </subtitle><entry><title type="html">Miguel Oliveira</title><link href="http://localhost:4000/executivo/2017/09/20/miguel-oliveira.html" rel="alternate" type="text/html" title="Miguel Oliveira" /><published>2017-09-20T00:00:00+01:00</published><updated>2017-09-20T00:00:00+01:00</updated><id>http://localhost:4000/executivo/2017/09/20/miguel-oliveira</id><content type="html" xml:base="http://localhost:4000/executivo/2017/09/20/miguel-oliveira.html">&lt;body class=&quot;home page page-id-1512 page-parent page-template page-template-single-page-php&quot;&gt;
   &lt;article id=&quot;post-3295&quot; class=&quot;post-3295 portfolios type-portfolios status-publish hentry&quot;&gt;
     &lt;div class=&quot;grid&quot;&gt;
@@ -7,7 +7,7 @@
         &lt;div class=&quot;c1&quot;&gt;&lt;/div&gt;
         &lt;div class=&quot;c3&quot;&gt;
           &lt;div class=&quot;person-image&quot;&gt;
-            &lt;img src=&quot;/assets/sites/55afc063f6e35ff303000002/content_entry55afc163f6e35fe497000012/55afc164f6e35f6767000027/files/Miguel7462.jpg?1469118243&quot; alt=&quot;Miguel Oliveira&quot;&gt;
+            &lt;img src=&quot;/assets/sites/insig/content2/55afc164f6e35f6767000027/files/Miguel7462.jpg?1469118243&quot; alt=&quot;Miguel Oliveira&quot;&gt;
           &lt;/div&gt;
 
             &lt;p class=&quot;foto-description&quot;&gt;Miguel Oliveira&lt;/p&gt;
@@ -39,7 +39,7 @@
         &lt;div class=&quot;c1&quot;&gt;&lt;/div&gt;
         &lt;div class=&quot;c3&quot;&gt;
           &lt;div class=&quot;person-image&quot;&gt;
-            &lt;img src=&quot;/assets/sites/55afc063f6e35ff303000002/content_entry55afc163f6e35fe497000012/55afc165f6e35fab8b000029/files/Ruid6e1.jpg?1437847856&quot; alt=&quot;Rui Lusquinhos&quot;&gt;
+            &lt;img src=&quot;/assets/sites/insig/content2/55afc165f6e35fab8b000029/files/Ruid6e1.jpg?1437847856&quot; alt=&quot;Rui Lusquinhos&quot;&gt;
           &lt;/div&gt;
 
           &lt;p class=&quot;foto-description&quot;&gt;Rui Lusquinhos&lt;/p&gt;
@@ -67,7 +67,7 @@
       &lt;div class=&quot;row&quot;&gt;
         &lt;div class=&quot;c4 imagem-operacao&quot;&gt;
           &lt;div class=&quot;person-image&quot;&gt;
-            &lt;img src=/assets/sites/55afc063f6e35ff303000002/content_entry55afc163f6e35f51e000001c/55afc166f6e35f5b1e00002c/files/grestel05c5.png?1469187979 alt=&quot;Grestel&quot; /&gt;
+            &lt;img src=/assets/sites/insig/content1/55afc166f6e35f5b1e00002c/files/grestel05c5.png?1469187979 alt=&quot;Grestel&quot; /&gt;
           &lt;/div&gt;
         &lt;/div&gt;
 
@@ -122,7 +122,7 @@
         &lt;div class=&quot;c1&quot;&gt;&lt;/div&gt;
         &lt;div class=&quot;c3&quot;&gt;
           &lt;div class=&quot;person-image&quot;&gt;
-            &lt;img src=&quot;/assets/sites/55afc063f6e35ff303000002/content_entry55afc163f6e35fe497000012/55b7b727f6e35f680c014912/files/Diogo__3_27a6.jpg?1503670627&quot; alt=&quot;Diogo Rocha&quot;&gt;
+            &lt;img src=&quot;/assets/sites/insig/content2/55b7b727f6e35f680c014912/files/Diogo__3_27a6.jpg?1503670627&quot; alt=&quot;Diogo Rocha&quot;&gt;
           &lt;/div&gt;
 
           &lt;p class=&quot;foto-description&quot;&gt;Diogo Rocha&lt;/p&gt;
@@ -148,7 +148,7 @@
 
         &lt;div class=&quot;c4 imagem-operacao&quot;&gt;
           &lt;div class=&quot;person-image&quot;&gt;
-            &lt;img src=/assets/sites/55afc063f6e35ff303000002/content_entry55afc163f6e35f51e000001c/55afc166f6e35fbf1600002d/files/critical05c5.png?1469187979 alt=&quot;Critical Software S.A.&quot; /&gt;
+            &lt;img src=/assets/sites/insig/content1/55afc166f6e35fbf1600002d/files/critical05c5.png?1469187979 alt=&quot;Critical Software S.A.&quot; /&gt;
           &lt;/div&gt;
         &lt;/div&gt;
 
@@ -201,7 +201,7 @@
         &lt;div class=&quot;c1&quot;&gt;&lt;/div&gt;
         &lt;div class=&quot;c3&quot;&gt;
           &lt;div class=&quot;person-image&quot;&gt;
-            &lt;img src=&quot;/assets/sites/55afc063f6e35ff303000002/content_entry55afc163f6e35fe497000012/55afc165f6e35f336600002a/files/Jose_mendes77a3.jpg?1438599302&quot; alt=&quot;José Mendes&quot;&gt;
+            &lt;img src=&quot;/assets/sites/insig/content2/55afc165f6e35f336600002a/files/Jose_mendes77a3.jpg?1438599302&quot; alt=&quot;José Mendes&quot;&gt;
           &lt;/div&gt;
           
             &lt;p class=&quot;foto-description&quot;&gt;José Mendes&lt;/p&gt;
@@ -234,7 +234,7 @@
 
         &lt;div class=&quot;c4 imagem-operacao&quot;&gt;
           &lt;div class=&quot;person-image&quot;&gt;
-            &lt;img src=/assets/sites/55afc063f6e35ff303000002/content_entry55afc163f6e35f51e000001c/55afc167f6e35f2d6b00002e/files/quimitecnica05c5.png?1469187979 alt=&quot;Quimitécnica&quot; /&gt;
+            &lt;img src=/assets/sites/insig/content1/55afc167f6e35f2d6b00002e/files/quimitecnica05c5.png?1469187979 alt=&quot;Quimitécnica&quot; /&gt;
           &lt;/div&gt;
         &lt;/div&gt;
 
@@ -287,7 +287,7 @@
         &lt;div class=&quot;c1&quot;&gt;&lt;/div&gt;
         &lt;div class=&quot;c3&quot;&gt;
           &lt;div class=&quot;person-image&quot;&gt;
-            &lt;img src=&quot;/assets/sites/55afc063f6e35ff303000002/content_entry55afc163f6e35fe497000012/55afc165f6e35f29db00002b/files/carlosb390.jpg?1438599451&quot; alt=&quot;Carlos Pires&quot;&gt;
+            &lt;img src=&quot;/assets/sites/insig/content2/55afc165f6e35f29db00002b/files/carlosb390.jpg?1438599451&quot; alt=&quot;Carlos Pires&quot;&gt;
           &lt;/div&gt;
 
           &lt;p class=&quot;foto-description&quot;&gt;Carlos Pires&lt;/p&gt;
@@ -322,7 +322,7 @@
 
         &lt;div class=&quot;c4 imagem-operacao&quot;&gt;
           &lt;div class=&quot;person-image&quot;&gt;
-            &lt;img src=/assets/sites/55afc063f6e35ff303000002/content_entry55afc163f6e35f51e000001c/55afc167f6e35f462100002f/files/bmcar05c5.png?1469187979 alt=/assets/sites/55afc063f6e35ff303000002/content_entry55afc163f6e35f51e000001c/55afc167f6e35f462100002f/files/bmcar05c5.png?1469187979 &quot;BMCar&quot; /&gt;
+            &lt;img src=/assets/sites/insig/content1/55afc167f6e35f462100002f/files/bmcar05c5.png?1469187979 alt=/assets/sites/insig/content1/55afc167f6e35f462100002f/files/bmcar05c5.png?1469187979 &quot;BMCar&quot; /&gt;
           &lt;/div&gt;
         &lt;/div&gt;
 
@@ -374,7 +374,7 @@
 
         &lt;div class=&quot;c4 imagem-operacao&quot;&gt;
           &lt;div class=&quot;person-image&quot;&gt;
-            &lt;img src=/assets/sites/55afc063f6e35ff303000002/content_entry55afc163f6e35f51e000001c/55afc168f6e35fff33000030/files/purever05c5.png?1469187979 alt=/assets/sites/55afc063f6e35ff303000002/content_entry55afc163f6e35f51e000001c/55afc168f6e35fff33000030/files/purever05c5.png?1469187979 &quot;Purever SGPS S.A.&quot; /&gt;
+            &lt;img src=/assets/sites/insig/content1/55afc168f6e35fff33000030/files/purever05c5.png?1469187979 alt=/assets/sites/insig/content1/55afc168f6e35fff33000030/files/purever05c5.png?1469187979 &quot;Purever SGPS S.A.&quot; /&gt;
           &lt;/div&gt;
         &lt;/div&gt;
 
