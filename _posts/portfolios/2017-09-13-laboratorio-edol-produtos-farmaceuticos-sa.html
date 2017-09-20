@@ -1,0 +1,36 @@
+---
+title: LABORATORIO EDOL - PRODUTOS FARMACEUTICOS S.A.
+class: port_edol
+img: assets/sites/insig/content1/55afc169f6e35fc0bf000032/files/edol05c5.jpg?1469187979
+category: portfolios
+---
+
+<body class="home page page-id-1512 page-parent page-template page-template-single-page-php">
+    
+  <article id="post-3295" class="post-3295 portfolios type-portfolios status-publish hentry">
+    <div class="grid" style="padding-top: 80px;">
+      <div class="row">
+
+        <div class="c4 imagem-operacao">
+          <div class="person-image">
+            <img src={{site.data.operacoes.edol.img}} alt="Laboratório Edol – Produtos Farmacêuticos S.A." />
+          </div>
+        </div>
+
+        <div class="c8 texto-operacao" style="padding-left: 75px;">
+          <h3>{{site.data.operacoes.edol.titulo}}</h3>
+          <p class="url_empresa"><a href="{{site.data.operacoes.edol.link}}" target="_blank">{{site.data.operacoes.edol.endereco}}</a></p>
+          <p class="url_empresa"><a href="#" target="_blank"></a></p>
+
+          {% for laboratorio-edol-produtos-farmaceuticos-sa in site.data.operacoes.edol.sobre %} 
+            <p class="light-text">
+              <b>{{laboratorio-edol-produtos-farmaceuticos-sa.topico}}</b><br/>
+              {{laboratorio-edol-produtos-farmaceuticos-sa.resposta}}
+            </p>
+          {% endfor %}
+
+        </div>
+      </div>
+    </div>
+  </article>
+</body>

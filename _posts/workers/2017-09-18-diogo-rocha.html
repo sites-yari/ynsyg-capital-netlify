@@ -1,0 +1,33 @@
+---
+title: Diogo Rocha
+class: worker
+img: assets/sites/insig/content2/55b7b727f6e35f680c014912/files/Diogo__3_27a6.jpg?1503670627
+category: analista
+---
+
+<body class="home page page-id-1512 page-parent page-template page-template-single-page-php">
+  <article id="post-3295" class="post-3295 portfolios type-portfolios status-publish hentry">
+    <div class="grid">
+      <div class="row"></div>
+      <div class="row">
+        <div class="c1"></div>
+        <div class="c3">
+          <div class="person-image">
+            <img src="{{site.data.equipa.analisador2.img}}" alt="Diogo Rocha">
+          </div>
+
+          <p class="foto-description">{{site.data.equipa.analisador2.nome}}</p>
+          <p class="align-left">{{site.data.equipa.analisador2.titulos}}</p>
+          <p class="email">{{site.data.equipa.analisador2.email}}</p>
+        </div>
+
+        <div class="c7 light-text" style="padding-left: 75px;">
+          {% for diogo-rocha in site.data.equipa.analisador2.sobre %}                                    
+            <p>{{diogo-rocha}}</p>
+          {% endfor %}
+        </div>
+        <div class="c1"></div>
+      </div>
+    </div>
+  </article>
+</body>

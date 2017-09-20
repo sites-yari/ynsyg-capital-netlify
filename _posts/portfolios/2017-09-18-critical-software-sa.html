@@ -1,0 +1,36 @@
+---
+title: CRITICAL SOFTWARE S.A.
+class: port_critical
+img: assets/sites/insig/content1/55afc166f6e35fbf1600002d/files/critical05c5.jpg?1469187979
+category: portfolios
+---
+
+
+<body class="home page page-id-1512 page-parent page-template page-template-single-page-php"> 
+  <article id="post-3295" class="post-3295 portfolios type-portfolios status-publish hentry">
+    <div class="grid" style="padding-top: 80px;">
+      <div class="row">
+
+        <div class="c4 imagem-operacao">
+          <div class="person-image">
+            <img src={{site.data.operacoes.critical.img}} alt="Critical Software S.A." />
+          </div>
+        </div>
+
+        <div class="c8 texto-operacao" style="padding-left: 75px;">
+          <h3>{{site.data.operacoes.critical.titulo}}</h3>
+          <p class="url_empresa"><a href="{{site.data.operacoes.critical.link}}" target="_blank">{{site.data.operacoes.critical.endereco}}</a></p>
+          <p class="url_empresa"><a href="#" target="_blank"></a></p>
+
+          {% for critical-software-sa in site.data.operacoes.critical.sobre %} 
+            <p class="light-text">
+              <b>{{critical-software-sa.topico}}</b><br/>
+              {{critical-software-sa.resposta}}
+            </p>
+          {% endfor %}
+
+        </div>
+      </div>
+    </div>
+  </article>
+</body>

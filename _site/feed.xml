@@ -1,14 +1,422 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-09-18T10:59:24+01:00</updated><id>http://localhost:4000/</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2017/09/13/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2017-09-13T11:23:47+01:00</published><updated>2017-09-13T11:23:47+01:00</updated><id>http://localhost:4000/jekyll/update/2017/09/13/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2017/09/13/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-09-20T16:30:12+01:00</updated><id>http://localhost:4000/</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</subtitle><entry><title type="html">Miguel Oliveira</title><link href="http://localhost:4000/executivo/2017/09/20/miguel-oliveira.html" rel="alternate" type="text/html" title="Miguel Oliveira" /><published>2017-09-20T00:00:00+01:00</published><updated>2017-09-20T00:00:00+01:00</updated><id>http://localhost:4000/executivo/2017/09/20/miguel-oliveira</id><content type="html" xml:base="http://localhost:4000/executivo/2017/09/20/miguel-oliveira.html">&lt;body class=&quot;home page page-id-1512 page-parent page-template page-template-single-page-php&quot;&gt;
+  &lt;article id=&quot;post-3295&quot; class=&quot;post-3295 portfolios type-portfolios status-publish hentry&quot;&gt;
+    &lt;div class=&quot;grid&quot;&gt;
+      &lt;div class=&quot;row&quot;&gt;&lt;/div&gt;
+      &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;c1&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;c3&quot;&gt;
+          &lt;div class=&quot;person-image&quot;&gt;
+            &lt;img src=&quot;/assets/sites/insig/content2/55afc164f6e35f6767000027/files/Miguel7462.jpg?1469118243&quot; alt=&quot;Miguel Oliveira&quot;&gt;
+          &lt;/div&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+            &lt;p class=&quot;foto-description&quot;&gt;Miguel Oliveira&lt;/p&gt;
+            &lt;p class=&quot;align-left&quot;&gt;Sócio e Fundador&lt;/p&gt;
+            &lt;p class=&quot;email&quot;&gt;miguel.oliveira@insignyacapital.com&lt;/p&gt;
+        &lt;/div&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+        &lt;div class=&quot;c7 light-text&quot; style=&quot;padding-left: 75px;&quot;&gt;
+          
+            &lt;p&gt;Iniciou a carreira em 1997 como analista financeiro no departamento de Corporate Finance do CENTRAL-Banco de Investimento, tendo participado em operações de M&amp;A, IPO’s, project finance, debt &amp; equity raising. Entre Março de 2001 e Setembro de 2006 integrou o Conselho de Administração do Grupo Império Pneus como Administrador Financeiro.&lt;/p&gt;
+          
+            &lt;p&gt;Em Julho de 2007 fundou a Lynx Capital Partners da qual foi CEO até Fevereiro de 2014, tendo liderado diversas operações de transação de empresas (M&amp;A), assessoria financeira e reestruturação financeira.&lt;/p&gt;
+          
+            &lt;p&gt;Fundou a Insignya Capital Partners em Maio de 2014.&lt;/p&gt;
+          
+            &lt;p&gt;Licenciado em Administração e Gestão de Empresas pela Universidade Católica Portuguesa (1997) e MBA pela Graduate School of Business da Universidade de Chicago, USA (2009).&lt;/p&gt;
+          
+        &lt;/div&gt;
+        &lt;div class=&quot;c1&quot;&gt;&lt;/div&gt;
+        
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/article&gt;   
+&lt;/body&gt;</content><author><name></name></author><category term="executivo" /><summary type="html"></summary></entry><entry><title type="html">Rui Lusquinhos</title><link href="http://localhost:4000/analista/2017/09/19/rui-lusquinhos.html" rel="alternate" type="text/html" title="Rui Lusquinhos" /><published>2017-09-19T00:00:00+01:00</published><updated>2017-09-19T00:00:00+01:00</updated><id>http://localhost:4000/analista/2017/09/19/rui-lusquinhos</id><content type="html" xml:base="http://localhost:4000/analista/2017/09/19/rui-lusquinhos.html">&lt;body class=&quot;home page page-id-1512 page-parent page-template page-template-single-page-php&quot;&gt;
+  &lt;article id=&quot;post-3295&quot; class=&quot;post-3295 portfolios type-portfolios status-publish hentry&quot;&gt;
+    &lt;div class=&quot;grid&quot;&gt;
+      &lt;div class=&quot;row&quot;&gt;&lt;/div&gt;
+      &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;c1&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;c3&quot;&gt;
+          &lt;div class=&quot;person-image&quot;&gt;
+            &lt;img src=&quot;/assets/sites/insig/content2/55afc165f6e35fab8b000029/files/Ruid6e1.jpg?1437847856&quot; alt=&quot;Rui Lusquinhos&quot;&gt;
+          &lt;/div&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+          &lt;p class=&quot;foto-description&quot;&gt;Rui Lusquinhos&lt;/p&gt;
+          &lt;p class=&quot;align-left&quot;&gt;Analista&lt;/p&gt;
+          &lt;p class=&quot;email&quot;&gt;rui.lusquinhos@insignyacapital.com&lt;/p&gt;
+        &lt;/div&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
+        &lt;div class=&quot;c7 light-text&quot; style=&quot;padding-left: 75px;&quot;&gt;
+                                  
+            &lt;p&gt;Faz parte da equipa da Insignya Capital desde Janeiro de 2015.&lt;/p&gt; 
+                                  
+            &lt;p&gt;Anteriormente prestou serviços de auditoria para o grupo INDITEX, integrando o departamento de responsabilidade social corporativa.&lt;/p&gt; 
+                                  
+            &lt;p&gt;Licenciado em Gestão (2011) e Mestre em Finanças (2013) pela Universidade Católica do Porto.&lt;/p&gt; 
+          
+        &lt;/div&gt;
+        
+        &lt;div class=&quot;c1&quot;&gt;&lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/article&gt;
+&lt;/body&gt;</content><author><name></name></author><category term="analista" /><summary type="html"></summary></entry><entry><title type="html">GRESTEL</title><link href="http://localhost:4000/portfolios/2017/09/19/grestel.html" rel="alternate" type="text/html" title="GRESTEL" /><published>2017-09-19T00:00:00+01:00</published><updated>2017-09-19T00:00:00+01:00</updated><id>http://localhost:4000/portfolios/2017/09/19/grestel</id><content type="html" xml:base="http://localhost:4000/portfolios/2017/09/19/grestel.html">&lt;body class=&quot;home page page-id-1512 page-parent page-template page-template-single-page-php&quot;&gt;
+  &lt;article id=&quot;post-3295&quot; class=&quot;post-3295 portfolios type-portfolios status-publish hentry&quot;&gt;
+    &lt;div class=&quot;grid&quot; style=&quot;padding-top: 80px;&quot;&gt;
+      &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;c4 imagem-operacao&quot;&gt;
+          &lt;div class=&quot;person-image&quot;&gt;
+            &lt;img src=/assets/sites/insig/content1/55afc166f6e35f5b1e00002c/files/grestel05c5.png?1469187979 alt=&quot;Grestel&quot; /&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&quot;c8 texto-operacao&quot; style=&quot;padding-left: 75px;&quot;&gt;
+          &lt;h3&gt;Grestel&lt;/h3&gt;
+          &lt;p class=&quot;url_empresa&quot;&gt;&lt;a href=&quot;http://www.grestel.pt/&quot; target=&quot;_blank&quot;&gt;www.grestel.pt&lt;/a&gt;&lt;/p&gt;
+          &lt;p class=&quot;url_empresa&quot;&gt;&lt;a href=&quot;#&quot; target=&quot;_blank&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+          
+          
+           
+            &lt;p class=&quot;light-text&quot;&gt;
+              &lt;b&gt;Sector&lt;/b&gt;&lt;br/&gt;
+              Produção de louça de forno, cozinha e mesa em grés fino
+            &lt;/p&gt;
+           
+            &lt;p class=&quot;light-text&quot;&gt;
+              &lt;b&gt;Tipo de Operação&lt;/b&gt;&lt;br/&gt;
+              Entrada de fundo de capital de risco no capital
+            &lt;/p&gt;
+           
+            &lt;p class=&quot;light-text&quot;&gt;
+              &lt;b&gt;Data&lt;/b&gt;&lt;br/&gt;
+              2014
+            &lt;/p&gt;
+           
+            &lt;p class=&quot;light-text&quot;&gt;
+              &lt;b&gt;Vendas&lt;/b&gt;&lt;br/&gt;
+              €13 Milhões (2014)
+            &lt;/p&gt;
+           
+            &lt;p class=&quot;light-text&quot;&gt;
+              &lt;b&gt;CEO&lt;/b&gt;&lt;br/&gt;
+              Miguel Casal
+            &lt;/p&gt;
+           
+            &lt;p class=&quot;light-text&quot;&gt;
+              &lt;b&gt;Descrição&lt;/b&gt;&lt;br/&gt;
+              A Explorer Investments, uma capital de risco de referência em Portugal, adquiriu aos accionistas-fundadores uma participação accionista maioritária.
+            &lt;/p&gt;
+          
+          
+
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/article&gt;
+&lt;/body&gt;</content><author><name></name></author><category term="portfolios" /><summary type="html"></summary></entry><entry><title type="html">Diogo Rocha</title><link href="http://localhost:4000/analista/2017/09/18/diogo-rocha.html" rel="alternate" type="text/html" title="Diogo Rocha" /><published>2017-09-18T00:00:00+01:00</published><updated>2017-09-18T00:00:00+01:00</updated><id>http://localhost:4000/analista/2017/09/18/diogo-rocha</id><content type="html" xml:base="http://localhost:4000/analista/2017/09/18/diogo-rocha.html">&lt;body class=&quot;home page page-id-1512 page-parent page-template page-template-single-page-php&quot;&gt;
+  &lt;article id=&quot;post-3295&quot; class=&quot;post-3295 portfolios type-portfolios status-publish hentry&quot;&gt;
+    &lt;div class=&quot;grid&quot;&gt;
+      &lt;div class=&quot;row&quot;&gt;&lt;/div&gt;
+      &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;c1&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;c3&quot;&gt;
+          &lt;div class=&quot;person-image&quot;&gt;
+            &lt;img src=&quot;/assets/sites/insig/content2/55b7b727f6e35f680c014912/files/Diogo__3_27a6.jpg?1503670627&quot; alt=&quot;Diogo Rocha&quot;&gt;
+          &lt;/div&gt;
+
+          &lt;p class=&quot;foto-description&quot;&gt;Diogo Rocha&lt;/p&gt;
+          &lt;p class=&quot;align-left&quot;&gt;Analista&lt;/p&gt;
+          &lt;p class=&quot;email&quot;&gt;diogo.rocha@insignyacapital.com&lt;/p&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&quot;c7 light-text&quot; style=&quot;padding-left: 75px;&quot;&gt;
+                                              
+            &lt;p&gt;Faz parte da equipa da Insignya Capital desde Junho de 2017.&lt;/p&gt;
+                                              
+            &lt;p&gt;Licenciado em Economia (2016) pela Universidade do minho e Pós-Graduado em Análise Financeira pela Porto Business School (2017).&lt;/p&gt;
+          
+        &lt;/div&gt;
+        &lt;div class=&quot;c1&quot;&gt;&lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/article&gt;
+&lt;/body&gt;</content><author><name></name></author><category term="analista" /><summary type="html"></summary></entry><entry><title type="html">CRITICAL SOFTWARE S.A.</title><link href="http://localhost:4000/portfolios/2017/09/18/critical-software-sa.html" rel="alternate" type="text/html" title="CRITICAL SOFTWARE S.A." /><published>2017-09-18T00:00:00+01:00</published><updated>2017-09-18T00:00:00+01:00</updated><id>http://localhost:4000/portfolios/2017/09/18/critical-software-sa</id><content type="html" xml:base="http://localhost:4000/portfolios/2017/09/18/critical-software-sa.html">&lt;body class=&quot;home page page-id-1512 page-parent page-template page-template-single-page-php&quot;&gt; 
+  &lt;article id=&quot;post-3295&quot; class=&quot;post-3295 portfolios type-portfolios status-publish hentry&quot;&gt;
+    &lt;div class=&quot;grid&quot; style=&quot;padding-top: 80px;&quot;&gt;
+      &lt;div class=&quot;row&quot;&gt;
+
+        &lt;div class=&quot;c4 imagem-operacao&quot;&gt;
+          &lt;div class=&quot;person-image&quot;&gt;
+            &lt;img src=/assets/sites/insig/content1/55afc166f6e35fbf1600002d/files/critical05c5.png?1469187979 alt=&quot;Critical Software S.A.&quot; /&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&quot;c8 texto-operacao&quot; style=&quot;padding-left: 75px;&quot;&gt;
+          &lt;h3&gt;Critical Software S.A.&lt;/h3&gt;
+          &lt;p class=&quot;url_empresa&quot;&gt;&lt;a href=&quot;http://www.criticalsoftware.com/&quot; target=&quot;_blank&quot;&gt;www.criticalsoftware.com&lt;/a&gt;&lt;/p&gt;
+          &lt;p class=&quot;url_empresa&quot;&gt;&lt;a href=&quot;#&quot; target=&quot;_blank&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+           
+            &lt;p class=&quot;light-text&quot;&gt;
+              &lt;b&gt;Sector&lt;/b&gt;&lt;br/&gt;
+              Tecnologias de Informação
+            &lt;/p&gt;
+           
+            &lt;p class=&quot;light-text&quot;&gt;
+              &lt;b&gt;Tipo de Operação&lt;/b&gt;&lt;br/&gt;
+              Venda de participação minoritária
+            &lt;/p&gt;
+           
+            &lt;p class=&quot;light-text&quot;&gt;
+              &lt;b&gt;Data&lt;/b&gt;&lt;br/&gt;
+              2013
+            &lt;/p&gt;
+           
+            &lt;p class=&quot;light-text&quot;&gt;
+              &lt;b&gt;Vendas&lt;/b&gt;&lt;br/&gt;
+              €22 Milhões (2013)
+            &lt;/p&gt;
+           
+            &lt;p class=&quot;light-text&quot;&gt;
+              &lt;b&gt;CEO&lt;/b&gt;&lt;br/&gt;
+              Gonçalo Quadros
+            &lt;/p&gt;
+           
+            &lt;p class=&quot;light-text&quot;&gt;
+              &lt;b&gt;Descrição&lt;/b&gt;&lt;br/&gt;
+              A operação consistiu na venda de uma participação minoritária na Critical Software aos atuais acionistas.
+            &lt;/p&gt;
+          
+
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/article&gt;
+&lt;/body&gt;</content><author><name></name></author><category term="portfolios" /><summary type="html"></summary></entry><entry><title type="html">José Mendes</title><link href="http://localhost:4000/consultivo/2017/09/17/jose-mendes.html" rel="alternate" type="text/html" title="José Mendes" /><published>2017-09-17T00:00:00+01:00</published><updated>2017-09-17T00:00:00+01:00</updated><id>http://localhost:4000/consultivo/2017/09/17/jose-mendes</id><content type="html" xml:base="http://localhost:4000/consultivo/2017/09/17/jose-mendes.html">&lt;body class=&quot;home page page-id-1512 page-parent page-template page-template-single-page-php&quot;&gt;
+  &lt;article id=&quot;post-3295&quot; class=&quot;post-3295 portfolios type-portfolios status-publish hentry&quot;&gt;
+    &lt;div class=&quot;grid&quot;&gt;
+      &lt;div class=&quot;row&quot;&gt;&lt;/div&gt;
+      &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;c1&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;c3&quot;&gt;
+          &lt;div class=&quot;person-image&quot;&gt;
+            &lt;img src=&quot;/assets/sites/insig/content2/55afc165f6e35f336600002a/files/Jose_mendes77a3.jpg?1438599302&quot; alt=&quot;José Mendes&quot;&gt;
+          &lt;/div&gt;
+          
+            &lt;p class=&quot;foto-description&quot;&gt;José Mendes&lt;/p&gt;
+            &lt;p class=&quot;align-left&quot;&gt;Consultor&lt;/p&gt;
+            &lt;p class=&quot;email&quot;&gt;&lt;/p&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&quot;c7 light-text&quot; style=&quot;padding-left: 75px;&quot;&gt;
+                      
+            &lt;p&gt;Vice-Reitor da Universidade do Minho para a Valorização do Conhecimento e Projetos Especiais, integrando o Conselho de Gestão da Universidade. Responsável pelo ecossistema de inovação e empreendedorismo em Portugal, dirigindo o Gabinete de Transferência de Tecnologia.&lt;/p&gt; 
+                      
+            &lt;p&gt;Desempenha também funções de administração em várias empresas e associações em Portugal como a TecMinho, a Portus Park, Plataforma de UM-Cidades, entre outras em que trabalhou anteriormente como AvePark, CiencInvest, Ardrave, etc.&lt;/p&gt; 
+                      
+            &lt;p&gt;Acumula também funções consultivas em diversas entidades como a Comissão Europeia (DG Reserach, Bruxelas), Education Audiovisual and Cultural Executive Agency (Bruxelas), European Training Foundation (Torino) e Natural Environment Research Council (Reino Unido).&lt;/p&gt; 
+                      
+            &lt;p&gt;A nível académico é Professor Catedrático na Universidade do Minho, Professor Convidado nas Universidades de Coimbra e Beira Interior, e Investigador no Centro de Transportes, Ambiente e Construção. É também Professor Convidado/Investigador na Università di Bologna (Itália) e na Silesian University of Technology (Gliwice, Polónia).&lt;/p&gt; 
+                      
+            &lt;p&gt;Licenciado em Engenharia Civil (1987), Doutorado (1993) e Agregado (2001) em Planeamento do Território pela Universidade do Minho.&lt;/p&gt; 
+          
+        &lt;/div&gt;
+        
+        &lt;div class=&quot;c1&quot;&gt;&lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/article&gt;
+&lt;/body&gt;</content><author><name></name></author><category term="consultivo" /><summary type="html">José Mendes Consultor</summary></entry><entry><title type="html">QUIMITECNICA</title><link href="http://localhost:4000/portfolios/2017/09/17/quimitecnica.html" rel="alternate" type="text/html" title="QUIMITECNICA" /><published>2017-09-17T00:00:00+01:00</published><updated>2017-09-17T00:00:00+01:00</updated><id>http://localhost:4000/portfolios/2017/09/17/quimitecnica</id><content type="html" xml:base="http://localhost:4000/portfolios/2017/09/17/quimitecnica.html">&lt;body class=&quot;home page page-id-1512 page-parent page-template page-template-single-page-php&quot;&gt;
+  &lt;article id=&quot;post-3295&quot; class=&quot;post-3295 portfolios type-portfolios status-publish hentry&quot;&gt;
+    &lt;div class=&quot;grid&quot; style=&quot;padding-top: 80px;&quot;&gt;
+      &lt;div class=&quot;row&quot;&gt;
+
+        &lt;div class=&quot;c4 imagem-operacao&quot;&gt;
+          &lt;div class=&quot;person-image&quot;&gt;
+            &lt;img src=/assets/sites/insig/content1/55afc167f6e35f2d6b00002e/files/quimitecnica05c5.png?1469187979 alt=&quot;Quimitécnica&quot; /&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&quot;c8 texto-operacao&quot; style=&quot;padding-left: 75px;&quot;&gt;
+          &lt;h3&gt;Quimitécnica&lt;/h3&gt;
+          &lt;p class=&quot;url_empresa&quot;&gt;&lt;a href=&quot;http://www.quimitecnica.com/&quot; target=&quot;_blank&quot;&gt;www.quimitecnica.com&lt;/a&gt;&lt;/p&gt;
+          &lt;p class=&quot;url_empresa&quot;&gt;&lt;a href=&quot;#&quot; target=&quot;_blank&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+           
+            &lt;p class=&quot;light-text&quot;&gt;
+              &lt;b&gt;Sector&lt;/b&gt;&lt;br/&gt;
+              Distribuição Química
+            &lt;/p&gt;
+           
+            &lt;p class=&quot;light-text&quot;&gt;
+              &lt;b&gt;Tipo de Operação&lt;/b&gt;&lt;br/&gt;
+              Aquisição Internacional
+            &lt;/p&gt;
+           
+            &lt;p class=&quot;light-text&quot;&gt;
+              &lt;b&gt;Data&lt;/b&gt;&lt;br/&gt;
+              2014
+            &lt;/p&gt;
+           
+            &lt;p class=&quot;light-text&quot;&gt;
+              &lt;b&gt;Vendas&lt;/b&gt;&lt;br/&gt;
+              €30 Milhões (2014)
+            &lt;/p&gt;
+           
+            &lt;p class=&quot;light-text&quot;&gt;
+              &lt;b&gt;CEO&lt;/b&gt;&lt;br/&gt;
+              José António Magalhães
+            &lt;/p&gt;
+           
+            &lt;p class=&quot;light-text&quot;&gt;
+              &lt;b&gt;Descrição&lt;/b&gt;&lt;br/&gt;
+              A Quimitécnica, uma empresa portuguesa de referência na distribuição de produtos químicos, adquiriu a Cofarcas, uma empresa espanhola de distribuição química. Esta aquisição permitiu à Quimitécnica reforçar a presença na distribuição química no norte de Espanha e assim complementar as actividades que já detinha na Galiza, Andaluzia e Estremadura.
+            &lt;/p&gt;
+          
+          
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/article&gt;
+&lt;/body&gt;</content><author><name></name></author><category term="portfolios" /><summary type="html"></summary></entry><entry><title type="html">Carlos Pires</title><link href="http://localhost:4000/consultivo/2017/09/16/carlos-pires.html" rel="alternate" type="text/html" title="Carlos Pires" /><published>2017-09-16T00:00:00+01:00</published><updated>2017-09-16T00:00:00+01:00</updated><id>http://localhost:4000/consultivo/2017/09/16/carlos-pires</id><content type="html" xml:base="http://localhost:4000/consultivo/2017/09/16/carlos-pires.html">&lt;body class=&quot;home page page-id-1512 page-parent page-template page-template-single-page-php&quot;&gt;
+  &lt;article id=&quot;post-3295&quot; class=&quot;post-3295 portfolios type-portfolios status-publish hentry&quot;&gt;
+    &lt;div class=&quot;grid&quot;&gt;
+      &lt;div class=&quot;row&quot;&gt;&lt;/div&gt;
+      &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;c1&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;c3&quot;&gt;
+          &lt;div class=&quot;person-image&quot;&gt;
+            &lt;img src=&quot;/assets/sites/insig/content2/55afc165f6e35f29db00002b/files/carlosb390.jpg?1438599451&quot; alt=&quot;Carlos Pires&quot;&gt;
+          &lt;/div&gt;
+
+          &lt;p class=&quot;foto-description&quot;&gt;Carlos Pires&lt;/p&gt;
+          &lt;p class=&quot;align-left&quot;&gt;&lt;/p&gt;
+          &lt;p class=&quot;email&quot;&gt;&lt;/p&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&quot;c7 light-text&quot; style=&quot;padding-left: 75px;&quot;&gt;
+                                  
+            &lt;p&gt;Advogado, inscrito na Ordem dos Advogados desde Março de 1995.&lt;/p&gt; 
+                                  
+            &lt;p&gt;Tem desenvolvido a sua actividade de advogado e assessor jurídico em diversas áreas relacionadas com empresas, desenvolvendo as práticas de direito comercial e societário, corporate finance e banca, contencioso e arbitragem, entre outras.&lt;/p&gt; 
+                                  
+            &lt;p&gt;É membro de órgãos sociais em empresas e escreve regularmente coluna de opinião e artigos técnicos em Jornais e Revistas de foro regional.&lt;/p&gt; 
+                                  
+            &lt;p&gt;Iniciou a carreira profissional de advogado e consultor jurídico de empresas em 1995, em Braga.&lt;/p&gt; 
+                                  
+            &lt;p&gt;Entre 1995 e 2009 foi Director dos Serviços Jurídicos e Contencioso do Grupo Império Pneus. Além destas funções, foi jurista da DGV/IMTT (1998), formador (Anje e IEFP), bem como Presidente do Conselho Jurisdicional do ABC (andebol) e Procurador do BES/Novobanco.&lt;/p&gt; 
+                                  
+            &lt;p&gt;Licenciado em Direito (1992) pela Universidade Católica Portuguesa – Lisboa, Pós-Graduado em Estudos Europeus pela Universidade de Coimbra (1995) e Mestre em Ciências Jurídico-Comerciais pela Universidade Católica Portuguesa. Masters em Gestão para Juristas (2006) pela Universidade Católica Portuguesa.&lt;/p&gt; 
+          
+        &lt;/div&gt;
+        
+        &lt;div class=&quot;c1&quot;&gt;&lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/article&gt;
+&lt;/body&gt;</content><author><name></name></author><category term="consultivo" /><summary type="html"></summary></entry><entry><title type="html">BMCAR</title><link href="http://localhost:4000/portfolios/2017/09/16/bmcar.html" rel="alternate" type="text/html" title="BMCAR" /><published>2017-09-16T00:00:00+01:00</published><updated>2017-09-16T00:00:00+01:00</updated><id>http://localhost:4000/portfolios/2017/09/16/bmcar</id><content type="html" xml:base="http://localhost:4000/portfolios/2017/09/16/bmcar.html">&lt;body class=&quot;home page page-id-1512 page-parent page-template page-template-single-page-php&quot;&gt;
+  &lt;article id=&quot;post-3295&quot; class=&quot;post-3295 portfolios type-portfolios status-publish hentry&quot;&gt;
+    &lt;div class=&quot;grid&quot; style=&quot;padding-top: 80px;&quot;&gt;
+      &lt;div class=&quot;row&quot;&gt;
+
+        &lt;div class=&quot;c4 imagem-operacao&quot;&gt;
+          &lt;div class=&quot;person-image&quot;&gt;
+            &lt;img src=/assets/sites/insig/content1/55afc167f6e35f462100002f/files/bmcar05c5.png?1469187979 alt=/assets/sites/insig/content1/55afc167f6e35f462100002f/files/bmcar05c5.png?1469187979 &quot;BMCar&quot; /&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&quot;c8 texto-operacao&quot; style=&quot;padding-left: 75px;&quot;&gt;
+          &lt;h3&gt;BMCar&lt;/h3&gt;
+          &lt;p class=&quot;url_empresa&quot;&gt;&lt;a href=&quot;http://www.bmcar.bmw.pt/&quot; target=&quot;_blank&quot;&gt;www.bmcar.bmw.pt&lt;/a&gt;&lt;/p&gt;
+          &lt;p class=&quot;url_empresa&quot;&gt;&lt;a href=&quot;#&quot; target=&quot;_blank&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+           
+            &lt;p class=&quot;light-text&quot;&gt;
+              &lt;b&gt;Sector&lt;/b&gt;&lt;br/&gt;
+              Distribuição e reparação de automóveis — Concessionário BMW e MINI
+            &lt;/p&gt;
+           
+            &lt;p class=&quot;light-text&quot;&gt;
+              &lt;b&gt;Tipo de Operação&lt;/b&gt;&lt;br/&gt;
+              Assessoria financeira
+            &lt;/p&gt;
+           
+            &lt;p class=&quot;light-text&quot;&gt;
+              &lt;b&gt;Data&lt;/b&gt;&lt;br/&gt;
+              2013
+            &lt;/p&gt;
+           
+            &lt;p class=&quot;light-text&quot;&gt;
+              &lt;b&gt;Vendas&lt;/b&gt;&lt;br/&gt;
+              €43,7 Milhões (2013)
+            &lt;/p&gt;
+           
+            &lt;p class=&quot;light-text&quot;&gt;
+              &lt;b&gt;CEO&lt;/b&gt;&lt;br/&gt;
+              Pedro Rodrigues
+            &lt;/p&gt;
+           
+            &lt;p class=&quot;light-text&quot;&gt;
+              &lt;b&gt;Descrição&lt;/b&gt;&lt;br/&gt;
+              Assessoria financeira na elaboração do plano de negócios
+            &lt;/p&gt;
+                    
+
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/article&gt;
+&lt;/body&gt;</content><author><name></name></author><category term="portfolios" /><summary type="html"></summary></entry><entry><title type="html">PUREVER SGPS S.A.</title><link href="http://localhost:4000/portfolios/2017/09/15/purever-sgps-sa.html" rel="alternate" type="text/html" title="PUREVER SGPS S.A." /><published>2017-09-15T00:00:00+01:00</published><updated>2017-09-15T00:00:00+01:00</updated><id>http://localhost:4000/portfolios/2017/09/15/purever-sgps-sa</id><content type="html" xml:base="http://localhost:4000/portfolios/2017/09/15/purever-sgps-sa.html">&lt;body class=&quot;home page page-id-1512 page-parent page-template page-template-single-page-php&quot;&gt;
+  &lt;article id=&quot;post-3295&quot; class=&quot;post-3295 portfolios type-portfolios status-publish hentry&quot;&gt;
+    &lt;div class=&quot;grid&quot; style=&quot;padding-top: 80px;&quot;&gt;
+      &lt;div class=&quot;row&quot;&gt;
+
+        &lt;div class=&quot;c4 imagem-operacao&quot;&gt;
+          &lt;div class=&quot;person-image&quot;&gt;
+            &lt;img src=/assets/sites/insig/content1/55afc168f6e35fff33000030/files/purever05c5.png?1469187979 alt=/assets/sites/insig/content1/55afc168f6e35fff33000030/files/purever05c5.png?1469187979 &quot;Purever SGPS S.A.&quot; /&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&quot;c8 texto-operacao&quot; style=&quot;padding-left: 75px;&quot;&gt;
+          &lt;h3&gt;Purever SGPS S.A.&lt;/h3&gt;
+          &lt;p class=&quot;url_empresa&quot;&gt;&lt;a href=&quot;http://www.purever.com/&quot; target=&quot;_blank&quot;&gt;www.purever.com&lt;/a&gt;&lt;/p&gt;
+          &lt;p class=&quot;url_empresa&quot;&gt;&lt;a href=&quot;#&quot; target=&quot;_blank&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+           
+            &lt;p class=&quot;light-text&quot;&gt;
+              &lt;b&gt;Sector&lt;/b&gt;&lt;br/&gt;
+              Construção de salas limpas, indústria e logística agroalimentar, equipamentos para hotelaria e restauração e construção modular.
+            &lt;/p&gt;
+           
+            &lt;p class=&quot;light-text&quot;&gt;
+              &lt;b&gt;Tipo de Operação&lt;/b&gt;&lt;br/&gt;
+              Assessoria financeira na captação de novos investidores
+            &lt;/p&gt;
+           
+            &lt;p class=&quot;light-text&quot;&gt;
+              &lt;b&gt;Data&lt;/b&gt;&lt;br/&gt;
+              2014
+            &lt;/p&gt;
+           
+            &lt;p class=&quot;light-text&quot;&gt;
+              &lt;b&gt;Vendas&lt;/b&gt;&lt;br/&gt;
+              € 45,8 Milhões (2014)
+            &lt;/p&gt;
+           
+            &lt;p class=&quot;light-text&quot;&gt;
+              &lt;b&gt;CEO&lt;/b&gt;&lt;br/&gt;
+              Luís Coelho Borges
+            &lt;/p&gt;
+           
+            &lt;p class=&quot;light-text&quot;&gt;
+              &lt;b&gt;Descrição&lt;/b&gt;&lt;br/&gt;
+              Assessoria financeira na captação de novos investidores
+            &lt;/p&gt;
+          
+
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/article&gt;
+&lt;/body&gt;</content><author><name></name></author><category term="portfolios" /><summary type="html"></summary></entry></feed>
