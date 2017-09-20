@@ -1,0 +1,35 @@
+---
+title: Miguel Oliveira
+class: worker
+img: assets/sites/55afc063f6e35ff303000002/content_entry55afc163f6e35fe497000012/55afc164f6e35f6767000027/files/Miguel7462.jpg?1469118243
+category: executivo
+---
+
+<body class="home page page-id-1512 page-parent page-template page-template-single-page-php">
+  <article id="post-3295" class="post-3295 portfolios type-portfolios status-publish hentry">
+    <div class="grid">
+      <div class="row"></div>
+      <div class="row">
+        <div class="c1"></div>
+        <div class="c3">
+          <div class="person-image">
+            <img src="{{site.data.equipa.executiva.img}}" alt="Miguel Oliveira">
+          </div>
+
+            <p class="foto-description">{{site.data.equipa.executiva.nome}}</p>
+            <p class="align-left">{{site.data.equipa.executiva.titulos}}</p>
+            <p class="email">{{site.data.equipa.executiva.email}}</p>
+        </div>
+
+        <div class="c7 light-text" style="padding-left: 75px;">
+          {% for miguel-oliveira in site.data.equipa.executiva.sobre %}
+            <p>{{miguel-oliveira}}</p>
+          {% endfor %}
+        </div>
+        <div class="c1"></div>
+        
+      </div>
+    </div>
+  </article>   
+</body>
+

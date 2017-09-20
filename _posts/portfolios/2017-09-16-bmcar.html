@@ -1,0 +1,35 @@
+---
+title: BMCAR
+class: port_bmcar
+img: assets/sites/55afc063f6e35ff303000002/content_entry55afc163f6e35f51e000001c/55afc167f6e35f462100002f/files/bmcar05c5.jpg?1469187979
+category: portfolios
+---
+
+<body class="home page page-id-1512 page-parent page-template page-template-single-page-php">
+  <article id="post-3295" class="post-3295 portfolios type-portfolios status-publish hentry">
+    <div class="grid" style="padding-top: 80px;">
+      <div class="row">
+
+        <div class="c4 imagem-operacao">
+          <div class="person-image">
+            <img src={{site.data.operacoes.bmcar.img}} alt={{site.data.operacoes.bmcar.img}} "BMCar" />
+          </div>
+        </div>
+
+        <div class="c8 texto-operacao" style="padding-left: 75px;">
+          <h3>{{site.data.operacoes.bmcar.titulo}}</h3>
+          <p class="url_empresa"><a href="{{site.data.operacoes.bmcar.link}}" target="_blank">{{site.data.operacoes.bmcar.endereco}}</a></p>
+          <p class="url_empresa"><a href="#" target="_blank"></a></p>
+
+          {% for bmcar in site.data.operacoes.bmcar.sobre %} 
+            <p class="light-text">
+              <b>{{bmcar.topico}}</b><br/>
+              {{bmcar.resposta}}
+            </p>
+          {% endfor %}          
+
+        </div>
+      </div>
+    </div>
+  </article>
+</body>

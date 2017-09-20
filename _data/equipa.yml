@@ -1,38 +1,3 @@
-operacao:
-  executiva:
-    -
-      img: assets/sites/55afc063f6e35ff303000002/content_entry55afc163f6e35fe497000012/55afc164f6e35f6767000027/files/Miguel7462.jpg?1469118243
-      link: workers/miguel-oliveira.html
-      alt: Miguel Oliveira
-      titulo: Miguel Oliveira
-
-
-  analise:
-    -
-      img: assets/sites/55afc063f6e35ff303000002/content_entry55afc163f6e35fe497000012/55afc165f6e35fab8b000029/files/Ruid6e1.jpg?1437847856
-      link: workers/rui-lusquinhos.html
-      alt: Rui Lusquinhos
-      titulo: Rui Lusquinhos
-    -
-      img: assets/sites/55afc063f6e35ff303000002/content_entry55afc163f6e35fe497000012/55b7b727f6e35f680c014912/files/Diogo__3_27a6.jpg?1503670627
-      link: workers/diogo-rocha.html
-      alt: Diogo Rocha
-      titulo: Diogo Rocha
-      
-
-  consultivo:
-    -
-      img: assets/sites/55afc063f6e35ff303000002/content_entry55afc163f6e35fe497000012/55afc165f6e35f336600002a/files/Jose_mendes77a3.jpg?1438599302
-      link: workers/jose-mendes.html
-      alt: José Mendes
-      titulo: José Mendes
-    -
-      img: assets/sites/55afc063f6e35ff303000002/content_entry55afc163f6e35fe497000012/55afc165f6e35f29db00002b/files/carlosb390.jpg?1438599451
-      link: workers/carlos-pires.html
-      alt: Carlos Pires
-      titulo: Carlos Pires
-
-
 executiva:
   img: /assets/sites/55afc063f6e35ff303000002/content_entry55afc163f6e35fe497000012/55afc164f6e35f6767000027/files/Miguel7462.jpg?1469118243
   nome: Miguel Oliveira
