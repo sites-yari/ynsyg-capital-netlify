@@ -123,7 +123,7 @@ class: index
                 {% for post in executivo %}                               
                   <li class="mix comissão-executiva">
                     <figure class="rift">
-                      <img width="282" height="282" src={{post.img}} class="attachment-portfolioThumbCropped wp-post-image" alt={{post.title}} />
+                      <img width="282" height="282" src="{{post.img}}" class="attachment-portfolioThumbCropped wp-post-image" alt="{{post.title}}" />
                       <figcaption class="caption">
                         <a class="box" href="{{post.url}}" >{{post.title}}</a>
                       </figcaption>
@@ -143,7 +143,7 @@ class: index
                 {% for post in analista %} 
                   <li class="mix equipa-de-análise">
                     <figure class="rift">
-                      <img width="282" height="282" src={{post.img}} class="attachment-portfolioThumbCropped wp-post-image" alt={{post.title}} />
+                      <img width="282" height="282" src="{{post.img}}" class="attachment-portfolioThumbCropped wp-post-image" alt="{{post.title}}" />
                       <figcaption class="caption">
                         <a class="box" href="{{post.url}}" >{{post.title}}</a>
                       </figcaption>
@@ -164,9 +164,9 @@ class: index
                 {% for post in consultivo %}                               
                   <li class="mix conselho-consultivo">
                     <figure class="rift">
-                      <img width="282" height="282" src={{post.img}} class="attachment-portfolioThumbCropped wp-post-image" alt={{post.title}} />
+                      <img width="282" height="282" src="{{post.img}}" class="attachment-portfolioThumbCropped wp-post-image" alt="{{post.title}}" />
                       <figcaption class="caption">
-                        <a class="box" href={{post.url}} >{{post.title}}</a>
+                        <a class="box" href="{{post.url}}" >{{post.title}}</a>
                       </figcaption>
                     </figure>
                     <p class="subcaption">{{post.title}}</p>
@@ -364,22 +364,10 @@ class: index
                 <ul class="portfolioinner operacoes">
                   {% assign operacoes = site.posts | where: "category" , "portfolios" %}
 
-                  <!--{% for index in site.data.operacoes.operacao %} 
-                    <li class="mix Investimento">
-                      <figure class="rift">
-                        <img width="282" height="282" src={{index.img}} class="attachment-portfolioThumbCropped wp-post-image" alt={{index.alt}}>
-                        <figcaption class="caption">
-                          <a class="box" href="{{index.pagina}}">{{index.titulo}}</a>
-                        </figcaption>
-                      </figure>
-                    </li>
-                  {% endfor %}-->
-
-
                   {% for post in operacoes %} 
                   <li class="mix Investimento">
                     <figure class="rift">
-                      <img width="282" height="282" src="{{post.img}}" class="attachment-portfolioThumbCropped wp-post-image" alt={{post.title}} />
+                      <img width="282" height="282" src="{{post.img}}" class="attachment-portfolioThumbCropped wp-post-image" alt="{{post.title}}" />
                       <figcaption class="caption">
                         <a class="box" href="{{post.url}}">{{post.title}}</a>
                       </figcaption>
