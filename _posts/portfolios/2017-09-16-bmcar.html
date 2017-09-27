@@ -1,8 +1,17 @@
 ---
-title: BMCAR
-class: port_bmcar
-img: assets/sites/insig/content1/bmcar/files/bmcar05c5.jpg?1469187979
-category: portfolios
+titulo: BMCAR
+classe: port_bmcar
+imagem-fora: assets/sites/insig/content1/bmcar/files/bmcar05c5.jpg
+imagem-dentro: assets/sites/insig/content1/bmcar/files/bmcar05c5.png
+categoria: portfolios
+nome-imagem: BMCar
+website: www.bmcar.bmw.pt
+sector: Distribuição e reparação de automóveis — Concessionário BMW e MINI
+tipo-de-operacao: Assessoria financeira
+data: 2013
+vendas: €43,7 Milhões (2013)
+CEO: Pedro Rodrigues
+descricao: Assessoria financeira na elaboração do plano de negócios
 ---
 
 <body class="home page page-id-1512 page-parent page-template page-template-single-page-php">
@@ -12,21 +21,40 @@ category: portfolios
 
         <div class="c4 imagem-operacao">
           <div class="person-image">
-            <img src={{site.data.operacoes.bmcar.img}} alt={{site.data.operacoes.bmcar.img}} "BMCar" />
+            <img src="{{page.imagem-dentro}}" alt="{{page.titulo}}" />
           </div>
         </div>
 
         <div class="c8 texto-operacao" style="padding-left: 75px;">
-          <h3>{{site.data.operacoes.bmcar.titulo}}</h3>
-          <p class="url_empresa"><a href="{{site.data.operacoes.bmcar.link}}" target="_blank">{{site.data.operacoes.bmcar.endereco}}</a></p>
+          <h3>{{page.nome-imagem}}</h3>
+          <p class="url_empresa"><a href="{{page.website}}" target="_blank">{{page.website}}</a></p>
           <p class="url_empresa"><a href="#" target="_blank"></a></p>
-
-          {% for bmcar in site.data.operacoes.bmcar.sobre %} 
-            <p class="light-text">
-              <b>{{bmcar.topico}}</b><br/>
-              {{bmcar.resposta}}
-            </p>
-          {% endfor %}          
+          
+          
+          <p class="light-text">
+            <b>Sector</b><br/>
+            {{page.sector}}
+          </p>
+          <p class="light-text">
+            <b>Tipo de Opera&ccedil;&atilde;o</b><br/>
+            {{page.tipo-de-operacao}}
+          </p>
+          <p class="light-text">
+            <b>Data</b><br/>
+            {{page.data}}
+          </p>
+          <p class="light-text">
+            <b>Vendas</b><br/>
+            {{page.vendas}}
+          </p>
+          <p class="light-text">
+            <b>CEO</b><br/>
+            {{page.CEO}}
+          </p>
+          <p class="light-text">
+            <b>Descri&ccedil;&atilde;o</b><br/>
+            {{page.descricao}}
+          </p>
 
         </div>
       </div>

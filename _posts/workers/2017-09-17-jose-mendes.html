@@ -1,8 +1,17 @@
 ---
-title: José Mendes
-class: worker
-img: assets/sites/insig/content2/jose/files/Jose_mendes77a3.jpg?1438599302
-category: consultivo
+titulo: José Mendes
+classe: worker
+imagem: assets/sites/insig/content2/jose/files/Jose_mendes77a3.jpg
+categoria: consultivo
+nome-imagem: José Mendes
+conteudo-imagem: Consultor
+email: 
+texto1: Vice-Reitor da Universidade do Minho para a Valorização do Conhecimento e Projetos Especiais, integrando o Conselho de Gestão da Universidade. Responsável pelo ecossistema de inovação e empreendedorismo em Portugal, dirigindo o Gabinete de Transferência de Tecnologia.
+texto2: Desempenha também funções de administração em várias empresas e associações em Portugal como a TecMinho, a Portus Park, Plataforma de UM-Cidades, entre outras em que trabalhou anteriormente como AvePark, CiencInvest, Ardrave, etc.
+texto3: Acumula também funções consultivas em diversas entidades como a Comissão Europeia (DG Reserach, Bruxelas), Education Audiovisual and Cultural Executive Agency (Bruxelas), European Training Foundation (Torino) e Natural Environment Research Council (Reino Unido).
+texto4: A nível académico é Professor Catedrático na Universidade do Minho, Professor Convidado nas Universidades de Coimbra e Beira Interior, e Investigador no Centro de Transportes, Ambiente e Construção. É também Professor Convidado/Investigador na Università di Bologna (Itália) e na Silesian University of Technology (Gliwice, Polónia).
+texto5: Licenciado em Engenharia Civil (1987), Doutorado (1993) e Agregado (2001) em Planeamento do Território pela Universidade do Minho.
+texto6:
 ---
 
 <body class="home page page-id-1512 page-parent page-template page-template-single-page-php">
@@ -13,18 +22,21 @@ category: consultivo
         <div class="c1"></div>
         <div class="c3">
           <div class="person-image">
-            <img src="{{site.data.equipa.consultor1.img}}" alt="José Mendes">
+            <img src="{{page.imagem}}" alt="{{page.nome-imagem}}">
           </div>
-          
-            <p class="foto-description">{{site.data.equipa.consultor1.nome}}</p>
-            <p class="align-left">{{site.data.equipa.consultor1.titulos}}</p>
-            <p class="email">{{site.data.equipa.consultor1.email}}</p>
+
+          <p class="foto-description">{{page.nome-imagem}}</p>
+          <p class="align-left">{{page.conteudo-imagem}}</p>
+          <p class="email">{{page.email}}</p>
         </div>
 
         <div class="c7 light-text" style="padding-left: 75px;">
-          {% for jose-mendes in site.data.equipa.consultor1.sobre %}            
-            <p>{{jose-mendes}}</p> 
-          {% endfor %}
+          <p>{{page.texto1}}</p>
+          <p>{{page.texto2}}</p>
+          <p>{{page.texto3}}</p>
+          <p>{{page.texto4}}</p>
+          <p>{{page.texto5}}</p>
+          <p>{{page.texto6}}</p>
         </div>
         
         <div class="c1"></div>
