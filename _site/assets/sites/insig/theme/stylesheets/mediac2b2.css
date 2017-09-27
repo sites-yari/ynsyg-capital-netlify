@@ -1,0 +1,231 @@
+/*@media screen and (max-width: 320px) {
+    .icon-plus{
+      margin-left: 43%;
+    }
+
+  #capital-ideas img {
+    width: 80%;
+    padding-top: 10%;
+  }
+}*/
+
+
+
+@media handheld, only screen and (max-width: 768px), only screen and (max-device-width: 768px){
+        .tera, .mega, .giga { font-size: 50px; }
+    }
+@media handheld, only screen and (max-width: 568px), only screen and (max-device-width: 568px){
+        h1{ font-size: 24px; }
+        h2{ font-size: 20px; }
+
+        .icon-plus{
+          margin-left: auto;
+        }
+
+        #capital-ideas img {
+          width: 80%;
+          padding-top: 10%;
+        }
+
+        .equipa-header{
+          font-size: 24px;
+        }
+    }
+
+    /*formatar as listas*/
+
+  /*Hide the home link com a mesma cor da navbar*/
+  /*ul.nav-links li:first-child a {
+    color: rgb(55, 171, 238) !important;
+  }*/
+
+  #hide-home-link{
+    color: rgb(55, 171, 238) !important;
+  }
+
+    .tab-content dl {
+      padding: 0.5em;
+    }
+
+    .tab-content dt {
+      float: left;
+      clear: left;
+      width: 25%;
+      text-align: right;
+      font-weight: 500;
+      color: #37abee;
+      padding-right: 15px;
+    }
+
+
+    .tab-content dd {
+      padding: 0 0 1em 25%;
+    }
+
+    .tab-content dd.nota {
+      font-size: 0.85em;
+      font-weight: 400;
+      padding-top: 20px;
+      line-height: 130%;
+    }
+
+  h1.equipa-header {
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+
+
+  footer .c6 {
+      margin: 0px;
+      padding: 0px;
+      padding-bottom: 10px;
+  }
+
+
+  img#logo-footer {
+    float: right;
+    padding-right: 3%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+  }
+
+  .frame {
+    height: 40px;
+  }
+
+    footer span.mix.mix_all {
+      padding-top: 8px;
+    }
+
+    footer span.small-links.grey {
+      line-height: 340%;
+    }
+
+
+  #morada dt {
+      float: left;
+      clear: left;
+      width: 50%;
+      text-align: right;
+    }
+
+    #morada dd::before{
+      margin-right: 15px;
+      content: "|";
+    }
+
+  #morada dd {
+      padding: 0 0 1em 48%;
+      text-align: left;
+    }
+
+
+  /*new media queries*/
+
+  @media handheld, only screen and (max-width: 568px), only screen and (max-device-width: 568px){
+
+    div h1 {
+      font-size: 2.7em
+    }
+
+    .icon-plus{
+        padding-top: 0;
+    }
+
+  /*margens do header equipa*/
+     h1.equipa-header {
+       margin-top: 15%;
+        margin-bottom: 15%;
+      }
+
+    #valor1 {
+      padding-left: 2%;
+      padding-right: 2%;
+    }
+
+    #morada {
+      margin: 0px;
+      padding-top: 15%;
+      padding-bottom: 15%;
+    }
+
+    #morada dt {
+        float: none;
+        width: 100%;
+        text-align: center;
+        margin: 0px;
+      }
+
+      #morada dd::before{
+        margin: 0px;
+        content: "";
+      }
+
+    #morada dd {
+        padding: 0 0 1em 0;
+        text-align: center;
+        margin: 0px;
+      }
+
+
+    .tab-content dt {
+      float: none;
+      text-align: left;
+      width: 100%;
+      padding-bottom: 0.4em;
+    }
+
+    .tab-content dd {
+      text-align: left;
+      width: 100%;
+      padding: 0 0 1.5em 0px;
+      margin: 0px;
+    }
+
+  /*tamanho de letras dos tabs*/
+    ul.tabs.three-tabs li a, ul.tabs.two-tabs li a {
+      font-size: 0.79em;
+      height: 100%;
+    }
+
+    .three-tabs li {
+      width: calc((100% - 9px)/3); /*novo ajuste*/
+    }
+
+    .tabs {
+       margin-bottom: 8%;
+    }
+
+  .c1, .c10, .c12 {
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+
+    footer span.small-links.grey {
+      float: left;
+      padding-left: 3%;
+      line-height: 100%;
+    }
+
+    footer a {
+      padding-left: 0px !important;
+      margin: 0px;
+    }
+
+    footer span.mix.mix_all {
+      padding-top: 0%;
+      padding-left: 2%;
+      padding-right: 2%;
+    }
+
+  img#logo-footer {
+    float: right;
+    padding-right: 3%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+  }
+
+
+  }

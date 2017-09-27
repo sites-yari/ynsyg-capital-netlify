@@ -1,0 +1,197 @@
+summon:
+  -
+    img: assets/sites/insig/content1/grestel/files/grestel05c5.jpg
+    alt: GRESTEL
+    link: operacoes.html
+  -
+    img: assets/sites/insig/content1/critical/files/critical05c5.jpg
+    alt: CRITICAL SOFTWARE S.A.
+    link: operacoes.html
+  -
+    img: assets/sites/insig/content1/quimitecnica/files/quimitecnica05c5.jpg
+    alt: QUIMITECNICA
+    link: operacoes.html
+  -
+    img: assets/sites/insig/content1/bmcar/files/bmcar05c5.jpg
+    alt: BMCAR
+    link: operacoes.html
+  -
+    img: assets/sites/insig/content1/purever/files/purever05c5.jpg
+    alt: PUREVER SGPS S.A.
+    link: operacoes.html
+  -
+    img: assets/sites/insig/content1/impetus/files/impetus05c5.jpg
+    alt: IMPETUS
+    link: operacoes.html
+  -
+    img: assets/sites/insig/content1/edol/files/edol05c5.jpg
+    alt: LABORATORIO EDOL - PRODUTOS FARMACEUTICOS S.A.
+    link: operacoes.html
+  -
+    img: assets/sites/insig/content1/lifecooler/files/lifecooler05c5.jpg
+    alt: LIFECOOLER
+    link: operacoes.html
+  -
+    img: assets/sites/insig/content1/energiaSimples/files/Energia_Simples_exterior48b8.png
+    alt: ENERGIA SIMPLES
+    link: operacoes.html
+  -
+    img: assets/sites/insig/content1/somelos/files/Somelos_exterior05c5.jpg
+    alt: GRUPO SOMELOS
+    link: operacoes.html
+  -
+    img: assets/sites/insig/content1/ceriart/files/Logo_ceriart966b.jpg
+    alt: CERIART
+    link: operacoes.html
+  -
+    img: assets/sites/insig/content1/farmacia/files/logo_farma86d0.jpg
+    alt: FARMÁCIA DE GONDARÉM
+    link: operacoes.html
+
+
+operacao:
+  -
+    img: /assets/sites/insig/content1/grestel/files/grestel05c5.png?1469187979
+    titulo: Grestel
+    link: http://www.grestel.pt/
+    endereco: www.grestel.pt
+    resposta1: Produção de louça de forno, cozinha e mesa em grés fino
+    resposta2: Entrada de fundo de capital de risco no capital
+    resposta3: 2014
+    resposta4: €13 Milhões (2014)
+    resposta5: Miguel Casal
+    resposta6: A Explorer Investments, uma capital de risco de referência em Portugal, adquiriu aos accionistas-fundadores uma participação accionista maioritária.
+
+  -
+    img: /assets/sites/insig/content1/critical/files/critical05c5.png?1469187979
+    titulo: Critical Software S.A.
+    link: http://www.criticalsoftware.com/
+    endereco: www.criticalsoftware.com
+    resposta1: Tecnologias de Informação
+    resposta2: Venda de participação minoritária
+    resposta3: 2013
+    resposta4: €22 Milhões (2013)
+    resposta5: Gonçalo Quadros
+    resposta6: A operação consistiu na venda de uma participação minoritária na Critical Software aos atuais acionistas.
+
+  -
+    img: /assets/sites/insig/content1/quimitecnica/files/quimitecnica05c5.png?1469187979
+    titulo: Quimitécnica
+    link: http://www.quimitecnica.com/
+    endereco: www.quimitecnica.com
+    resposta1: Distribuição Química
+    resposta2: Aquisição Internacional
+    resposta3: 2014
+    resposta4: €30 Milhões (2014)
+    resposta5: José António Magalhães
+    resposta6: A Quimitécnica, uma empresa portuguesa de referência na distribuição de produtos químicos, adquiriu a Cofarcas, uma empresa espanhola de distribuição química. Esta aquisição permitiu à Quimitécnica reforçar a presença na distribuição química no norte de Espanha e assim complementar as actividades que já detinha na Galiza, Andaluzia e Estremadura.
+
+  -
+    img: /assets/sites/insig/content1/bmcar/files/bmcar05c5.png?1469187979
+    titulo: BMCar
+    link: http://www.bmcar.bmw.pt/
+    endereco: www.bmcar.bmw.pt
+    resposta1: Distribuição e reparação de automóveis — Concessionário BMW e MINI
+    resposta2: Assessoria financeira
+    resposta3: 2013
+    resposta4: €43,7 Milhões (2013)
+    resposta5: Pedro Rodrigues
+    resposta6: Assessoria financeira na elaboração do plano de negócios
+
+  -
+    img: /assets/sites/insig/content1/purever/files/purever05c5.png?1469187979
+    titulo: Purever SGPS S.A.
+    link: http://www.purever.com/
+    endereco: www.purever.com
+    resposta1: Construção de salas limpas, indústria e logística agroalimentar, equipamentos para hotelaria e restauração e construção modular.
+    resposta2: Assessoria financeira na captação de novos investidores
+    resposta3: 2014
+    resposta4: € 45,8 Milhões (2014)
+    resposta5: Luís Coelho Borges
+    resposta6: Assessoria financeira na captação de novos investidores
+
+  -
+    img: /assets/sites/insig/content1/impetus/files/impetus05c5.png?1469187979
+    titulo: Impetus
+    link: http://www.impetusunderwear.pt/
+    endereco: www.impetusunderwear.pt
+    resposta1: Têxtil – Produção e comercialização de underwear
+    resposta2: Assessoria Financeira
+    resposta3: 2013
+    resposta4: € 42 Milhões (2014)
+    resposta5: Alberto Figueiredo
+    resposta6: A operação consistiu na assessoria financeira aos accionistas na definição da estratégia de expansão.
+
+  -
+    img: /assets/sites/insig/content1/edol/files/edol05c5.png?1469187979
+    titulo: Laboratório Edol – Produtos Farmacêuticos S.A.
+    link: http://www.edol.pt/
+    endereco: www.edol.pt
+    resposta1: Indústria Farmacêutica
+    resposta2: Assessoria Financeira
+    resposta3: 2014
+    resposta4: €14,1 Milhões (2013)
+    resposta5: Carlos Setra
+    resposta6: Assessoria financeira na avaliação de activos.
+
+  -
+    img: /assets/sites/insig/content1/lifecooler/files/lifecooler05c5.png?1469187979
+    titulo: Lifecooler
+    link: http://www.lifecooler.com/
+    endereco: www.lifecooler.com
+    resposta1: Turismo e Lazer
+    resposta2: Assessoria Financeira
+    resposta3: 2015
+    resposta4: €4,3 Milhões (2014)
+    resposta5: Paulo Parreira
+    resposta6: Assessoria financeira.
+
+  -
+    img: /assets/sites/insig/content1/energiaSimples/files/Energia_Simples_interior48b8.png?1469118879
+    titulo: Energia Simples
+    link: #
+    endereco: 
+    resposta1: Energia
+    resposta2: Assessoria Financeira
+    resposta3: 2016
+    resposta4: €12,0 Milhões (2015)
+    resposta5: Manuel Azevedo
+    resposta6: Estruturação de financiamento - Trade Finance
+
+  -
+    img: /assets/sites/insig/content1/somelos/files/Somelos05c5.png?1469187979
+    titulo: Grupo Somelos
+    link: #
+    endereco: 
+    sobre: 
+    resposta1: Têxtil
+    resposta2: Aquisição de participações sociais
+    resposta3: 2016
+    resposta4: €49,0 Milhões (2015)
+    resposta5: Paulo Melo
+    resposta6: Assessoria financeira a actuais accionistas na aquisição de participações sociais a fundo de capital de risco gerido pela Portugal Ventures.
+
+  -
+    img: /assets/sites/insig/content1/ceriart/files/Logo_ceriart966b.jpg?1500047717
+    titulo: Ceriart
+    link: #
+    endereco: 
+    sobre: 
+    resposta1: Cerâmica Utilitária
+    resposta2: Assessoria financeira na venda de participações sociais
+    resposta3: Abril 2017
+    resposta4: €12,0 Milhões (2016)
+    resposta5: Jorge Louro / Carlos Louro
+    resposta6: O OXY Capital Mezzannine Fund adquiriu uma participação social no capital do Grupo Ceriart. A Ceriart é grupo cerâmico focado na produção de peças de mesa e decorativas em grés e faiança, estando em rápido crescimento, exportando 100% da sua produção.
+
+  -
+    img: /assets/sites/insig/content1/farmacia/files/logo_farma86d0.jpg?1478165080
+    titulo: Farmácia de Gondarém
+    link: http://www.farmaciagondarem.pt/
+    endereco: www.farmaciagondarem.pt
+    resposta1: Farmácia
+    resposta2: Assessoria na venda de 100% do capital social
+    resposta3: Outobro de 2016
+    resposta4: €1,0 Milhões (2015)
+    resposta5: Maria João Serrenho
+    resposta6: A Farmácia de Gondarém é uma conhecida farmácia portuense situada na zona da Foz.

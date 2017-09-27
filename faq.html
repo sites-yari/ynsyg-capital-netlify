@@ -1,0 +1,30 @@
+---
+title: FAQ
+class: FAQ
+---
+
+
+<body class="home page page-id-1512 page-parent page-template page-template-single-page-php">
+  <article id="post-3295" class="post-3295 portfolios type-portfolios status-publish hentry">
+    <div class="grid">
+      <div class="row"></div>
+      <div class="row">
+        <div class="c1"></div>
+        <div class="c10 light-text faq">
+          
+          <div class="content editable">
+            <h2>FAQ</h2>
+          </div>
+          <br>
+
+          {% for faq in site.data.footer-pages.faq.sobre %} 
+            <h4>{{faq.pergunta}}</h4>
+            <p>{{faq.resposta}}</p>
+          {% endfor %}
+        
+        </div>
+        <div class="c1"></div>
+      </div>
+    </div>
+  </article>
+</body>
