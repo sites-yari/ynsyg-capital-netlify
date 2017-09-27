@@ -113,9 +113,9 @@ class: index
             <div class="c1 end"></div>
           </div>
 
-          {% assign executivo = site.posts | where: "categoria" , "executivo" %}
-          {% assign analista = site.posts | where: "categoria" , "analista" %}
-          {% assign consultivo = site.posts | where: "categoria" , "consultivo" %}
+          {% assign executivo = site.posts | where: "categories" , "executivo" %}
+          {% assign analista = site.posts | where: "categories" , "analista" %}
+          {% assign consultivo = site.posts | where: "categories" , "consultivo" %}
           <!-- comissao executiva -->
           <div id="comissao-executiva" class="tabcontent">
             <div class="c12 end">
