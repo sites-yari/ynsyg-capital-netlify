@@ -1,8 +1,17 @@
 ---
-title: GRUPO SOMELOS
-class: port_somelos
-img: assets/sites/insig/content1/somelos/files/Somelos_exterior05c5.jpg?1469187979
-category: portfolios
+titulo: GRUPO SOMELOS
+classe: port_somelos
+imagem-fora: assets/sites/insig/content1/somelos/files/Somelos_exterior05c5.jpg
+imagem-dentro: /assets/sites/insig/content1/somelos/files/Somelos05c5.png
+categoria: portfolios
+nome-imagem: Grupo Somelos
+website: 
+sector: Têxtil
+tipo-de-operacao: Aquisição de participações sociais
+data: 2016
+vendas: €49,0 Milhões (2015)
+CEO: Paulo Melo
+descricao: Assessoria financeira a actuais accionistas na aquisição de participações sociais a fundo de capital de risco gerido pela Portugal Ventures.
 ---
 
 
@@ -13,21 +22,40 @@ category: portfolios
 
         <div class="c4 imagem-operacao">
           <div class="person-image">
-            <img src={{site.data.operacoes.somelos.img}} alt="Grupo Somelos" />
+            <img src="{{page.imagem-dentro}}" alt="{{page.titulo}}" />
           </div>
         </div>
 
         <div class="c8 texto-operacao" style="padding-left: 75px;">
-          <h3>{{site.data.operacoes.somelos.titulo}}</h3>
-          <p class="url_empresa"><a href="http://" target="_blank"></a></p>
+          <h3>{{page.nome-imagem}}</h3>
+          <p class="url_empresa"><a href="{{page.website}}" target="_blank">{{page.website}}</a></p>
           <p class="url_empresa"><a href="#" target="_blank"></a></p>
-
-          {% for somelos in site.data.operacoes.somelos.sobre %} 
-            <p class="light-text">
-              <b>{{somelos.topico}}</b><br/>
-              {{somelos.resposta}}
-            </p>
-          {% endfor %}
+          
+          
+          <p class="light-text">
+            <b>Sector</b><br/>
+            {{page.sector}}
+          </p>
+          <p class="light-text">
+            <b>Tipo de Opera&ccedil;&atilde;o</b><br/>
+            {{page.tipo-de-operacao}}
+          </p>
+          <p class="light-text">
+            <b>Data</b><br/>
+            {{page.data}}
+          </p>
+          <p class="light-text">
+            <b>Vendas</b><br/>
+            {{page.vendas}}
+          </p>
+          <p class="light-text">
+            <b>CEO</b><br/>
+            {{page.CEO}}
+          </p>
+          <p class="light-text">
+            <b>Descri&ccedil;&atilde;o</b><br/>
+            {{page.descricao}}
+          </p> 
 
         </div>
       </div>
