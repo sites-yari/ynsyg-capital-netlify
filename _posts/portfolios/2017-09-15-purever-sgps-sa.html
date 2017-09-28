@@ -16,51 +16,5 @@ descricao: Assessoria financeira na captação de novos investidores
 
 
 <body class="home page page-id-1512 page-parent page-template page-template-single-page-php">
-  <article id="post-3295" class="post-3295 portfolios type-portfolios status-publish hentry">
-    <div class="grid" style="padding-top: 80px;">
-      <div class="row">
-
-        <div class="c4 imagem-operacao">
-          <div class="person-image">
-            <div class="content editable"><img src="{{page.imagem-dentro_path}}" alt="{{page.titulo}}" /></div>
-          </div>
-        </div>
-
-        <div class="c8 texto-operacao" style="padding-left: 75px;">
-          <h3 class="content editable">{{page.nome-imagem}}</h3>
-          <p class="url_empresa"><a href="{{page.website}}" target="_blank" class="content editable">{{page.website}}</a></p>
-          <p class="url_empresa"><a href="#" target="_blank"></a></p>
-          
-          
-          <div class="content editable">              
-            <p class="light-text">
-              <b>Sector</b><br/>
-                {{page.sector}}
-            </p>
-            <p class="light-text">
-              <b>Tipo de Opera&ccedil;&atilde;o</b><br/>
-                {{page.tipo-de-operacao}}
-            </p>
-            <p class="light-text">
-              <b>Data</b><br/>
-                {{page.data}}
-            </p>
-            <p class="light-text">
-              <b>Vendas</b><br/>
-                {{page.vendas}}
-            </p>
-            <p class="light-text">
-              <b>CEO</b><br/>
-                {{page.CEO}}
-            </p>
-            <p class="light-text">
-              <b>Descri&ccedil;&atilde;o</b><br/>
-                {{page.descricao}}
-            </p>
-          </div>
-
-        </div>
-      </div>
-    </div>
-  </article>
+  {% include portfolio.html %}    
 </body>
