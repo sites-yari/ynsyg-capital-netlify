@@ -31,10 +31,9 @@ plugins:
   - jekyll-feed
 
 _options:
-  image_path:
+  background_image_path:
     width: 200
     height: 200
-    resize_style: "contain"
     expandable: true
   content:
     width: 200
