@@ -32,12 +32,16 @@ plugins:
 
 _options:
   background_image_path:
-    width: 200
-    height: 200
+    width: 282
+    height: 282
+    expandable: true
+  fora_image_path:
+    width: 282
+    height: 282
     expandable: true
   content:
-    width: 200
-    height: 200
+    width: 282
+    height: 282
     resize_style: "cover"
 
 # Exclude from processing.
