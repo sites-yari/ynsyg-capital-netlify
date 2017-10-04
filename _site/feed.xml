@@ -1,5 +1,38 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-09-28T12:07:29+01:00</updated><id>http://localhost:4000/</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-</subtitle><entry><title type="html">Miguel Oliveira</title><link href="http://localhost:4000/executivo/2017/09/20/miguel-oliveira.html" rel="alternate" type="text/html" title="Miguel Oliveira" /><published>2017-09-20T00:00:00+01:00</published><updated>2017-09-20T00:00:00+01:00</updated><id>http://localhost:4000/executivo/2017/09/20/miguel-oliveira</id><content type="html" xml:base="http://localhost:4000/executivo/2017/09/20/miguel-oliveira.html">&lt;body class=&quot;home page page-id-1512 page-parent page-template page-template-single-page-php&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-09-28T12:37:02+01:00</updated><id>http://localhost:4000/</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</subtitle><entry><title type="html">Test4</title><link href="http://localhost:4000/executivo/2017/09/28/test4.html" rel="alternate" type="text/html" title="Test4" /><published>2017-09-28T00:00:00+01:00</published><updated>2017-09-28T00:00:00+01:00</updated><id>http://localhost:4000/executivo/2017/09/28/test4</id><content type="html" xml:base="http://localhost:4000/executivo/2017/09/28/test4.html">&lt;body class=&quot;home page page-id-1512 page-parent page-template page-template-single-page-php&quot;&gt;
+  &lt;article id=&quot;post-3295&quot; class=&quot;post-3295 portfolios type-portfolios status-publish hentry&quot;&gt;
+    &lt;div class=&quot;grid&quot;&gt;
+        &lt;div class=&quot;row&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;row&quot;&gt;
+        &lt;div class=&quot;c1&quot;&gt;&lt;/div&gt;
+        &lt;div class=&quot;c3&quot;&gt;
+            &lt;div class=&quot;person-image&quot;&gt;
+            &lt;div class=&quot;content editable&quot;&gt;&lt;img src=&quot;uploads/bronze_ronaldo.jpg&quot; alt=&quot;Rui Lusquinhos&quot;&gt;&lt;/div&gt;
+            &lt;/div&gt;
+
+            &lt;div class=&quot;content editable&quot;&gt;
+            &lt;p class=&quot;foto-description&quot;&gt;Rui Lusquinhos&lt;/p&gt;
+            &lt;p class=&quot;align-left&quot;&gt;executivo&lt;/p&gt;
+            &lt;p class=&quot;email&quot;&gt;rui.lusquinhos@insignyacapital.com&lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div class=&quot;c7 light-text&quot; style=&quot;padding-left: 75px;&quot;&gt;
+            &lt;div class=&quot;content editable&quot;&gt;
+            &lt;p&gt;Faz parte da equipa da Insignya Capital desde Janeiro de 2015.&lt;/p&gt;
+            &lt;p&gt;Anteriormente prestou serviços de auditoria para o grupo INDITEX, integrando o departamento de responsabilidade social corporativa.&lt;/p&gt;
+            &lt;p&gt;Licenciado em Gestão (2011) e Mestre em Finanças (2013) pela Universidade Católica do Porto.&lt;/p&gt;
+            &lt;p&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;/p&gt;
+            &lt;p&gt;&lt;/p&gt; 
+            &lt;/div&gt;           
+        &lt;/div&gt;
+        &lt;div class=&quot;c1&quot;&gt;&lt;/div&gt;
+        
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/article&gt;       
+&lt;/body&gt;</content><author><name></name></author><category term="executivo" /><summary type="html">Rui Lusquinhos executivo rui.lusquinhos@insignyacapital.com Faz parte da equipa da Insignya Capital desde Janeiro de 2015. Anteriormente prestou serviços de auditoria para o grupo INDITEX, integrando o departamento de responsabilidade social corporativa. Licenciado em Gestão (2011) e Mestre em Finanças (2013) pela Universidade Católica do Porto.</summary></entry><entry><title type="html">Miguel Oliveira</title><link href="http://localhost:4000/executivo/2017/09/20/miguel-oliveira.html" rel="alternate" type="text/html" title="Miguel Oliveira" /><published>2017-09-20T00:00:00+01:00</published><updated>2017-09-20T00:00:00+01:00</updated><id>http://localhost:4000/executivo/2017/09/20/miguel-oliveira</id><content type="html" xml:base="http://localhost:4000/executivo/2017/09/20/miguel-oliveira.html">&lt;body class=&quot;home page page-id-1512 page-parent page-template page-template-single-page-php&quot;&gt;
   &lt;article id=&quot;post-3295&quot; class=&quot;post-3295 portfolios type-portfolios status-publish hentry&quot;&gt;
     &lt;div class=&quot;grid&quot;&gt;
         &lt;div class=&quot;row&quot;&gt;&lt;/div&gt;
@@ -352,51 +385,4 @@
         &lt;/div&gt;
     &lt;/div&gt;
 &lt;/article&gt;       
-&lt;/body&gt;</content><author><name></name></author><category term="consultivo" /><summary type="html">Carlos Pires Advogado, inscrito na Ordem dos Advogados desde Março de 1995. Tem desenvolvido a sua actividade de advogado e assessor jurídico em diversas áreas relacionadas com empresas, desenvolvendo as práticas de direito comercial e societário, corporate finance e banca, contencioso e arbitragem, entre outras. É membro de órgãos sociais em empresas e escreve regularmente coluna de opinião e artigos técnicos em Jornais e Revistas de foro regional. Iniciou a carreira profissional de advogado e consultor jurídico de empresas em 1995, em Braga. Entre 1995 e 2009 foi Director dos Serviços Jurídicos e Contencioso do Grupo Império Pneus. Além destas funções, foi jurista da DGV/IMTT (1998), formador (Anje e IEFP), bem como Presidente do Conselho Jurisdicional do ABC (andebol) e Procurador do BES/Novobanco. Licenciado em Direito (1992) pela Universidade Católica Portuguesa – Lisboa, Pós-Graduado em Estudos Europeus pela Universidade de Coimbra (1995) e Mestre em Ciências Jurídico-Comerciais pela Universidade Católica Portuguesa. Masters em Gestão para Juristas (2006) pela Universidade Católica Portuguesa.</summary></entry><entry><title type="html">Purever Sgps Sa</title><link href="http://localhost:4000/portfolios/2017/09/15/purever-sgps-sa.html" rel="alternate" type="text/html" title="Purever Sgps Sa" /><published>2017-09-15T00:00:00+01:00</published><updated>2017-09-15T00:00:00+01:00</updated><id>http://localhost:4000/portfolios/2017/09/15/purever-sgps-sa</id><content type="html" xml:base="http://localhost:4000/portfolios/2017/09/15/purever-sgps-sa.html">&lt;body class=&quot;home page page-id-1512 page-parent page-template page-template-single-page-php&quot;&gt;
-  &lt;article id=&quot;post-3295&quot; class=&quot;post-3295 portfolios type-portfolios status-publish hentry&quot;&gt;
-&lt;div class=&quot;grid&quot; style=&quot;padding-top: 80px;&quot;&gt;
-    &lt;div class=&quot;row&quot;&gt;
-    &lt;div class=&quot;c4 imagem-operacao&quot;&gt;
-        &lt;div class=&quot;person-image&quot;&gt;
-        &lt;img src=&quot;assets/sites/insig/content1/purever/files/purever05c5.png&quot; alt=&quot;PUREVER SGPS S.A.&quot; class=&quot;content editable&quot;/&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-
-    &lt;div class=&quot;c8 texto-operacao&quot; style=&quot;padding-left: 75px;&quot;&gt;
-        &lt;h3 class=&quot;content editable&quot;&gt;Purever SGPS S.A.&lt;/h3&gt;
-        &lt;p class=&quot;url_empresa&quot;&gt;&lt;a href=&quot;www.purever.com&quot; target=&quot;_blank&quot; class=&quot;content editable&quot;&gt;www.purever.com&lt;/a&gt;&lt;/p&gt;
-        &lt;p class=&quot;url_empresa&quot;&gt;&lt;a href=&quot;#&quot; target=&quot;_blank&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-        
-        
-        &lt;div class=&quot;content editable&quot;&gt;              
-        &lt;p class=&quot;light-text&quot;&gt;
-            &lt;b&gt;Sector&lt;/b&gt;&lt;br/&gt;
-            Construção de salas limpas, indústria e logística agroalimentar, equipamentos para hotelaria e restauração e construção modular.
-        &lt;/p&gt;
-        &lt;p class=&quot;light-text&quot;&gt;
-            &lt;b&gt;Tipo de Opera&amp;ccedil;&amp;atilde;o&lt;/b&gt;&lt;br/&gt;
-            Assessoria financeira na captação de novos investidores
-        &lt;/p&gt;
-        &lt;p class=&quot;light-text&quot;&gt;
-            &lt;b&gt;Data&lt;/b&gt;&lt;br/&gt;
-            2014
-        &lt;/p&gt;
-        &lt;p class=&quot;light-text&quot;&gt;
-            &lt;b&gt;Vendas&lt;/b&gt;&lt;br/&gt;
-            €45,8 Milhões (2014)
-        &lt;/p&gt;
-        &lt;p class=&quot;light-text&quot;&gt;
-            &lt;b&gt;CEO&lt;/b&gt;&lt;br/&gt;
-            Luís Coelho Borges
-        &lt;/p&gt;
-        &lt;p class=&quot;light-text&quot;&gt;
-            &lt;b&gt;Descri&amp;ccedil;&amp;atilde;o&lt;/b&gt;&lt;br/&gt;
-            Assessoria financeira na captação de novos investidores
-        &lt;/p&gt;
-        &lt;/div&gt;
-
-    &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;/article&gt;    
-&lt;/body&gt;</content><author><name></name></author><category term="portfolios" /><summary type="html">Purever SGPS S.A. www.purever.com Sector Construção de salas limpas, indústria e logística agroalimentar, equipamentos para hotelaria e restauração e construção modular. Tipo de Opera&amp;ccedil;&amp;atilde;o Assessoria financeira na captação de novos investidores Data 2014 Vendas €45,8 Milhões (2014) CEO Luís Coelho Borges Descri&amp;ccedil;&amp;atilde;o Assessoria financeira na captação de novos investidores</summary></entry></feed>
+&lt;/body&gt;</content><author><name></name></author><category term="consultivo" /><summary type="html">Carlos Pires Advogado, inscrito na Ordem dos Advogados desde Março de 1995. Tem desenvolvido a sua actividade de advogado e assessor jurídico em diversas áreas relacionadas com empresas, desenvolvendo as práticas de direito comercial e societário, corporate finance e banca, contencioso e arbitragem, entre outras. É membro de órgãos sociais em empresas e escreve regularmente coluna de opinião e artigos técnicos em Jornais e Revistas de foro regional. Iniciou a carreira profissional de advogado e consultor jurídico de empresas em 1995, em Braga. Entre 1995 e 2009 foi Director dos Serviços Jurídicos e Contencioso do Grupo Império Pneus. Além destas funções, foi jurista da DGV/IMTT (1998), formador (Anje e IEFP), bem como Presidente do Conselho Jurisdicional do ABC (andebol) e Procurador do BES/Novobanco. Licenciado em Direito (1992) pela Universidade Católica Portuguesa – Lisboa, Pós-Graduado em Estudos Europeus pela Universidade de Coimbra (1995) e Mestre em Ciências Jurídico-Comerciais pela Universidade Católica Portuguesa. Masters em Gestão para Juristas (2006) pela Universidade Católica Portuguesa.</summary></entry></feed>
