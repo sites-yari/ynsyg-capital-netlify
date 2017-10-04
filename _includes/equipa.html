@@ -23,12 +23,10 @@
             <p>{{page.paragrafo4}}</p>
             <p>{{page.paragrafo5}}</p>
             <p>{{page.paragrafo6}}</p> 
-            {% assign operacoes = site.posts | where: "category" , "portfolios" %}
             
-            {% for equipa in operacoes %}  
-                {{equipa.test.image_path}}
+            {%for page in page.test%}
+                <img src="{{page.image_path}}" alt="test">
             {% endfor %}
-            
             </div>           
         </div>
         <div class="c1"></div>
