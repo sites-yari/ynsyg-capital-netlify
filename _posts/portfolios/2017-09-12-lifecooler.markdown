@@ -14,7 +14,4 @@ CEO: Paulo Parreira
 descricao: Assessoria financeira.
 ---
 
-
-<body class="home page page-id-1512 page-parent page-template page-template-single-page-php">
   {% include portfolio.html %}    
-</body>

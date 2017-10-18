@@ -14,7 +14,4 @@ CEO: Alberto Figueiredo
 descricao: A operação consistiu na assessoria financeira aos accionistas na definição da estratégia de expansão.
 ---
 
-
-<body class="home page page-id-1512 page-parent page-template page-template-single-page-php">
   {% include portfolio.html %}    
-</body>

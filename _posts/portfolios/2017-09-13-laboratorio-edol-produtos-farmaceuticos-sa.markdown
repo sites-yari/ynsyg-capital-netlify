@@ -14,6 +14,4 @@ CEO: Carlos Setra
 descricao: Assessoria financeira na avaliação de activos.
 ---
 
-<body class="home page page-id-1512 page-parent page-template page-template-single-page-php">
   {% include portfolio.html %}    
-</body>

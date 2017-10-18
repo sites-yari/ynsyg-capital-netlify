@@ -14,7 +14,4 @@ CEO: José António Magalhães
 descricao: A Quimitécnica, uma empresa portuguesa de referência na distribuição de produtos químicos, adquiriu a Cofarcas, uma empresa espanhola de distribuição química. Esta aquisição permitiu à Quimitécnica reforçar a presença na distribuição química no norte de Espanha e assim complementar as actividades que já detinha na Galiza, Andaluzia e Estremadura.
 ---
 
-
-<body class="home page page-id-1512 page-parent page-template page-template-single-page-php">
   {% include portfolio.html %}    
-</body>

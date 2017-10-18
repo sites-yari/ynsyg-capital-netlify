@@ -2,7 +2,7 @@
 titulo: GRESTEL
 classe: port_grestel
 fora_image_path: assets/sites/insig/content1/grestel/files/grestel05c5.jpg
-dentro_image_pathh: /assets/sites/insig/content1/grestel/files/grestel05c5.png
+dentro_image_path: /assets/sites/insig/content1/grestel/files/grestel05c5.png
 category: portfolios
 nome-imagem: Grestel
 website: www.grestel.pt
@@ -14,7 +14,4 @@ CEO: Miguel Casal
 descricao: A Explorer Investments, uma capital de risco de referência em Portugal, adquiriu aos accionistas-fundadores uma participação accionista maioritária.
 ---
 
-
-<body class="home page page-id-1512 page-parent page-template page-template-single-page-php">
-  {% include portfolio.html %}
-</body>
+{% include portfolio.html %}

@@ -14,7 +14,4 @@ CEO: Gonçalo Quadros
 descricao: A operação consistiu na venda de uma participação minoritária na Critical Software aos atuais acionistas.
 ---
 
-
-<body class="home page page-id-1512 page-parent page-template page-template-single-page-php"> 
-  {% include portfolio.html %}    
-</body>
+{% include portfolio.html %}    

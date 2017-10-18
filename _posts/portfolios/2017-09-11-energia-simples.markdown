@@ -14,7 +14,4 @@ CEO: Manuel Azevedo
 descricao: Estruturação de financiamento - Trade Finance
 ---
 
-
-<body class="home page page-id-1512 page-parent page-template page-template-single-page-php">  
   {% include portfolio.html %}    
-</body>

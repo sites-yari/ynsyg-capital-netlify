@@ -14,7 +14,4 @@ CEO: Paulo Melo
 descricao: Assessoria financeira a actuais accionistas na aquisição de participações sociais a fundo de capital de risco gerido pela Portugal Ventures.
 ---
 
-
-<body class="home page page-id-1512 page-parent page-template page-template-single-page-php">
   {% include portfolio.html %}    
-</body>

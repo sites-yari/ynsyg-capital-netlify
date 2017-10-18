@@ -14,7 +14,4 @@ CEO: Jorge Louro / Carlos Louro
 descricao: O OXY Capital Mezzannine Fund adquiriu uma participação social no capital do Grupo Ceriart. A Ceriart é grupo cerâmico focado na produção de peças de mesa e decorativas em grés e faiança, estando em rápido crescimento, exportando 100% da sua produção.
 ---
 
-
-<body class="home page page-id-1512 page-parent page-template page-template-single-page-php">
   {% include portfolio.html %}    
-</body>

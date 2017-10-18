@@ -14,7 +14,4 @@ CEO: Luís Coelho Borges
 descricao: Assessoria financeira na captação de novos investidores
 ---
 
-
-<body class="home page page-id-1512 page-parent page-template page-template-single-page-php">
   {% include portfolio.html %}    
-</body>
