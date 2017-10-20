@@ -46,7 +46,7 @@ collections:
     fields:
       - {label: "Layout", name: "layout" , widget: "hidden", default: "post" }
       - {label: "Title", name: "titulo", widget: "string" }
-      - {label: "Class" name: "classe", widget: "hidden", default: "Trabalhador" }
+      - {label: "Class", name: "classe", widget: "hidden", default: "Trabalhador" }
       - {label: "Feature image", name: "background_image_path", widget: "image" }
       - {label: "Category", name: "executivo", widget: "category" }
       - {label: "Text", name: "nome-imagem", widget: "string" }
