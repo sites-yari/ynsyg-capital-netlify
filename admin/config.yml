@@ -41,18 +41,39 @@ collections:
   - name: "equipa"
     label: "Equipa"
     folder: "_posts/equipa"
-    create: true
+    create: "true"
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - {label: "Layout", name: "layout" , widget: "hidden", default: "post" }
-      - {label: "Title", name: "titulo", widget: "string" }
-      - {label: "Class", name: "classe", widget: "hidden", default: "Trabalhador" }
-      - {label: "Feature image", name: "background_image_path", widget: "image" }
-      - {label: "Category", name: "executivo", widget: "category" }
-      - {label: "Text", name: "nome-imagem", widget: "string" }
-      - {label: "Text", name: "cargo", widget: "string" }
-      - {label: "Text", name: "email", widget: "string" }
-      - {label: "Body", name: "body", widget: "markdown" }
+      - { label: "Layout", name: "layout" , widget: "hidden", default: "post" }
+      - { label: "Title", name: "titulo", widget: "string" }
+      - { label: "Class", name: "classe", widget: "hidden", default: "Trabalhador" }
+      - { label: "Feature image", name: "background_image_path", widget: "image" }
+      - { label: "Category", name: "category", widget: "category" }
+      - { label: "Description", name: "nome-imagem", widget: "string" }
+      - { label: "Description", name: "cargo", widget: "string" }
+      - { label: "Description", name: "email", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+  - name: "portfolios"
+    label: "Portfolios"
+    folder: "_posts/portfolios"
+    create: "true"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Title", name: "titulo", widget: "string" }
+      - { label: "Class", name: "classe", widget: "hidden", default: "Trabalhador" }
+      - { label: "Feature image", name: "fora_image_path", widget: "image" }
+      - { label: "Feature image", name: "dentro_image_path", widget: "image" }
+      - { label: "Category", name: "category", widget: "category" }
+      - { label: "Description", name: "nome-imagem", widget: "string" }
+      - { label: "Description", name: "website", widget: "string" }
+      - { label: "Description", name: "sector", widget: "string" }
+      - { label: "Description", name: "tipo-de-operacao", widget: "string" }
+      - { label: "Description", name: "data", widget: "string" }
+      - { label: "Description", name: "vendas", widget: "string" }
+      - { label: "Description", name: "CEO", widget: "string" }
+      - { label: "Description", name: "descricao", widget: "string" }
+
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
