@@ -21,7 +21,9 @@
     <script src="../../assets/sites/insig/theme/javascripts/jquery/jquery-migrate.min1576d9db.js?56193bb3df1d9ec3d55e7cf7f0c55914" type="text/javascript" ></script>
     <script src="../../assets/sites/insig/theme/javascripts/modernizr-2.6.2.minab17d040.js?2f3f1bb2b08b7cbfb9a2615e0ccb9e61" type="text/javascript" ></script>
     <script src="../../assets/sites/insig/theme/javascripts/comment-reply.minab178f6d.js?157624c0c0bbd94f39425079cf2a6e81" type="text/javascript" ></script>
+    {% if page.rank == "admin" %}
     <script src="https://unpkg.com/netlify-cms@^0.5.0/dist/cms.js"></script>
+    {% endif %}
 
     <!-- css -->
     <link href="../../assets/sites/insig/theme/stylesheets/theme/zoo/plugins/shortcodesab1720f9.css" media="screen" rel="stylesheet" type="text/css">
@@ -29,7 +31,9 @@
     <link href="../../assets/sites/insig/theme/stylesheets/theme/Zoo/styleab171bf3.css" media="screen" rel="stylesheet" type="text/css">
     <link href="../../assets/sites/insig/theme/stylesheets/mediac2b2.css" media="screen" rel="stylesheet" type="text/css">
     <link href="../../assets/sites/insig/theme/stylesheets/style107b.css" media="screen" rel="stylesheet" type="text/css">
+    {% if page.rank == "admin" %}
     <link rel="stylesheet" href="https://unpkg.com/netlify-cms@^0.5.0/dist/cms.css" />
+    {% endif %}    
 
     <style>
         .twitter{background-image:url(assets/sites/insig/theme/images/theme/twitter17de.png?21ed4e70b8103b8e0448093ea8474acb);}
