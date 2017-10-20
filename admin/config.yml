@@ -30,20 +30,6 @@ theme: minima
 plugins:
   - jekyll-feed
 
-_options:
-  background_image_path:
-    width: 282
-    height: 282
-    expandable: true
-  fora_image_path:
-    width: 282
-    height: 282
-    expandable: true
-  content:
-    width: 282
-    height: 282
-    resize_style: "cover"
-
 publish_mode: editorial_workflow
 media_folder: "uploads" # Media files will be stored in the repo under images/uploads
 
