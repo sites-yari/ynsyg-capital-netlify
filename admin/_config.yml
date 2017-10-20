@@ -51,6 +51,22 @@ backend:
   name: git-gateway
   branch: devlp # Branch to update (optional; defaults to master)
 
+collections:
+  - name: "equipa"
+    label: "Equipa"
+    folder: "_posts/equipa"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {label: "Layout", name: "layout" , widget: "hidden", default: "post" }
+      - {label: "Title", name: "titulo", widget: "string" }
+      - {label: "Class" name: "classe", widget: "hidden", default: "Trabalhador" }
+      - {label: "Feature image", name: "background_image_path", widget: "image" }
+      - {label: "Category", name: "executivo", widget: "category" }
+      - {label: "Text", name: "nome-imagem", widget: "string" }
+      - {label: "Text", name: "cargo", widget: "string" }
+      - {label: "Text", name: "email", widget: "string" }
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
