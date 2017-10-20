@@ -15,33 +15,33 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Layout", name: "layout" , widget: "hidden", default: "post" }
-      - { label: "Title", name: "titulo", widget: "string" }
+      - { label: "Titulo", name: "titulo", widget: "string" }
       - { label: "Class", name: "classe", widget: "hidden", default: "Trabalhador" }
-      - { label: "Feature image", name: "background_image_path", widget: "image" }
-      - { label: "Category", name: "category", widget: "category" }
-      - { label: "Description", name: "nome-imagem", widget: "string" }
-      - { label: "Description", name: "cargo", widget: "string" }
-      - { label: "Description", name: "email", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Imagem", name: "background_image_path", widget: "image" }
+      - { label: "Categoria (disponivel: executivo, analista, consultivo)", name: "category", widget: "category" }
+      - { label: "Nome da Imagem", name: "nome-imagem", widget: "string" }
+      - { label: "Cargo", name: "cargo", widget: "string" }
+      - { label: "Email", name: "email", widget: "string" }
+      - { label: "Descricao", name: "body", widget: "markdown" }
   - name: "portfolios"
     label: "Portfolios"
     folder: "_posts/portfolios"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - { label: "Title", name: "titulo", widget: "string" }
+      - { label: "Titulo", name: "titulo", widget: "string" }
       - { label: "Class", name: "classe", widget: "hidden", default: "Trabalhador" }
-      - { label: "Feature image", name: "fora_image_path", widget: "image" }
-      - { label: "Feature image", name: "dentro_image_path", widget: "image" }
-      - { label: "Category", name: "category", widget: "category" }
-      - { label: "Description", name: "nome-imagem", widget: "string" }
-      - { label: "Description", name: "website", widget: "string" }
-      - { label: "Description", name: "sector", widget: "string" }
-      - { label: "Description", name: "tipo-de-operacao", widget: "string" }
-      - { label: "Description", name: "data", widget: "string" }
-      - { label: "Description", name: "vendas", widget: "string" }
-      - { label: "Description", name: "CEO", widget: "string" }
-      - { label: "Description", name: "descricao", widget: "string" }
+      - { label: "imagem de Esterior", name: "fora_image_path", widget: "image" }
+      - { label: "imagem de interior", name: "dentro_image_path", widget: "image" }
+      - { label: "Categoria", name: "category", widget: "hidden", default: "portfolios" }
+      - { label: "Nome da Imagem", name: "nome-imagem", widget: "string" }
+      - { label: "Website", name: "website", widget: "string" }
+      - { label: "Sector", name: "sector", widget: "string" }
+      - { label: "Tipo de Operacoes", name: "tipo-de-operacao", widget: "string" }
+      - { label: "Ano", name: "data", widget: "string" }
+      - { label: "Vendas", name: "vendas", widget: "string" }
+      - { label: "CEO", name: "CEO", widget: "string" }
+      - { label: "Descricao", name: "descricao", widget: "string" }
 
 
 
