@@ -66,6 +66,7 @@ collections:
       - {label: "Text", name: "nome-imagem", widget: "string" }
       - {label: "Text", name: "cargo", widget: "string" }
       - {label: "Text", name: "email", widget: "string" }
+      - {label: "Body", name: "body", widget: "markdown" }
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

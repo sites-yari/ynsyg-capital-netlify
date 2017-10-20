@@ -18,12 +18,12 @@ rank: admin
         <ul class="slides-container">
           <!--imagem 1-->
           <li>
-            <img src=assets/sites/insig/theme/images/content/parallax1e8e1.jpg?6ada19b97c68acf05e921589c44e97e9 data-0="top:0px;" data-1500="top:650px;"/>
+            <img src=../../assets/sites/insig/theme/images/content/parallax1e8e1.jpg?6ada19b97c68acf05e921589c44e97e9 data-0="top:0px;" data-1500="top:650px;"/>
             <div class="slide-caption" data-0='transform:scale(1); top:0px;' data-1400='transform:scale(0.5); top:-100px;'  >
-              <img src=assets/sites/insig/theme/images/insignia_logo_2f1d9.svg?19c4a91e3b6c2052334274698ecdb494 alt="Insignia capital" width="534" height="486" class="alignnone size-full" />
+              <img src=../../assets/sites/insig/theme/images/insignia_logo_2f1d9.svg?19c4a91e3b6c2052334274698ecdb494 alt="Insignia capital" width="534" height="486" class="alignnone size-full" />
             </div>
             <div id="capital-ideas" class="slide-caption" data-0='transform:scale(1); top:30px;' data-1400='transform:scale(0.5); top:-10px;'  style="display:none;">
-              <img src=assets/sites/insig/theme/images/capital_ideasb285.svg?d5a1004d5f3c04de2f7fba38f2095f9f alt="Insignya capital ideas" width="386" height="386" class="alignnone size-full" />
+              <img src=../../assets/sites/insig/theme/images/capital_ideasb285.svg?d5a1004d5f3c04de2f7fba38f2095f9f alt="Insignya capital ideas" width="386" height="386" class="alignnone size-full" />
             </div>
             <script>
             document.getElementById('capital-ideas').setAttribute('data-0', 'transform: scale(1); top:' + (window.innerHeight / 5 + Math.floor(window.innerHeight / 1000) * 100) + "px;");
@@ -32,7 +32,7 @@ rank: admin
 
           <!--imagem 2-->
           <li>
-            <img src=assets/sites/insig/theme/images/content/parallax25e7f.jpg?69f11182f294c5d40cb8ff22fe683fc5 data-0="top:0px;" data-1500="top:650px;"/>
+            <img src=../../assets/sites/insig/theme/images/content/parallax25e7f.jpg?69f11182f294c5d40cb8ff22fe683fc5 data-0="top:0px;" data-1500="top:650px;"/>
             <div class="slide-caption" data-0='transform:scale(1); top:0px;' data-1400='transform:scale(0.5); top:100px;'  >
               <div class="content editable">
                 <h1><a href="#private-equity">Private Equity</a></h1>
@@ -41,7 +41,7 @@ rank: admin
           </li>
           <!--imagem 3-->
           <li>
-            <img src=assets/sites/insig/theme/images/content/parallax3b97f.jpg?ad4138750ae6427c8419074beb973e7f data-0="top:0px;" data-1500="top:650px;"/>
+            <img src=../../assets/sites/insig/theme/images/content/parallax3b97f.jpg?ad4138750ae6427c8419074beb973e7f data-0="top:0px;" data-1500="top:650px;"/>
             <div class="slide-caption" data-0='transform:scale(1); top:0px;' data-1400='transform:scale(0.5); top:100px;'  >
               <div class="content editable">
                 <h1><a href="#corporate-finance">Corporate Finance</a></h1>
@@ -55,7 +55,7 @@ rank: admin
 
 
     <div id="quem-somos">
-      <div class="parallaxSection skrollable skrollable-between first-seccion" style="background-image: url(assets/sites/insig/theme/images/content/parallax00319.jpg?70fe1946570f4cebc9d153695fdf70b4); background-position: 50% 172.142857142857px;" data-bottom-top="background-position: 50% 300px" data-top-bottom="background-position: 50% -250px;" id="parallaxSection3">
+      <div class="parallaxSection skrollable skrollable-between first-seccion" style="background-image: url(../../assets/sites/insig/theme/images/content/parallax00319.jpg?70fe1946570f4cebc9d153695fdf70b4); background-position: 50% 172.142857142857px;" data-bottom-top="background-position: 50% 300px" data-top-bottom="background-position: 50% -250px;" id="parallaxSection3">
         <div>
           <h1 class="accent" style="margin-bottom:100px; text-align: center;text-transform:uppercase;">
             Quem Somos
@@ -69,7 +69,7 @@ rank: admin
                 </div>
                 <span class="mix plus">
                   <a href="about-us-1.html" style="outline: none;">
-                    <img class="icon-plus" src="assets/sites/insig/theme/images/plus77c0.svg?11645f29cc776af7e8c99ad4a15d4562" alt="equipa">
+                    <img class="icon-plus" src="../../assets/sites/insig/theme/images/plus77c0.svg?11645f29cc776af7e8c99ad4a15d4562" alt="equipa">
                   </a>
                 </span>
               </div>
@@ -80,7 +80,7 @@ rank: admin
                 </div>
                 <span class="mix plus">
                   <a href="about-us-2.html" style="outline: none;">
-                    <img class="icon-plus" src="assets/sites/insig/theme/images/plus77c0.svg?11645f29cc776af7e8c99ad4a15d4562" alt="equipa">
+                    <img class="icon-plus" src="../../assets/sites/insig/theme/images/plus77c0.svg?11645f29cc776af7e8c99ad4a15d4562" alt="equipa">
                   </a>
                 </span>
               </div>
@@ -124,7 +124,7 @@ rank: admin
                 {% for post in executivo %}                               
                   <li class="mix comissão-executiva">
                     <figure class="rift">
-                      <img style="height: 282; width: 282;" src="{{post.background_image_path}}" class="attachment-portfolioThumbCropped wp-post-image" alt="{{post.titulo}}" />
+                      <img style="height: 282; width: 282;" src="../../{{post.background_image_path}}" class="attachment-portfolioThumbCropped wp-post-image" alt="{{post.titulo}}" />
                       <figcaption class="caption">
                         <a class="box" href="{{post.url}}" >{{post.titulo}}</a>
                       </figcaption>
@@ -144,7 +144,7 @@ rank: admin
                 {% for post in analista %} 
                   <li class="mix equipa-de-análise">
                     <figure class="rift">
-                      <img width="282" height="282" src="{{post.background_image_path}}" class="attachment-portfolioThumbCropped wp-post-image" alt="{{post.titulo}}" />
+                      <img width="282" height="282" src="../../{{post.background_image_path}}" class="attachment-portfolioThumbCropped wp-post-image" alt="{{post.titulo}}" />
                       <figcaption class="caption">
                         <a class="box" href="{{post.url}}" >{{post.titulo}}</a>
                       </figcaption>
@@ -165,7 +165,7 @@ rank: admin
                 {% for post in consultivo %}                               
                   <li class="mix conselho-consultivo">
                     <figure class="rift">
-                      <img width="282" height="282"  src="{{post.background_image_path}}" class="attachment-portfolioThumbCropped wp-post-image" alt="{{post.titulo}}" />
+                      <img width="282" height="282"  src="../../{{post.background_image_path}}" class="attachment-portfolioThumbCropped wp-post-image" alt="{{post.titulo}}" />
                       <figcaption class="caption">
                         <a class="box" href="{{post.url}}" >{{post.titulo}}</a>
                       </figcaption>
@@ -185,7 +185,7 @@ rank: admin
 
 
     <div id='private-equity'>
-      <div class="parallaxSection" style="background-image:url(assets/sites/insig/theme/images/content/parallax25e7f.jpg?69f11182f294c5d40cb8ff22fe683fc5);" data-bottom-top="background-position: 50% 300px" data-top-bottom="background-position: 50% -250px;" >
+      <div class="parallaxSection" style="background-image:url(../../assets/sites/insig/theme/images/content/parallax25e7f.jpg?69f11182f294c5d40cb8ff22fe683fc5);" data-bottom-top="background-position: 50% 300px" data-top-bottom="background-position: 50% -250px;" >
         <div>
           <div class="scrollanimation" data--50-bottom-top ="top:400px;" data--350-top ="top:0px;" style="top:0px;">
             <div class="content editable">
@@ -275,7 +275,7 @@ rank: admin
 
         <!--CORPORATE FINANCE-->
     <div id="corporate-finance">
-      <div class="parallaxSection" style="background-image:url(assets/sites/insig/theme/images/content/parallax3b97f.jpg?ad4138750ae6427c8419074beb973e7f);" data-bottom-top="background-position: 50% 300px" data-top-bottom="background-position: 50% -250px;" >
+      <div class="parallaxSection" style="background-image:url(../../assets/sites/insig/theme/images/content/parallax3b97f.jpg?ad4138750ae6427c8419074beb973e7f);" data-bottom-top="background-position: 50% 300px" data-top-bottom="background-position: 50% -250px;" >
         <div>
           <div class="scrollanimation" data--50-bottom-top ="top:400px;" data--350-top ="top:0px;" style="top:0px;">
             <div class="content editable">
@@ -370,7 +370,7 @@ rank: admin
                   {% for post in operacoes %} 
                   <li class="mix Investimento">
                     <figure class="rift">
-                      <img width="282" height="282" src="{{post.fora_image_path}}" class="attachment-portfolioThumbCropped wp-post-image" alt="{{post.titulo}}" />
+                      <img width="282" height="282" src="../../{{post.fora_image_path}}" class="attachment-portfolioThumbCropped wp-post-image" alt="{{post.titulo}}" />
                       <figcaption class="caption">
                         <a class="box" href="{{post.url}}">{{post.titulo}}</a>
                       </figcaption>
@@ -388,7 +388,7 @@ rank: admin
 
         <!--Contactos -->
     <div id='contact' class="page small-padding" style='background-color:#ffffff;' >
-      <div class="parallaxSection" style="background-image:url(assets/sites/insig/theme/images/content/parallax41883.jpg?7bb3ef9a13beeb8bc352d0936341894b);" data-bottom-top="background-position: 50% 300px" data-top-bottom="background-position: 50% -250px;" >
+      <div class="parallaxSection" style="background-image:url(../../assets/sites/insig/theme/images/content/parallax41883.jpg?7bb3ef9a13beeb8bc352d0936341894b);" data-bottom-top="background-position: 50% 300px" data-top-bottom="background-position: 50% -250px;" >
         <div>
           <div class="scrollanimation" data--50-bottom-top ="top:400px;" data--350-top ="top:0px;" style="top:0px;">
             <div class="content editable">
