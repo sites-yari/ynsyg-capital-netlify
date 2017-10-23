@@ -1,7 +1,6 @@
 ---
 layout: post
 titulo: Diogo Rocha
-date: 2017-09-18
 classe: Trabalhador
 background_image_path: assets/sites/insig/content2/diogo/files/Diogo__3_27a6.jpg
 category: analista

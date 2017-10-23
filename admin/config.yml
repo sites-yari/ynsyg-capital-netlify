@@ -15,6 +15,11 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
+      - { label: "Layout", name: "layout" , widget: "string", default: "post" }
+      - { label: "Titulo", name: "titulo", widget: "string" }
+      - { label: "Class", name: "classe", widget: "string", default: "Trabalhador" }  
+      - { label: "Imagem", name: "background_image_path", widget: "image" }
+      - { label: "Categoria", name: "category", widget: "select", options: [ " ", "executivo" , "analista" , "consultivo"] }
       - { label: "Nome da Imagem", name: "nome-imagem", widget: "string" }
       - { label: "Cargo", name: "cargo", widget: "string" }
       - { label: "Email", name: "email", widget: "string" }
