@@ -1,7 +1,7 @@
 ---
 layout: post
 titulo: Rui Lusquinhos
-classe: worker
+classe: Trabalhador
 background_image_path: assets/sites/insig/content2/rui/files/Ruid6e1.jpg
 category: analista
 nome-imagem: Rui Lusquinhos

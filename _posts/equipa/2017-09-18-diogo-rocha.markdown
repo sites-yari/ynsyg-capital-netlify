@@ -1,7 +1,7 @@
 ---
 layout: post
 titulo: Diogo Rocha
-classe: worker
+classe: Trabalhador
 background_image_path: assets/sites/insig/content2/diogo/files/Diogo__3_27a6.jpg
 category: analista
 nome-imagem: Diogo Rocha

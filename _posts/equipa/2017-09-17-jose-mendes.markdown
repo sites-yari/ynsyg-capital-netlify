@@ -1,7 +1,7 @@
 ---
 layout: post
 titulo: José Mendes
-classe: worker
+classe: Trabalhador
 background_image_path: assets/sites/insig/content2/jose/files/Jose_mendes77a3.jpg
 category: consultivo
 nome-imagem: José Mendes

@@ -1,18 +1,12 @@
 ---
 layout: post
 titulo: Carlos Pires
-classe: worker
+classe: Trabalhador
 background_image_path: assets/sites/insig/content2/carlos/files/carlosb390.jpg      
 category: consultivo
 nome-imagem: Carlos Pires
 cargo: 
 email: 
-paragrafo1: 
-paragrafo2: 
-paragrafo3: 
-paragrafo4: 
-paragrafo5: 
-paragrafo6: Licenciado em Direito (1992) pela Universidade Católica Portuguesa – Lisboa, Pós-Graduado em Estudos Europeus pela Universidade de Coimbra (1995) e Mestre em Ciências Jurídico-Comerciais pela Universidade Católica Portuguesa. Masters em Gestão para Juristas (2006) pela Universidade Católica Portuguesa.
 ---
 
 Advogado, inscrito na Ordem dos Advogados desde Março de 1995.
