@@ -1,5 +1,4 @@
 
-publish_mode: editorial_workflow
 media_folder: "assets/uploads" # Media files will be stored in the repo under uploads/versions
 
 backend:
