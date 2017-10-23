@@ -60,10 +60,10 @@ collections:
             fields:
               - label: "sobre"
                 name: sobre
-                widget: "object"
+                widget: "list"
                 fields:
-                  - {label: "Pergunta", name: "pergunta", widget: "string"}
-                  - {label: "Resposta", name: "resposta", widget: "string"}
+                  - { label: "Pergunta", name: "pergunta", widget: "string" }
+                  - { label: "Resposta", name: "resposta", widget: "string" }
 
 
 
