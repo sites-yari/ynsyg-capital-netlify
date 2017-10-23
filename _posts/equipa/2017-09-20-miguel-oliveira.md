@@ -1,6 +1,7 @@
 ---
 layout: post
 titulo: Miguel Oliveira
+date: 2017-09-20
 classe: Trabalhador
 background_image_path: assets/sites/insig/content2/miguel/files/Miguel7462.jpg
 category: executivo

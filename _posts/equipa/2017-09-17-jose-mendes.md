@@ -1,6 +1,7 @@
 ---
 layout: post
 titulo: José Mendes
+date: 2017-09-17
 classe: Trabalhador
 background_image_path: assets/sites/insig/content2/jose/files/Jose_mendes77a3.jpg
 category: consultivo

@@ -1,6 +1,7 @@
 ---
 layout: post
 titulo: Carlos Pires
+date: 2017-09-16
 classe: Trabalhador
 background_image_path: assets/sites/insig/content2/carlos/files/carlosb390.jpg      
 category: consultivo

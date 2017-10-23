@@ -17,6 +17,7 @@ collections:
     fields:
       - { label: "Layout", name: "layout" , widget: "hidden", default: "post" }
       - { label: "Titulo", name: "titulo", widget: "string" }
+      - {label: "Data de publicação", name: "date", widget: "datetime"}
       - { label: "Class", name: "classe", widget: "hidden", default: "Trabalhador" }
       - { label: "Imagem", name: "background_image_path", widget: "image" }
       - { label: "Categoria (executivo | analista | consultivo)", name: "category", widget: "string" }

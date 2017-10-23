@@ -1,6 +1,7 @@
 ---
 layout: post
 titulo: Rui Lusquinhos
+date: 2017-09-19
 classe: Trabalhador
 background_image_path: assets/sites/insig/content2/rui/files/Ruid6e1.jpg
 category: analista
