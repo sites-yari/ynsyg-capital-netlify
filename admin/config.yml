@@ -19,7 +19,7 @@ collections:
       - { label: "Titulo", name: "titulo", widget: "string" }
       - {label: "Data de publicação", name: "date", widget: "datetime"}
       - { label: "Class", name: "classe", widget: "hidden", default: "Trabalhador" }  
-      - { label: "Imagem", name: "background_image_path", widget: "image" }
+      - { label: "Imagem", name: "hidden", widget: "image" }
       - { label: "Categoria", name: "category", widget: "select", options: [ "executivo" , "analista" , "consultivo"] }
       - { label: "Nome da Imagem", name: "nome-imagem", widget: "string" }
       - { label: "Cargo", name: "cargo", widget: "string" }
