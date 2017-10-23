@@ -9,7 +9,7 @@ backend:
   site_domain: biologist-badger-47215.netlify.com
 
 collections:
-  - equipa:
+  equipa:
     - name: "equipa"
       label: "Equipa"
       folder: "_posts/equipa"
@@ -26,7 +26,7 @@ collections:
         - { label: "Cargo", name: "cargo", widget: "string" }
         - { label: "Email", name: "email", widget: "string" }
         - { label: "Descricao", name: "body", widget: "markdown" }
-  - portfolios:
+  portfolios:
     - name: "portfolios"
       label: "Portfolios"
       folder: "_posts/portfolios"
