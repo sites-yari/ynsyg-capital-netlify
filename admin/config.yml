@@ -9,9 +9,9 @@ backend:
   site_domain: biologist-badger-47215.netlify.com
 
 collections:
-  - name: "equipa"
+  - name: "_posts"
     label: "Equipa"
-    folder: "_posts"
+    folder: "_posts/equipa"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
@@ -25,9 +25,9 @@ collections:
       - { label: "Cargo", name: "cargo", widget: "string" }
       - { label: "Email", name: "email", widget: "string" }
       - { label: "Descricao", name: "body", widget: "markdown" }
-  - name: "portfolios"
+  - name: "posts"
     label: "Portfolios"
-    folder: "_posts"
+    folder: "_posts/portfolios"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
