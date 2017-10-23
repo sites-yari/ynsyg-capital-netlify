@@ -1,6 +1,6 @@
 
 publish_mode: editorial_workflow
-media_folder: "uploads/versions" # Media files will be stored in the repo under uploads/versions
+media_folder: "assets/uploads" # Media files will be stored in the repo under uploads/versions
 
 backend:
   name: git-gateway
@@ -9,7 +9,7 @@ backend:
   site_domain: biologist-badger-47215.netlify.com
 
 collections:
-  - name: "_posts"
+  - name: "equipa"
     label: "Equipa"
     folder: "_posts/equipa"
     create: true
@@ -25,7 +25,7 @@ collections:
       - { label: "Cargo", name: "cargo", widget: "string" }
       - { label: "Email", name: "email", widget: "string" }
       - { label: "Descricao", name: "body", widget: "markdown" }
-  - name: "posts"
+  - name: "portfolios"
     label: "Portfolios"
     folder: "_posts/portfolios"
     create: true
