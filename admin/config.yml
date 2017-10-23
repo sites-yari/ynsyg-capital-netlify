@@ -3,7 +3,7 @@ publish_mode: editorial_workflow
 media_folder: "assets/uploads" # Media files will be stored in the repo under uploads/versions
 
 backend:
-  name: git-gateway
+  name: github #git-gateway
   repo: https://github.com/aerolp/netlify-insignia-capital-teste3
   branch: devlp # Branch to update (optional; defaults to master)
   site_domain: biologist-badger-47215.netlify.com
@@ -12,7 +12,7 @@ collections:
   - name: "equipa"
     label: "Equipa"
     folder: "_posts/equipa"
-    create: "true"
+    create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Layout", name: "layout" , widget: "hidden", default: "post" }
@@ -29,7 +29,7 @@ collections:
   - name: "portfolios"
     label: "Portfolios"
     folder: "_posts/portfolios"
-    create: "true"
+    create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Titulo", name: "titulo", widget: "string" }
