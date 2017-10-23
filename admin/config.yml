@@ -46,27 +46,27 @@ collections:
         - { label: "Vendas", name: "vendas", widget: "string" }
         - { label: "CEO", name: "CEO", widget: "string" }
         - { label: "Descricao", name: "descricao", widget: "string" }
-  - name: "data"
-    label: "Data"
-    editor:
-      preview: true
-    files:
-      - name: "footer-pages"
-        label: "FAQ"
-        file: "_data/footer-pages.yml"
-        description: FAQ questions 
-        fields:
-          - label: "faq"
-            name: faq
-            widget: "object"
-            fields:
-              - label: "sobre"
-                name: sobre
-                widget: "list"
-                fields:
-                  - { label: "Pergunta", name: "pergunta", widget: "string" }
-                  - { label: "Resposta", name: "resposta", widget: "string" }
-
+  data:
+    - name: "data"
+      label: "Data"
+      editor:
+        preview: true
+      files:
+        - name: "footer-pages"
+          label: "FAQ"
+          file: "_data/footer-pages.yml"
+          description: FAQ questions 
+          fields:
+            - label: "faq"
+              name: faq
+              widget: "object"
+              fields:
+                - label: "sobre"
+                  name: sobre
+                  widget: "list"
+                  fields:
+                    - { label: "Pergunta", name: "pergunta", widget: "string" }
+                    - { label: "Resposta", name: "resposta", widget: "string" }
 
 
 
