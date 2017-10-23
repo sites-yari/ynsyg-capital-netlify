@@ -11,7 +11,7 @@ backend:
 collections:
   - name: "posts"
     label: "Posts"
-    folders:
+    files:
       - name: "equipa"
         label: "Equipa"
         folder: "_posts/equipa"
