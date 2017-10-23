@@ -1,158 +1,73 @@
 
-
-backend: 
-  branch: devlp
-  name: git-gateway
-  repo: "https://github.com/aerolp/netlify-insignia-capital-teste3"
-  site_domain: biologist-badger-47215.netlify.com
-collections: 
-  - 
-    create: true
-    fields: 
-      - 
-        default: post
-        label: Layout
-        name: layout
-        widget: hidden
-      - 
-        label: Titulo
-        name: titulo
-        widget: string
-      - 
-        format: "YYYY-MM-DD hh:mma"
-        label: "Data de publicação"
-        name: date
-        widget: datetime
-      - 
-        default: Trabalhador
-        label: Class
-        name: classe
-        widget: hidden
-      - 
-        label: Imagem
-        name: background_image_path
-        widget: image
-      - 
-        label: Categoria
-        name: category
-        options: 
-          - executivo
-          - analista
-          - consultivo
-        widget: select
-      - 
-        label: "Nome da Imagem"
-        name: nome-imagem
-        widget: string
-      - 
-        label: Cargo
-        name: cargo
-        widget: string
-      - 
-        label: Email
-        name: email
-        widget: string
-      - 
-        label: Descricao
-        name: body
-        widget: markdown
-    folder: _posts/equipa
-    label: Equipa
-    name: equipa
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-  - 
-    create: true
-    fields: 
-      - 
-        label: Titulo
-        name: titulo
-        widget: string
-      - 
-        default: Trabalhador
-        label: Class
-        name: classe
-        widget: hidden
-      - 
-        label: "imagem de Esterior"
-        name: fora_image_path
-        widget: image
-      - 
-        label: "imagem de interior"
-        name: dentro_image_path
-        widget: image
-      - 
-        default: portfolios
-        label: Categoria
-        name: category
-        widget: hidden
-      - 
-        label: "Nome da Imagem"
-        name: nome-imagem
-        widget: string
-      - 
-        label: Website
-        name: website
-        widget: string
-      - 
-        label: Sector
-        name: sector
-        widget: string
-      - 
-        label: "Tipo de Operacoes"
-        name: tipo-de-operacao
-        widget: string
-      - 
-        label: Ano
-        name: data
-        widget: string
-      - 
-        label: Vendas
-        name: vendas
-        widget: string
-      - 
-        label: CEO
-        name: CEO
-        widget: string
-      - 
-        label: Descricao
-        name: descricao
-        widget: string
-    folder: _posts/portfolios
-    label: Portfolios
-    name: portfolios
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-  - 
-    editor: 
-      preview: true
-    files: 
-      - 
-        description: "FAQ questions"
-        fields: 
-          - 
-            fields: 
-              - 
-                fields: 
-                  - 
-                    label: Pergunta
-                    name: pergunta
-                    widget: string
-                  - 
-                    label: Resposta
-                    name: resposta
-                    widget: string
-                label: sobre
-                name: sobre
-                widget: list
-            label: faq
-            name: faq
-            widget: object
-        file: _data/footer-pages.yml
-        label: FAQ
-        name: footer-pages
-    label: Data
-    name: data
-media_folder: assets/uploads
 publish_mode: editorial_workflow
+media_folder: "assets/uploads" # Media files will be stored in the repo under uploads/versions
+
+backend:
+  name: git-gateway
+  repo: https://github.com/aerolp/netlify-insignia-capital-teste3
+  branch: devlp # Branch to update (optional; defaults to master)
+  site_domain: biologist-badger-47215.netlify.com
+
+collections:
+  - equipa:
+    - name: "equipa"
+      label: "Equipa"
+      folder: "_posts/equipa"
+      create: true
+      slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+      fields:
+        - { label: "Layout", name: "layout" , widget: "hidden", default: "post" }
+        - { label: "Titulo", name: "titulo", widget: "string" }
+        - { label: "Data de publicação", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mma" }
+        - { label: "Class", name: "classe", widget: "hidden", default: "Trabalhador" }  
+        - { label: "Imagem", name: "background_image_path", widget: "image" }
+        - { label: "Categoria", name: "category", widget: "select", options: [ "executivo" , "analista" , "consultivo"] }
+        - { label: "Nome da Imagem", name: "nome-imagem", widget: "string" }
+        - { label: "Cargo", name: "cargo", widget: "string" }
+        - { label: "Email", name: "email", widget: "string" }
+        - { label: "Descricao", name: "body", widget: "markdown" }
+  - portfolios:
+    - name: "portfolios"
+      label: "Portfolios"
+      folder: "_posts/portfolios"
+      create: true
+      slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+      fields:
+        - { label: "Titulo", name: "titulo", widget: "string" }
+        - { label: "Class", name: "classe", widget: "hidden", default: "Trabalhador" }
+        - { label: "imagem de Esterior", name: "fora_image_path", widget: "image" }
+        - { label: "imagem de interior", name: "dentro_image_path", widget: "image" }
+        - { label: "Categoria", name: "category", widget: "hidden", default: "portfolios" }
+        - { label: "Nome da Imagem", name: "nome-imagem", widget: "string" }
+        - { label: "Website", name: "website", widget: "string" }
+        - { label: "Sector", name: "sector", widget: "string" }
+        - { label: "Tipo de Operacoes", name: "tipo-de-operacao", widget: "string" }
+        - { label: "Ano", name: "data", widget: "string" }
+        - { label: "Vendas", name: "vendas", widget: "string" }
+        - { label: "CEO", name: "CEO", widget: "string" }
+        - { label: "Descricao", name: "descricao", widget: "string" }
+  - name: "data"
+    label: "Data"
+    editor:
+      preview: true
+    files:
+      - name: "footer-pages"
+        label: "FAQ"
+        file: "_data/footer-pages.yml"
+        description: FAQ questions 
+        fields:
+          - label: "faq"
+            name: faq
+            widget: "object"
+            fields:
+              - label: "sobre"
+                name: sobre
+                widget: "list"
+                fields:
+                  - { label: "Pergunta", name: "pergunta", widget: "string" }
+                  - { label: "Resposta", name: "resposta", widget: "string" }
+
+
 
 
 
