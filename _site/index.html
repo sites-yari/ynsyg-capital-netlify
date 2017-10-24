@@ -24,6 +24,9 @@
     <script src="../../assets/sites/insig/theme/javascripts/modernizr-2.6.2.minab17d040.js?2f3f1bb2b08b7cbfb9a2615e0ccb9e61" type="text/javascript" ></script>
     <script src="../../assets/sites/insig/theme/javascripts/comment-reply.minab178f6d.js?157624c0c0bbd94f39425079cf2a6e81" type="text/javascript" ></script>
 
+    <!-- netlify -->
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
     <!-- css -->
     <link href="../../assets/sites/insig/theme/stylesheets/theme/zoo/plugins/shortcodesab1720f9.css" media="screen" rel="stylesheet" type="text/css">
     <link href="../../assets/sites/insig/theme/stylesheets/theme/Zoo/normalizeab171fc9.css" media="screen" rel="stylesheet" type="text/css">
@@ -547,7 +550,7 @@
                     <figure class="rift">
                       <img style="height: 282; width: 282;" src="assets/sites/insig/content2/miguel/files/Miguel7462.jpg" class="attachment-portfolioThumbCropped wp-post-image" alt="Miguel Oliveira" />
                       <figcaption class="caption">
-                        <a class="box" href="/executivo/2017/09/20/miguel-oliveira.html" >Miguel Oliveira</a>
+                        <a class="box" href="/2017/09/20/miguel-oliveira.html" >Miguel Oliveira</a>
                       </figcaption>
                     </figure>
                     <p class="subcaption">Miguel Oliveira</p>
@@ -567,7 +570,7 @@
                     <figure class="rift">
                       <img width="282" height="282" src="assets/sites/insig/content2/rui/files/Ruid6e1.jpg" class="attachment-portfolioThumbCropped wp-post-image" alt="Rui Lusquinhos" />
                       <figcaption class="caption">
-                        <a class="box" href="/analista/2017/09/19/rui-lusquinhos.html" >Rui Lusquinhos</a>
+                        <a class="box" href="/2017/09/19/rui-lusquinhos.html" >Rui Lusquinhos</a>
                       </figcaption>
                     </figure>
                     <p class="subcaption">Rui Lusquinhos</p>
@@ -577,7 +580,7 @@
                     <figure class="rift">
                       <img width="282" height="282" src="assets/sites/insig/content2/diogo/files/Diogo__3_27a6.jpg" class="attachment-portfolioThumbCropped wp-post-image" alt="Diogo Rocha" />
                       <figcaption class="caption">
-                        <a class="box" href="/analista/2017/09/18/diogo-rocha.html" >Diogo Rocha</a>
+                        <a class="box" href="/2017/09/18/diogo-rocha.html" >Diogo Rocha</a>
                       </figcaption>
                     </figure>
                     <p class="subcaption">Diogo Rocha</p>
@@ -598,7 +601,7 @@
                     <figure class="rift">
                       <img width="282" height="282"  src="assets/sites/insig/content2/jose/files/Jose_mendes77a3.jpg" class="attachment-portfolioThumbCropped wp-post-image" alt="José Mendes" />
                       <figcaption class="caption">
-                        <a class="box" href="/consultivo/2017/09/17/jose-mendes.html" >José Mendes</a>
+                        <a class="box" href="/2017/09/17/jose-mendes.html" >José Mendes</a>
                       </figcaption>
                     </figure>
                     <p class="subcaption">José Mendes</p>
@@ -608,7 +611,7 @@
                     <figure class="rift">
                       <img width="282" height="282"  src="assets/sites/insig/content2/carlos/files/carlosb390.jpg" class="attachment-portfolioThumbCropped wp-post-image" alt="Carlos Pires" />
                       <figcaption class="caption">
-                        <a class="box" href="/consultivo/2017/09/16/carlos-pires.html" >Carlos Pires</a>
+                        <a class="box" href="/2017/09/16/carlos-pires.html" >Carlos Pires</a>
                       </figcaption>
                     </figure>
                     <p class="subcaption">Carlos Pires</p>
@@ -978,6 +981,18 @@
       </div>
     </div>
   </main>
+
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
 </body>
             </div>
             <div class="">

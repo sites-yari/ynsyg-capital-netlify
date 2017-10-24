@@ -3,7 +3,8 @@ layout: post
 titulo: Miguel Oliveira
 classe: Trabalhador
 background_image_path: assets/sites/insig/content2/miguel/files/Miguel7462.jpg
-category: executivo
+post_category: equipa
+categoria: executivo
 nome-imagem: Miguel Oliveira
 cargo: Sócio e Fundador
 email: miguel.oliveira@insignyacapital.com

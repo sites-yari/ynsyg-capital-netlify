@@ -3,7 +3,8 @@ layout: post
 titulo: Diogo Rocha
 classe: Trabalhador
 background_image_path: assets/sites/insig/content2/diogo/files/Diogo__3_27a6.jpg
-category: analista
+post_category: equipa
+categoria: analista
 nome-imagem: Diogo Rocha
 cargo: Analista
 email: diogo.rocha@insignyacapital.com

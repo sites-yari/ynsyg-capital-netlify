@@ -3,7 +3,8 @@ layout: post
 titulo: Carlos Pires
 classe: Trabalhador
 background_image_path: assets/sites/insig/content2/carlos/files/carlosb390.jpg      
-category: consultivo
+post_category: equipa
+categoria: consultivo
 nome-imagem: Carlos Pires
 cargo: 
 email: 

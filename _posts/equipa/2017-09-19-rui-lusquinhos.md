@@ -1,10 +1,10 @@
 ---
 layout: post
 titulo: Rui Lusquinhos
-date: -09-19
 classe: Trabalhador
 background_image_path: assets/sites/insig/content2/rui/files/Ruid6e1.jpg
-category: analista
+post_category: equipa
+categoria: analista
 nome-imagem: Rui Lusquinhos
 cargo: Analista
 email: rui.lusquinhos@insignyacapital.com
