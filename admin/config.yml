@@ -9,7 +9,7 @@ backend:
   site_domain: biologist-badger-47215.netlify.com
 
 collections:
-    - name: "posts"
+  - name: "posts"
     label: "Posts"
     folder: "_posts"
     create: true
