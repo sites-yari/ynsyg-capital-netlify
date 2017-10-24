@@ -1,5 +1,5 @@
 ---
-titulo: FARMÁCIA DE GONDARÉM
+title: FARMÁCIA DE GONDARÉM
 classe: port_farmacia
 fora_image_path: assets/sites/insig/content1/farmacia/files/logo_farma86d0.jpg
 dentro_image_path: /assets/sites/insig/content1/farmacia/files/logo_farma86d0.jpg

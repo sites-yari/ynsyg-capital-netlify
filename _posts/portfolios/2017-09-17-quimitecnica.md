@@ -1,5 +1,5 @@
 ---
-titulo: QUIMITECNICA 
+title: QUIMITECNICA 
 classe: port_quimitecnica
 fora_image_path: assets/sites/insig/content1/quimitecnica/files/quimitecnica05c5.jpg
 dentro_image_path: assets/sites/insig/content1/quimitecnica/files/quimitecnica05c5.png

@@ -1,5 +1,5 @@
 ---
-titulo: LABORATORIO EDOL - PRODUTOS FARMACEUTICOS S.A.
+title: LABORATORIO EDOL - PRODUTOS FARMACEUTICOS S.A.
 classe: port_edol
 fora_image_path: assets/sites/insig/content1/edol/files/edol05c5.jpg
 dentro_image_path: assets/sites/insig/content1/edol/files/edol05c5.png

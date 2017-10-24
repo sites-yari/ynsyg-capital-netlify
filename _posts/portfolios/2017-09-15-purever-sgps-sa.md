@@ -1,5 +1,5 @@
 ---
-titulo: PUREVER SGPS S.A.
+title: PUREVER SGPS S.A.
 classe: port_purever
 fora_image_path: assets/sites/insig/content1/purever/files/purever05c5.jpg
 dentro_image_path: assets/sites/insig/content1/purever/files/purever05c5.png

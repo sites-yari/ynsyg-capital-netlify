@@ -1,5 +1,5 @@
 ---
-titulo: CRITICAL SOFTWARE S.A.
+title: CRITICAL SOFTWARE S.A.
 classe: port_critical
 fora_image_path: assets/sites/insig/content1/critical/files/critical05c5.jpg
 dentro_image_path: assets/sites/insig/content1/critical/files/critical05c5.png
