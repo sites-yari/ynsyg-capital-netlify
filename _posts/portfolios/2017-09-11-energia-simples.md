@@ -1,4 +1,5 @@
 ---
+layout: portfolio
 title: ENERGIA SIMPLES
 classe: port_energia_simples
 fora_image_path: assets/sites/insig/content1/energiaSimples/files/Energia_Simples_exterior48b8.png
@@ -14,4 +15,3 @@ CEO: Manuel Azevedo
 descricao: Estruturação de financiamento - Trade Finance
 ---
 
-  {% include portfolio.html %}    

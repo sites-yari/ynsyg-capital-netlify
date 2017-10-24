@@ -9,6 +9,16 @@ backend:
   site_domain: biologist-badger-47215.netlify.com
 
 collections:
+  #- name: "posts"
+  #  label: "Posts"
+  #  folder: "_posts"
+  #  create: true
+  #  slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+  #  fields:
+  #    - { label: "Titulo", name: "title", widget: "string" }
+  #    - { label: "Classe", name: "class", widget: "hidden", default: "test-post" }  
+  #    - { label: "Data de publicação", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mma" }
+  #    - { label: "Genero de Post", name: "categoria",  widget: "select", options: [ " ", "rip"] }
   - name: "equipa"
     label: "Equipa"
     folder: "_posts/equipa"
@@ -16,8 +26,8 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Layout", name: "layout" , widget: "hidden", default: "post" }
-      - { label: "Titulo", name: "titulo", widget: "string" }
-      - { label: "Class", name: "classe", widget: "hidden", default: "Trabalhador" }  
+      - { label: "Titulo", name: "title", widget: "string" }
+      - { label: "Class", name: "classe", widget: "select", options: [ " ", "Trabalhador"] }  
       - { label: "Imagem", name: "background_image_path", widget: "image" }
       - { label: "Genero de Post", name: "post_category", widget: "hidden", default: "equipa" }
       - { label: "Categoria", name: "categoria", widget: "select", options: [ " ", "executivo" , "analista" , "consultivo"] }
@@ -32,7 +42,8 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - { label: "Titulo", name: "titulo", widget: "string" }
+      - { label: "Layout", name: "layout" , widget: "hidden", default: "portfolio" }
+      - { label: "Titulo", name: "title", widget: "string" }
       - { label: "Class", name: "classe", widget: "hidden", default: "Trabalhador" }
       - { label: "imagem de Esterior", name: "fora_image_path", widget: "image" }
       - { label: "imagem de interior", name: "dentro_image_path", widget: "image" }

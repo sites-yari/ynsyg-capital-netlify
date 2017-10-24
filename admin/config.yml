@@ -9,17 +9,16 @@ backend:
   site_domain: biologist-badger-47215.netlify.com
 
 collections:
-  - name: "posts"
-    label: "Posts"
-    folder: "_posts"
-    create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
-      - { label: "Titulo", name: "title", widget: "string" }
-      - { label: "Classe", name: "class", widget: "hidden", default: "test-post" }  
-      - { label: "Data de publicação", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mma" }
-      - { label: "Genero de Post", name: "categoria",  widget: "select", options: [ " ", "rip"] }
-
+  #- name: "posts"
+  #  label: "Posts"
+  #  folder: "_posts"
+  #  create: true
+  #  slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+  #  fields:
+  #    - { label: "Titulo", name: "title", widget: "string" }
+  #    - { label: "Classe", name: "class", widget: "hidden", default: "test-post" }  
+  #    - { label: "Data de publicação", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mma" }
+  #    - { label: "Genero de Post", name: "categoria",  widget: "select", options: [ " ", "rip"] }
   - name: "equipa"
     label: "Equipa"
     folder: "_posts/equipa"
@@ -43,6 +42,7 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
+      - { label: "Layout", name: "layout" , widget: "hidden", default: "portfolio" }
       - { label: "Titulo", name: "title", widget: "string" }
       - { label: "Class", name: "classe", widget: "hidden", default: "Trabalhador" }
       - { label: "imagem de Esterior", name: "fora_image_path", widget: "image" }

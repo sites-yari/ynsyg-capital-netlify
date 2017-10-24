@@ -1,4 +1,5 @@
 ---
+layout: portfolio
 title: FARMÁCIA DE GONDARÉM
 classe: port_farmacia
 fora_image_path: assets/sites/insig/content1/farmacia/files/logo_farma86d0.jpg
@@ -14,4 +15,3 @@ CEO: Maria João Serrenho
 descricao: A Farmácia de Gondarém é uma conhecida farmácia portuense situada na zona da Foz.
 ---
 
-  {% include portfolio.html %}    

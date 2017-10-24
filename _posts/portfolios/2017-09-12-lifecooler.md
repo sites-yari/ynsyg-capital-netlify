@@ -1,4 +1,5 @@
 ---
+layout: portfolio
 title: LIFECOOLER
 classe: port_lifecooler
 fora_image_path: assets/sites/insig/content1/lifecooler/files/lifecooler05c5.jpg
@@ -13,5 +14,3 @@ vendas: €4,3 Milhões (2014)
 CEO: Paulo Parreira
 descricao: Assessoria financeira.
 ---
-
-  {% include portfolio.html %}    

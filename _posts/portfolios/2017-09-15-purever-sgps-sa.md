@@ -1,4 +1,5 @@
 ---
+layout: portfolio
 title: PUREVER SGPS S.A.
 classe: port_purever
 fora_image_path: assets/sites/insig/content1/purever/files/purever05c5.jpg
@@ -14,4 +15,3 @@ CEO: Luís Coelho Borges
 descricao: Assessoria financeira na captação de novos investidores
 ---
 
-  {% include portfolio.html %}    
