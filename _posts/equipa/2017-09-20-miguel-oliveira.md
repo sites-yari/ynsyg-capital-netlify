@@ -1,6 +1,6 @@
 ---
 layout: post
-titulo: Miguel Oliveira
+title: Miguel Oliveira
 classe: Trabalhador
 background_image_path: assets/sites/insig/content2/miguel/files/Miguel7462.jpg
 post_category: equipa

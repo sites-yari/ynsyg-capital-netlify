@@ -1,6 +1,6 @@
 ---
 layout: post
-titulo: Carlos Pires
+title: Carlos Pires
 classe: Trabalhador
 background_image_path: assets/sites/insig/content2/carlos/files/carlosb390.jpg      
 post_category: equipa

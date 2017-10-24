@@ -1,6 +1,6 @@
 ---
 layout: post
-titulo: Rui Lusquinhos
+title: Rui Lusquinhos
 classe: Trabalhador
 background_image_path: assets/sites/insig/content2/rui/files/Ruid6e1.jpg
 post_category: equipa

@@ -1,6 +1,6 @@
 ---
 layout: post
-titulo: José Mendes
+title: José Mendes
 classe: Trabalhador
 background_image_path: assets/sites/insig/content2/jose/files/Jose_mendes77a3.jpg
 post_category: equipa
