@@ -43,7 +43,7 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - { label: "Titulo", name: "titulo", widget: "string" }
+      - { label: "Titulo", name: "title", widget: "string" }
       - { label: "Class", name: "classe", widget: "hidden", default: "Trabalhador" }
       - { label: "imagem de Esterior", name: "fora_image_path", widget: "image" }
       - { label: "imagem de interior", name: "dentro_image_path", widget: "image" }
