@@ -190,7 +190,7 @@ collections:
         fields:
           - { label: "Descrição do uso", name: "uso", widget: "markdown" }
           - label: "Informação"
-            name: info
+            name: temas
             widget: "list"
             fields:
               - { label: "Titulo", name: "titulo", widget: "string" }
