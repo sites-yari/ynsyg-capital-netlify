@@ -69,7 +69,8 @@ collections:
         label: "Pagina de Inicio"
         file: "_data/pagina-index.yml"
         description: Everything needed for the index
-          - label: "Quem-somos" #quem-somos
+        fields:
+          - label: "Quem somos" #quem-somos
             name: quem_somos
             widget: "object"
             fields:
