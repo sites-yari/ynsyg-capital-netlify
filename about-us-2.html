@@ -7,21 +7,16 @@ class: about
 <body class="home page page-id-1512 page-parent page-template page-template-single-page-php">
   <article id="post-2202" class="post-2202 portfolios type-portfolios status-publish hentry">
     <div class="grid"></div>
-    <div class="parallaxBackground valor-bak" style="background-image:url(assets/sites/insig/theme/images/content/parallax00319.jpg?70fe1946570f4cebc9d153695fdf70b4);" >
+    <div class="parallaxBackground valor-bak" style="background-image:url({{site.data.valores.background_image}});" >
       <div class ="grid">
         <div class="c12 end ">
           <div class="valor-detail padding-small base-transparent">
             <div class="content editable">
               <h2>Valores</h2>
-                
-              <h3>INDEPEND&Ecirc;NCIA</h3>
-              <p>A Insignya &eacute; uma empresa independente detida a 100% pela equipa de gest&atilde;o. Uma equipa com experi&ecirc;ncia diversificada na gest&atilde;o de v&aacute;rias empresas, dispon&iacute;vel para correr riscos, evitar conflitos de interesse e prosseguir os interesses dos seus stakeholders.</p>
-              
-              <h3>EXPERI&Ecirc;NCIA</h3>
-              <p>A equipa executiva acumula mais de 60 anos de experi&ecirc;ncia complementar. Nos &uacute;ltimos 10 anos desenvolveram actividade de gest&atilde;o de topo em diversas empresas industriais e comerciais ao mesmo tempo que desenvolveram estrat&eacute;gias de crescimento atrav&eacute;s de fus&otilde;es e aquisi&ccedil;&otilde;es para essas empresas.</p>
-              
-              <h3>EXCEL&Ecirc;NCIA</h3>
-              <p>Esfor&ccedil;o e dedica&ccedil;&atilde;o, rigor e aten&ccedil;&atilde;o ao detalhe s&atilde;o os princ&iacute;pios que regem o trabalho da equipa da Insignya procurando garantir a obten&ccedil;&atilde;o dos melhores resultados.</p>
+              {% for about-us-2 in site.data.valores.info %}
+              <h3>{{about-us-2.tema}}</h3>
+              <p>{{about-us-2.texto}}</p>
+              {% endfor %}  
             </div>
           </div>
         </div>

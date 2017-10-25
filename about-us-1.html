@@ -7,17 +7,16 @@ class: about
   <article id="post-2202" class="post-2202 portfolios type-portfolios status-publish hentry">
     <div class="grid">
     </div>
-    <div class="parallaxBackground valor-bak" style="background-image:url(assets/sites/insig/theme/images/content/parallax00319.jpg?70fe1946570f4cebc9d153695fdf70b4);" >
+    <div class="parallaxBackground valor-bak" style="background-image:url({{site.data.quem-somos.background_image}});" >
       <div class ="grid">
         <div class="c12 end ">
           <div class="valor-detail padding-small base-transparent">
             <div class="content editable">
               <h2>Quem Somos</h2>
-              
-              <h3>Sobre a INSIGNYA</h3>
-              <p>A Insignya Capital Partners foi fundada em Maio de 2014 por uma equipa de profissionais com vasta experi&ecirc;ncia em banca de investimento, finan&ccedil;as e gest&atilde;o empresarial.</p>
-              <p>Independente de grupos financeiros e empresariais, a equipa da Insignya possui um vasto conhecimento do tecido empresarial portugu&ecirc;s, mantendo uma ampla rede de contactos junto do sistema empresarial e financeiro, permitindo assim conhecer, analisar e investir nas melhores oportunidades de mercado.</p>
-              <p>Com <em>track record</em> comprovado em v&aacute;rias empresas e opera&ccedil;&otilde;es em Portugal e Espanha, procuramos projectos inovadores e de crescimento mas tamb&eacute;m empresas que precisem de revitaliza&ccedil;&atilde;o.</p>
+              {% for about-us-1 in site.data.quem-somos.info %}
+              <h3>{{about-us-1.tema}}</h3>
+              <p>{{about-us-1.texto}}</p>
+              {% endfor %}
               </div>
           </div>
         </div>

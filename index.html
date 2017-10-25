@@ -17,7 +17,7 @@ class: index
         <ul class="slides-container">
           <!--imagem 1-->
           <li>
-            <img src=assets/sites/insig/theme/images/content/parallax1e8e1.jpg?6ada19b97c68acf05e921589c44e97e9 data-0="top:0px;" data-1500="top:650px;"/>
+            <img src={{site.data.pagina-index.background_images.insignya}} data-0="top:0px;" data-1500="top:650px;"/>
             <div class="slide-caption" data-0='transform:scale(1); top:0px;' data-1400='transform:scale(0.5); top:-100px;'  >
               <img src=assets/sites/insig/theme/images/insignia_logo_2f1d9.svg?19c4a91e3b6c2052334274698ecdb494 alt="Insignia capital" width="534" height="486" class="alignnone size-full" />
             </div>
@@ -31,7 +31,7 @@ class: index
 
           <!--imagem 2-->
           <li>
-            <img src=assets/sites/insig/theme/images/content/parallax25e7f.jpg?69f11182f294c5d40cb8ff22fe683fc5 data-0="top:0px;" data-1500="top:650px;"/>
+            <img src={{site.data.pagina-index.background_images.private_equity}} data-0="top:0px;" data-1500="top:650px;"/>
             <div class="slide-caption" data-0='transform:scale(1); top:0px;' data-1400='transform:scale(0.5); top:100px;'  >
               <div class="content editable">
                 <h1><a href="#private-equity">Private Equity</a></h1>
@@ -40,7 +40,7 @@ class: index
           </li>
           <!--imagem 3-->
           <li>
-            <img src=assets/sites/insig/theme/images/content/parallax3b97f.jpg?ad4138750ae6427c8419074beb973e7f data-0="top:0px;" data-1500="top:650px;"/>
+            <img src={{site.data.pagina-index.background_images.corporate_finance}} data-0="top:0px;" data-1500="top:650px;"/>
             <div class="slide-caption" data-0='transform:scale(1); top:0px;' data-1400='transform:scale(0.5); top:100px;'  >
               <div class="content editable">
                 <h1><a href="#corporate-finance">Corporate Finance</a></h1>
@@ -52,9 +52,9 @@ class: index
     </div>
 
 
-
+    <!-- QUEM SOMOS -->
     <div id="quem-somos">
-      <div class="parallaxSection skrollable skrollable-between first-seccion" style="background-image: url(assets/sites/insig/theme/images/content/parallax00319.jpg?70fe1946570f4cebc9d153695fdf70b4); background-position: 50% 172.142857142857px;" data-bottom-top="background-position: 50% 300px" data-top-bottom="background-position: 50% -250px;" id="parallaxSection3">
+      <div class="parallaxSection skrollable skrollable-between first-seccion" style="background-image: url({{site.data.pagina-index.background_images.quem_somos}}); background-position: 50% 172.142857142857px;" data-bottom-top="background-position: 50% 300px" data-top-bottom="background-position: 50% -250px;" id="parallaxSection3">
         <div>
           <h1 class="accent" style="margin-bottom:100px; text-align: center;text-transform:uppercase;">
             Quem Somos
@@ -64,7 +64,7 @@ class: index
               
               <div id="valor1"  class="padding-small base-transparent">
                 <div class="content editable">
-                  <p>Somos uma equipa experiente e dinâmica que investe em empresas com partilha de risco e valor.</p>
+                  <p>{{site.data.pagina-index.quem_somos.sobre1}}</p>
                 </div>
                 <span class="mix plus">
                   <a href="about-us-1.html" style="outline: none;">
@@ -75,7 +75,7 @@ class: index
 
               <div id="valor2" class="padding-small base-little-transparent">
                 <div class="content editable">
-                  <p>Independência, Experiência, Excelência. </p>
+                  <p>{{site.data.pagina-index.quem_somos.sobre2}}</p>
                 </div>
                 <span class="mix plus">
                   <a href="about-us-2.html" style="outline: none;">
@@ -91,7 +91,7 @@ class: index
 
 
 
-    <!--Seccão 2 -->
+    <!-- EQUIPA -->
     <div id='equipa' class="page small-padding" style='background-color:#ffffff;' >
       <div class="grid">
 
@@ -123,12 +123,12 @@ class: index
                 {% for post in executivo %}                               
                   <li class="mix comissão-executiva">
                     <figure class="rift">
-                      <img style="height: 282; width: 282;" src="{{post.background_image_path}}" class="attachment-portfolioThumbCropped wp-post-image" alt="{{post.titulo}}" />
+                      <img style="height: 282; width: 282;" src="{{post.background_image_path}}" class="attachment-portfolioThumbCropped wp-post-image" alt="{{post.title}}" />
                       <figcaption class="caption">
-                        <a class="box" href="{{post.url}}" >{{post.titulo}}</a>
+                        <a class="box" href="{{post.url}}" >{{post.title}}</a>
                       </figcaption>
                     </figure>
-                    <p class="subcaption">{{post.titulo}}</p>
+                    <p class="subcaption">{{post.title}}</p>
                   </li>
                 {% endfor %}
               </ul>
@@ -143,12 +143,12 @@ class: index
                 {% for post in analista %} 
                   <li class="mix equipa-de-análise">
                     <figure class="rift">
-                      <img width="282" height="282" src="{{post.background_image_path}}" class="attachment-portfolioThumbCropped wp-post-image" alt="{{post.titulo}}" />
+                      <img width="282" height="282" src="{{post.background_image_path}}" class="attachment-portfolioThumbCropped wp-post-image" alt="{{post.title}}" />
                       <figcaption class="caption">
-                        <a class="box" href="{{post.url}}" >{{post.titulo}}</a>
+                        <a class="box" href="{{post.url}}" >{{post.title}}</a>
                       </figcaption>
                     </figure>
-                    <p class="subcaption">{{post.titulo}}</p>
+                    <p class="subcaption">{{post.title}}</p>
                   </li>
                 {% endfor %}   
 
@@ -164,12 +164,12 @@ class: index
                 {% for post in consultivo %}                               
                   <li class="mix conselho-consultivo">
                     <figure class="rift">
-                      <img width="282" height="282"  src="{{post.background_image_path}}" class="attachment-portfolioThumbCropped wp-post-image" alt="{{post.titulo}}" />
+                      <img width="282" height="282"  src="{{post.background_image_path}}" class="attachment-portfolioThumbCropped wp-post-image" alt="{{post.title}}" />
                       <figcaption class="caption">
-                        <a class="box" href="{{post.url}}" >{{post.titulo}}</a>
+                        <a class="box" href="{{post.url}}" >{{post.title}}</a>
                       </figcaption>
                     </figure>
-                    <p class="subcaption">{{post.titulo}}</p>
+                    <p class="subcaption">{{post.title}}</p>
                   </li>
                 {% endfor %}
 
@@ -182,9 +182,9 @@ class: index
 
 
 
-
+    <!-- PRIVATE-EQUITY -->
     <div id='private-equity'>
-      <div class="parallaxSection" style="background-image:url(assets/sites/insig/theme/images/content/parallax25e7f.jpg?69f11182f294c5d40cb8ff22fe683fc5);" data-bottom-top="background-position: 50% 300px" data-top-bottom="background-position: 50% -250px;" >
+      <div class="parallaxSection" style="background-image:url({{site.data.pagina-index.background_images.private_equity}});" data-bottom-top="background-position: 50% 300px" data-top-bottom="background-position: 50% -250px;" >
         <div>
           <div class="scrollanimation" data--50-bottom-top ="top:400px;" data--350-top ="top:0px;" style="top:0px;">
             <div class="content editable">
@@ -195,19 +195,14 @@ class: index
       </div>
     </div>
 
-
-
-
     <div class="page small-padding" style='background-color:white;' >
       <div class="grid">
 
           <div class="c12 end">
             <div class="content editable">                  
               <div class="intro-centered">
-                <p>Insignya Capital Partners investe em neg&oacute;cios e projectos de cariz industrial em qualquer sector de actividade. Privilegi&aacute;mos oportunidades de investimento superiores a &euro;5 milh&otilde;es em&nbsp;co-investimento com equipas de gest&atilde;o.</p>
-                <p>Atrav&eacute;s do&nbsp;acompanhamento constante e interven&ccedil;&atilde;o ativa na gest&atilde;o das empresas participadas, procur&aacute;mos&nbsp;garantir as melhores pr&aacute;ticas de governo corporativo e privilegiar&nbsp;as rela&ccedil;&otilde;es de confian&ccedil;a a longo prazo.</p>
-                <p>A equipa de gest&atilde;o da sociedade-gestora conta com profissionais com vasta experi&ecirc;ncia em gest&atilde;o de empresas, <em>corporate finance </em>e reestrutura&ccedil;&atilde;o empresarial&nbsp;aliada a um&nbsp;grande conhecimento do tecido empresarial portugu&ecirc;s.</p>
-              </div>
+                <p>{{site.data.pagina-index.private_equity.texto_inicial}}</p>
+                </div>
             </div>
           </div>
 
@@ -226,7 +221,7 @@ class: index
             <div class="row">
               <div class="tab-content c12 end">
                 <div class="content editable">
-                  <p>A Insignya Capital Partners - Sociedade de Capital de Risco, S.A. disponibilizar&aacute; brevemente&nbsp;este conte&uacute;do.</p>
+                  <p>{{site.data.pagina-index.private_equity.sociedade}}</p>
                 </div>
               </div>
             </div>
@@ -237,28 +232,26 @@ class: index
             <div class="row">
               <div class="tab-content c12 end">
                 <div class="content editable">                      
-                  <p>A Insignya Capital Partners -&nbsp;Sociedade de Capital de Risco est&aacute; a angariar investidores qualificados para o fundo de capital de risco INSIGNYA FRE, com as seguintes caracter&iacute;sticas:</p>
+                  <p>{{site.data.pagina-index.private_equity.fre.texto}}</p>
                   <dl>
                     <dt>Tipo de Operações</dt>
-                    <dd>Reestruturação / <i>Turnaround</i></dd>
+                    <dd>{{site.data.pagina-index.private_equity.fre.tipo_operacoes}}</dd>
 
                     <dt>Empresas-Alvo</dt>
-                    <dd>Empresas com volume de negócios superior a € 10 milhões</dd>
+                    <dd>{{site.data.pagina-index.private_equity.fre.empresas_alvo}}</dd>
 
                     <dt>Setores-alvo</dt>
-                    <dd>Indústria</dd>
+                    <dd>{{site.data.pagina-index.private_equity.fre.setores_alvo}}</dd>
 
                     <dt>Estratégia de Investimento</dt>
-                    <dd>Investimento em empresas com necessidade de reestruturação financeira junto da banca em Portugal e com potencial de melhorias operacionais.
-                    Reestruturação financeira mediante a recapitalização pela conversão da dívida em capital;
-                    Adequação da estrutura de capital ao ciclo de investimento e de negócio.</dd>
+                    <dd>{{site.data.pagina-index.private_equity.fre.estrategia_invest}}</dd>
 
                     <dt>Duração prevista</dt>
-                    <dd>15 Anos</dd>
+                    <dd>{{site.data.pagina-index.private_equity.fre.duracao}}</dd>
                     <dt></dt>
 
                     <dd class="nota">
-                      <i>Nota: O Fundo ainda não se encontra constituído nem registado na CMVM.</i>
+                      <i>Nota: {{site.data.pagina-index.private_equity.fre.nota}}</i>
                     </dd>
                   </dl>
                 </div>
@@ -272,9 +265,9 @@ class: index
 
 
 
-        <!--CORPORATE FINANCE-->
+    <!--CORPORATE FINANCE-->
     <div id="corporate-finance">
-      <div class="parallaxSection" style="background-image:url(assets/sites/insig/theme/images/content/parallax3b97f.jpg?ad4138750ae6427c8419074beb973e7f);" data-bottom-top="background-position: 50% 300px" data-top-bottom="background-position: 50% -250px;" >
+      <div class="parallaxSection" style="background-image:url({{site.data.pagina-index.background_images.corporate_finance}});" data-bottom-top="background-position: 50% 300px" data-top-bottom="background-position: 50% -250px;" >
         <div>
           <div class="scrollanimation" data--50-bottom-top ="top:400px;" data--350-top ="top:0px;" style="top:0px;">
             <div class="content editable">
@@ -289,9 +282,7 @@ class: index
           <div class="c12 end">
             <div class="content editable">
               <div class="intro-centered">
-                <p>A Insignya Capital Partners presta um servi&ccedil;o global de <em>M&amp;A</em>, c<em>orporate finance </em>e reestrutura&ccedil;&atilde;o empresarial<em>. </em>A Insignya&nbsp;acompanha as necessidades sentidas pelas empresas continuando a apostar em rela&ccedil;&otilde;es de proximidade que sempre caracterizaram a sua equipa.</p>
-                <p>Uma vasta experi&ecirc;ncia local e internacional permite-nos compreender e trabalhar os objectivos estrat&eacute;gicos dos nossos clientes. Este&nbsp;conhecimento&nbsp;permite-nos encontrar a cada momento os melhores parceiros estrat&eacute;gicos e financeiros, bem como, encurtar o per&iacute;odo de negocia&ccedil;&atilde;o com&nbsp;potenciais investidores.</p>
-                <p>Fruto das in&uacute;meras rela&ccedil;&otilde;es de longo prazo estabelecidas com as diversas partes intervenientes nos processos de M&amp;A, a Insignya conhece as estrat&eacute;gias de investimento/desinvestimento, o <em>momentum</em> e as restri&ccedil;&otilde;es dos principais players presentes no mercado.</p>
+                <p>{{site.data.pagina-index.corporate_finance.texto_inicial}}</p>
               </div>
             </div>
           </div>
@@ -312,14 +303,11 @@ class: index
             <div class="row">
               <div class="content editable">
                 <div class="tab-content c12 end">
-                  <p>As estrat&eacute;gias de crescimento&nbsp;das empresas&nbsp;implicam a assump&ccedil;&atilde;o de riscos. O aconselhamento especializado da&nbsp;Insignya permitir minorar os riscos associados&nbsp;&agrave;s opera&ccedil;&otilde;es de fus&atilde;o, aquisi&ccedil;&atilde;o e desinvestimento.&nbsp;</p>
-                  <p>Os servi&ccedil;os disponibilizados&nbsp;pela Insignya englobam todas as etapas das transa&ccedil;&otilde;es, desde a identifica&ccedil;&atilde;o de potenciais targets/investidores, prepara&ccedil;&atilde;o da documenta&ccedil;&atilde;o de suporte, avalia&ccedil;&atilde;o, negocia&ccedil;&atilde;o, coordena&ccedil;&atilde;o do processo de due diligence e&nbsp;<em>closing</em> das opera&ccedil;&otilde;es.</p>
-                  <p>Os profissionais da Insignya possuem vasta experi&ecirc;ncia neste tipo de transa&ccedil;&otilde;es, tendo liderado ou participado ativamente em opera&ccedil;&otilde;es de relevo.</p>
-                  <p>A equipa de <em>Corporate Finance</em> analisa, estrutura e executa, entre outras, as seguintes opera&ccedil;&otilde;es:</p>
+                  <p>{{site.data.pagina-index.corporate_finance.fusao_aquisicao.texto}}</p>
                   <ul>
-                    <li><em>M&amp;A</em>, incluindo venda, aquisi&ccedil;&atilde;o, desinvestimento, fus&atilde;o, <em>joint-venture</em></li>
-                    <li>Reestrutura&ccedil;&atilde;o empresarial, recapitaliza&ccedil;&atilde;o, <em>spin-off</em>,</li>
-                    <li>LBO, MBO, MBI.</li>
+                    {% for index in site.data.pagina-index.corporate_finance.fusao_aquisicao.lista %}                      
+                    <li>{{index}}</li>
+                    {% endfor %}
                   </ul>
                 </div>
               </div>
@@ -331,8 +319,7 @@ class: index
             <div class="row">
               <div class="content editable">
                 <div class="tab-content c12 end">
-                  <p>Num mercado cada vez mais complexo e din&acirc;mico, a Insignya disponibiliza aconselhamento&nbsp;estrat&eacute;gico e financeiro na escolha dos&nbsp;instrumentos financeiros adequados &agrave;s necessidades das&nbsp;empresas, promovendo a negocia&ccedil;&atilde;o com os investidores dos mercados de capitais.&nbsp;</p>
-                  <p>Fi&eacute;is aos nossos valores de independ&ecirc;ncia e excel&ecirc;ncia, garantimos a obten&ccedil;&atilde;o de solu&ccedil;&otilde;es adequadas, flex&iacute;veis e maximizadoras do valor das empresas, promovendo opera&ccedil;&otilde;es de <em>private placement</em>, financiamentos estruturados, reestrutura&ccedil;&atilde;o financeira e outros instrumentos financeiros.</p>
+                  <p>{{site.data.pagina-index.corporate_finance.capital_divida}}</p>
                 </div>
               </div>
             </div>
@@ -343,13 +330,11 @@ class: index
             <div class="row">
               <div class="content editable">
                 <div class="tab-content c12 end">
-                  <p>Proporcionamos aos nossos clientes aconselhamento objectivo e independente sobre estrat&eacute;gias financeiras e empresariais.</p>
-                  <p>Os nossos&nbsp;servi&ccedil;os incluem:</p>
+                  <p>{{site.data.pagina-index.corporate_finance.assessoria_financeira.texto}}</p>
                   <ul>
-                    <li>Avalia&ccedil;&atilde;o de neg&oacute;cios e empresas</li>
-                    <li><em>Fairness opinions</em></li>
-                    <li>Reorganiza&ccedil;&atilde;o de participa&ccedil;&otilde;es sociais</li>
-                    <li>Assessoria financeira em estrutura de capitais e estrat&eacute;gia empresarial</li>
+                    {% for index in site.data.pagina-index.corporate_finance.assessoria_financeira.lista %}
+                    <li>{{index}}</li>
+                    {% endfor %}
                   </ul>
                 </div>
               </div>
@@ -369,9 +354,9 @@ class: index
                   {% for post in operacoes %} 
                   <li class="mix Investimento">
                     <figure class="rift">
-                      <img width="282" height="282" src="{{post.fora_image_path}}" class="attachment-portfolioThumbCropped wp-post-image" alt="{{post.titulo}}" />
+                      <img width="282" height="282" src="{{post.fora_image_path}}" class="attachment-portfolioThumbCropped wp-post-image" alt="{{post.title}}" />
                       <figcaption class="caption">
-                        <a class="box" href="{{post.url}}">{{post.titulo}}</a>
+                        <a class="box" href="{{post.url}}">{{post.title}}</a>
                       </figcaption>
                     </figure>
                   </li>
@@ -385,9 +370,9 @@ class: index
       </div>
     </div>
 
-        <!--Contactos -->
+    <!--Contactos -->
     <div id='contact' class="page small-padding" style='background-color:#ffffff;' >
-      <div class="parallaxSection" style="background-image:url(assets/sites/insig/theme/images/content/parallax41883.jpg?7bb3ef9a13beeb8bc352d0936341894b);" data-bottom-top="background-position: 50% 300px" data-top-bottom="background-position: 50% -250px;" >
+      <div class="parallaxSection" style="background-image:url({{site.data.pagina-index.background_images.contactos}});" data-bottom-top="background-position: 50% 300px" data-top-bottom="background-position: 50% -250px;" >
         <div>
           <div class="scrollanimation" data--50-bottom-top ="top:400px;" data--350-top ="top:0px;" style="top:0px;">
             <div class="content editable">
@@ -404,11 +389,11 @@ class: index
           <div class="c12 end">
             <div class="centered" id="morada">
               <dl>
-                <dt>Rua Eugénio de Castro, 352, 2º andar - Sala 28</dt>
-                <dd>4100-225 Porto</dd>
+                <dt>{{site.data.pagina-index.contactos.rua}}</dt>
+                <dd>{{site.data.pagina-index.contactos.cod_postal}}</dd>
 
-                <dt><span class="email">corporate@insignyacapital.com</span> </dt>
-                <dd>T (+351)223 256 160</dd>
+                <dt><span class="email">{{site.data.pagina-index.contactos.email}}</span> </dt>
+                <dd>{{site.data.pagina-index.contactos.telefone}}</dd>
               </dl>
             </div>
           </div>

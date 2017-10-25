@@ -19,6 +19,8 @@ collections:
   #    - { label: "Classe", name: "class", widget: "hidden", default: "test-post" }  
   #    - { label: "Data de publicação", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mma" }
   #    - { label: "Genero de Post", name: "categoria",  widget: "select", options: [ " ", "rip"] }
+
+#====================| POSTS |===================================================|  
   - name: "equipa"
     label: "Equipa"
     folder: "_posts/equipa"
@@ -56,16 +58,106 @@ collections:
       - { label: "Vendas", name: "vendas", widget: "string" }
       - { label: "CEO", name: "CEO", widget: "string" }
       - { label: "Descricao", name: "descricao", widget: "string" }
-
+#|=====================| DATA |====================================================|
   - name: "data"
     label: "Data"
     editor:
       preview: true
     files:
+      #---| INDEX |---
+      - name: "pagina-index"
+        label: "Pagina de Inicio"
+        file: "_data/pagina-index.yml"
+        description: Everything needed for the index
+          - label: "Quem-somos" #quem-somos
+            name: quem_somos
+            widget: "object"
+            fields:
+              - { label: "Sobre 1", name: "sobre1", widget: "string" }
+              - { label: "Sobre 2", name: "sobre2", widget: "string" }
+          - label: "Private Equity" #Private-equity
+            name: private_equity
+            widget: "object"
+            fields:
+              - { label: "Descrição", name: "texto_inicial", wdiget: "markdown" }
+              - { label: "Sociedade Gestora", name: "sociedade", widget: "markdown" }
+              - label: "Insignya FRE"
+                name: fre
+                widget: "object"
+                fields:
+                  - { label: "Drescrição sobre insignya FRE", name: "texto", widget: "markdown" }
+                  - { label: "Tipo de Operações", name: "tipo_operacoes", widget: "string" }
+                  - { label: "Empresas Alvo", name: "empresas_alvo", widget: "string" }
+                  - { label: "Setores Alvo", name: "setores_alvo", widget: "string" }
+                  - { label: "Estratégia de Investimento", name: "estrategia_invest", widget: "string" }
+                  - { label: "Duração prevista", name: "duracao", widget: "string" }
+                  - { label: "Nota", name: "nota", widget: "string" }
+          - label: "Corporate Finance" #Corporate-finance
+            name: corporate_finance
+            widget: "object"
+            fields:
+              - { label: "Descrição", name: "texto_inicial", wdiget: "markdown" }
+              - label: "Fusão e Aquisição"
+                name: fusao_aquisicao
+                widget: "object"
+                fields:
+                  - { label: "Descrição sobre Fusão e Aquisição", name: "texto", widget: "markdown" }
+                  - { label: "Lista de operações", name: "lista", widget: "list" }
+              - { label: "Capital e Divida", name: "capital_divida", widget: "markdown" }
+              - label: "Assessoria Financeira"
+                name: assessoria_financeira
+                widget: "object"
+                fields:
+                  - { label: "Drescrição sobre Assessoria", name: "texto", widget: "markdown" }
+                  - { label: "Lista de assessoria", name: "lista", widget: "list" }
+          - label: "Contactos" #contactos
+            name: contactos
+            widget: "object"
+            fields:
+              - { label: "Rua", name: "rua", widget: "string" }
+              - { label: "Código Postal", name: "cod_postal", widget: "string" }
+              - { label: "Email", name: "email", widget: "string" }
+              - { label: "Telefone", name: "telefone", widget: "string" }
+          - label: "Background Images" #Imagens de background
+            name: background_images
+            widget: "object"
+            fields:
+              - { label: "Slide Insignya", name: "insignya", widget: "image" }
+              - { label: "Quem somos", name: "quem_somos", widget: "image" }
+              - { label: "Private Equity", name: "private_equity", widget: "image" }
+              - { label: "Corporate Finance", name: "corporate_finance", widget: "image" }
+              - { label: "Contactos", name: "contactos", widget: "image" }
+      #---| SOBRE 1 |---
+      - name: "quem-somos"
+        label: "Quem Somos"
+        file: "_data/quem-somos.yml"
+        description: Descrição de quem somos
+        fields:
+          - label: "Informação"
+            name: info
+            widget: "object"
+            fields:
+              - { label: "Tema", name: "tema", widget: "string" }
+              - { label: "Descrição do tema", name: "texto", widget: "markdown" }
+          - { label: "Imagem de fundo", name: "background_image", widget: "image" }
+      #---| SOBRE 2 |---
+      - name: "valores"
+        label: "Valores"
+        file: "_data/valores.yml"
+        description: Descrição dos Valores
+        fields:
+          - label: "Informação"
+            name: info
+            widget: "object"
+            fields:
+              - { label: "Tema", name: "tema", widget: "string" }
+              - { label: "Descrição do tema", name: "texto", widget: "markdown" }
+          - { label: "Imagem de fundo", name: "background_image", widget: "image" }
+      #---| FAQ |---
       - name: "footer-pages"
         label: "FAQ"
         file: "_data/footer-pages.yml"
-        description: FAQ questions 
+        description: questões FAQ 
         fields:
           - label: "faq"
             name: faq
@@ -77,7 +169,31 @@ collections:
                 fields:
                   - { label: "Pergunta", name: "pergunta", widget: "string" }
                   - { label: "Resposta", name: "resposta", widget: "string" }
-
+      #---| RECRUTAMENTO |---
+      - name: "recrutamento"
+        label: "Recrutamento"
+        file: "_data/recrutamento.yml"
+        description: Informação sobre o recrutamento
+        fields:
+          - label: "Informação"
+            name: info
+            widget: "object"
+            fields:
+              - { label: "Tema", name: "tema", widget: "string" }
+          - { label: "Imagem de fundo", name: "background_image", widget: "image" }
+      #---| TERMOS-USO |---
+      - name: "termos-uso"
+        label: "Termos de Uso"
+        file: "_data/termos-uso.yml"
+        description: Descrição sobre os termos de uso
+        fields:
+          - { label: "Descrição do uso", name: "uso", widget: "markdown" }
+          - label: "Informação"
+            name: info
+            widget: "list"
+            fields:
+              - { label: "Titulo", name: "titulo", widget: "string" }
+              - { label: "Descrição do titulo", name: "texto", widget: "markdown" }
 
 
 
