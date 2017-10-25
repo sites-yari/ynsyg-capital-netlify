@@ -136,7 +136,7 @@ collections:
         fields:
           - label: "Informação"
             name: info
-            widget: "object"
+            widget: "list"
             fields:
               - { label: "Tema", name: "tema", widget: "string" }
               - { label: "Descrição do tema", name: "texto", widget: "markdown" }
@@ -149,7 +149,7 @@ collections:
         fields:
           - label: "Informação"
             name: info
-            widget: "object"
+            widget: "list"
             fields:
               - { label: "Tema", name: "tema", widget: "string" }
               - { label: "Descrição do tema", name: "texto", widget: "markdown" }
@@ -178,7 +178,7 @@ collections:
         fields:
           - label: "Informação"
             name: info
-            widget: "object"
+            widget: "list"
             fields:
               - { label: "Tema", name: "tema", widget: "string" }
           - { label: "Imagem de fundo", name: "background_image", widget: "image" }
