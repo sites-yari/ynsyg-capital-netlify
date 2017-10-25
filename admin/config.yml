@@ -103,14 +103,22 @@ collections:
                 widget: "object"
                 fields:
                   - { label: "Descrição sobre Fusão e Aquisição", name: "texto", widget: "markdown" }
-                  - { label: "Lista de operações", name: "lista", widget: "list" }
+                  - label: "Lista de operações"
+                    name: "lista"
+                    widget: "list" 
+                    fields:
+                      - { label: "paragrafo", name: "text", widget: "string" }
               - { label: "Capital e Divida", name: "capital_divida", widget: "markdown" }
               - label: "Assessoria Financeira"
                 name: assessoria_financeira
                 widget: "object"
                 fields:
                   - { label: "Drescrição sobre Assessoria", name: "texto", widget: "markdown" }
-                  - { label: "Lista de assessoria", name: "lista", widget: "list" }
+                  - label: "Lista de assessoria"
+                    name: "lista"
+                    widget: "list" 
+                    fields:
+                      - { label: "Paragrafo", name: "text", widget: "string" }
           - label: "Contactos" #contactos
             name: contactos
             widget: "object"

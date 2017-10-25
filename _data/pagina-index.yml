@@ -37,9 +37,9 @@ corporate_finance:
         <br><br>
         A equipa de Corporate Finance analisa, estrutura e executa, entre outras, as seguintes operações;
       lista:
-        - M&A, incluindo venda, aquisição, desinvestimento, fusão, joint-venture
-        - Reestruturação empresarial, recapitalização, spin-off,
-        - LBO, MBO, MBI.
+        - text: M&A, incluindo venda, aquisição, desinvestimento, fusão, joint-venture
+        - text: Reestruturação empresarial, recapitalização, spin-off,
+        - text: LBO, MBO, MBI.
     capital_divida: Num mercado cada vez mais complexo e dinâmico, a Insignya disponibiliza aconselhamento estratégico e financeiro na escolha dos instrumentos financeiros adequados às necessidades das empresas, promovendo a negociação com os investidores dos mercados de capitais. 
       <br><br>
       Fiéis aos nossos valores de independência e excelência, garantimos a obtenção de soluções adequadas, flexíveis e maximizadoras do valor das empresas, promovendo operações de private placement, financiamentos estruturados, reestruturação financeira e outros instrumentos financeiros.
@@ -48,10 +48,10 @@ corporate_finance:
         <br><br>
         Os nossos serviços incluem;
       lista: 
-        - Avaliação de negócios e empresas
-        - Fairness opinions
-        - Reorganização de participações sociais
-        - Assessoria financeira em estrutura de capitais e estratégia empresarial
+        - text: Avaliação de negócios e empresas
+        - text: Fairness opinions
+        - text: Reorganização de participações sociais
+        - text: Assessoria financeira em estrutura de capitais e estratégia empresarial
 
 
 
