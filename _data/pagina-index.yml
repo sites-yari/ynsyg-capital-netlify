@@ -1,11 +1,11 @@
 quem_somos:
   sobre1: >-
     Somos uma equipa experiente e dinâmica que investe em empresas com partilha
-    de risco e valor. TESTE
-  sobre2: 'Independência, Experiência, Excelência. TESTE'
+    de risco e valor.
+  sobre2: 'Independência, Experiência, Excelência.'
 private_equity:
   fre:
-    duracao: 15 Anos TESTE
+    duracao: '15 Anos '
     empresas_alvo: Empresas com volume de negócios superior a € 10 milhões
     estrategia_invest: >-
       Investimento em empresas com necessidade de reestruturação financeira
@@ -14,12 +14,12 @@ private_equity:
       dívida em capital; Adequação da estrutura de capital ao ciclo de
       investimento e de negócio.
     nota: O Fundo ainda não se encontra constituído nem registado na CMVM.
-    setores_alvo: Indústria TESTE
+    setores_alvo: 'Indústria '
     texto: >-
       A Insignya Capital Partners - Sociedade de Capital de Risco está a
       angariar investidores qualificados para o fundo de capital de risco
-      INSIGNYA FRE, com as seguintes características; TESTE
-    tipo_operacoes: Reestruturação / Turnaround TESTE
+      INSIGNYA FRE, com as seguintes características;
+    tipo_operacoes: 'Reestruturação / Turnaround '
   sociedade: >-
     A Insignya Capital Partners - Sociedade de Capital de Risco, S.A.
     disponibilizará brevemente este conteúdo.
@@ -33,7 +33,6 @@ private_equity:
     <br><br> A equipa de gestão da sociedade-gestora conta com profissionais com
     vasta experiência em gestão de empresas, corporate finance e reestruturação
     empresarial aliada a um grande conhecimento do tecido empresarial português.
-    TESTE
 corporate_finance:
   assessoria_financeira:
     lista:
@@ -43,7 +42,6 @@ corporate_finance:
       - text: >-
           Assessoria financeira em estrutura de capitais e estratégia
           empresarial
-      - text: TESTE
     texto: >-
       Proporcionamos aos nossos clientes aconselhamento objectivo e independente
       sobre estratégias financeiras e empresariais. 
@@ -65,7 +63,6 @@ corporate_finance:
       - text: 'M&A, incluindo venda, aquisição, desinvestimento, fusão, joint-venture'
       - text: 'Reestruturação empresarial, recapitalização, spin-off,'
       - text: 'LBO, MBO, MBI.'
-      - text: TESTE
     texto: >-
       As estratégias de crescimento das empresas implicam a assumpção de riscos.
       O aconselhamento especializado da Insignya permitir minorar os riscos
