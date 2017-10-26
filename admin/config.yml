@@ -5,7 +5,7 @@ media_folder: "assets/uploads" # Media files will be stored in the repo under up
 backend:
   name: git-gateway
   repo: https://github.com/aerolp/netlify-insignia-capital-teste3
-  branch: devlp # Branch to update (optional; defaults to master)
+  branch: master # Branch to update (optional; defaults to master)
   site_domain: biologist-badger-47215.netlify.com
 
 collections:
