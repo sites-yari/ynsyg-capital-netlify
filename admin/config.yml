@@ -185,7 +185,7 @@ collections:
                 widget: "list"
                 fields:
                   - { label: "Pergunta", name: "pergunta", widget: "string" }
-                  - { label: "Resposta", name: "resposta", widget: "string" }
+                  - { label: "Resposta", name: "resposta", widget: "markdown" }
       #---| RECRUTAMENTO |---
       - name: "recrutamento"
         label: "Recrutamento"
