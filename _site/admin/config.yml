@@ -69,7 +69,8 @@ collections:
         label: "Pagina de Inicio"
         file: "_data/pagina-index.yml"
         description: Everything needed for the index
-          - label: "Quem-somos" #quem-somos
+        fields:
+          - label: "Quem somos" #quem-somos
             name: quem_somos
             widget: "object"
             fields:
@@ -96,20 +97,28 @@ collections:
             name: corporate_finance
             widget: "object"
             fields:
-              - { label: "Descrição", name: "texto_inicial", wdiget: "markdown" }
+              - { label: "Descrição", name: "texto_inicial", widget: "markdown" }
               - label: "Fusão e Aquisição"
                 name: fusao_aquisicao
                 widget: "object"
                 fields:
                   - { label: "Descrição sobre Fusão e Aquisição", name: "texto", widget: "markdown" }
-                  - { label: "Lista de operações", name: "lista", widget: "list" }
+                  - label: "Lista de operações"
+                    name: "lista"
+                    widget: "list" 
+                    fields:
+                      - { label: "paragrafo", name: "text", widget: "string" }
               - { label: "Capital e Divida", name: "capital_divida", widget: "markdown" }
               - label: "Assessoria Financeira"
                 name: assessoria_financeira
                 widget: "object"
                 fields:
                   - { label: "Drescrição sobre Assessoria", name: "texto", widget: "markdown" }
-                  - { label: "Lista de assessoria", name: "lista", widget: "list" }
+                  - label: "Lista de assessoria"
+                    name: "lista"
+                    widget: "list" 
+                    fields:
+                      - { label: "Paragrafo", name: "text", widget: "string" }
           - label: "Contactos" #contactos
             name: contactos
             widget: "object"
@@ -135,7 +144,7 @@ collections:
         fields:
           - label: "Informação"
             name: info
-            widget: "object"
+            widget: "list"
             fields:
               - { label: "Tema", name: "tema", widget: "string" }
               - { label: "Descrição do tema", name: "texto", widget: "markdown" }
@@ -148,7 +157,7 @@ collections:
         fields:
           - label: "Informação"
             name: info
-            widget: "object"
+            widget: "list"
             fields:
               - { label: "Tema", name: "tema", widget: "string" }
               - { label: "Descrição do tema", name: "texto", widget: "markdown" }
@@ -177,7 +186,7 @@ collections:
         fields:
           - label: "Informação"
             name: info
-            widget: "object"
+            widget: "list"
             fields:
               - { label: "Tema", name: "tema", widget: "string" }
           - { label: "Imagem de fundo", name: "background_image", widget: "image" }
@@ -189,7 +198,7 @@ collections:
         fields:
           - { label: "Descrição do uso", name: "uso", widget: "markdown" }
           - label: "Informação"
-            name: info
+            name: temas
             widget: "list"
             fields:
               - { label: "Titulo", name: "titulo", widget: "string" }
