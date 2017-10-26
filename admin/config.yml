@@ -97,7 +97,7 @@ collections:
             name: corporate_finance
             widget: "object"
             fields:
-              - { label: "Descrição", name: "texto_inicial", wdiget: "markdown" }
+              - { label: "Descrição", name: "texto_inicial", widget: "markdown" }
               - label: "Fusão e Aquisição"
                 name: fusao_aquisicao
                 widget: "object"
