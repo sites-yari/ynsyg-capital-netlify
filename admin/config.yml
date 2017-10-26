@@ -21,6 +21,14 @@ collections:
   #    - { label: "Genero de Post", name: "categoria",  widget: "select", options: [ " ", "rip"] }
 
 #====================| POSTS |===================================================|  
+  - name: "read-me"
+    label: "Instruções"
+    folder: "_posts"
+    create: false
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "READ ME", name: "body", widget: "markdown" }
+
   - name: "equipa"
     label: "Equipa"
     folder: "_posts/equipa"
