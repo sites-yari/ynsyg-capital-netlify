@@ -22,7 +22,7 @@ collections:
   #    - { label: "Genero de Post", name: "categoria",  widget: "select", options: [ " ", "rip"] }
 
   #====================| POSTS |===================================================|  
-  - name: "read-me"
+  - name: "posts"
     label: "Instruções"
     folder: "_posts"
     create: false
