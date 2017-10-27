@@ -4,9 +4,10 @@ media_folder: "assets/uploads" # Media files will be stored in the repo under up
 
 backend:
   name: git-gateway
-  repo: https://lepen@bitbucket.org/yari-labs/jam-insignya-capital.git
+  repo: https://github.com/realyarilabs/insyg-capity-netlify
   branch: master # Branch to update (optional; defaults to master)
   site_domain: insignyacapital.netlify.com/
+  
 
 collections:
   #- name: "posts"
