@@ -9,19 +9,7 @@ backend:
   site_domain: www.insignyacapital.com
 
 
-collections:
-  #- name: "posts"
-  #  label: "Posts"
-  #  folder: "_posts"
-  #  create: true
-  #  slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-  #  fields:
-  #    - { label: "Titulo", name: "title", widget: "string" }
-  #    - { label: "Classe", name: "class", widget: "hidden", default: "test-post" }  
-  #    - { label: "Data de publicação", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mma" }
-  #    - { label: "Genero de Post", name: "categoria",  widget: "select", options: [ " ", "rip"] }
-
-  #====================| POSTS |===================================================|  
+collections: #====================| POSTS |===================================================|  
   - name: "posts"
     label: "Instruções"
     folder: "_posts"
@@ -70,9 +58,9 @@ collections:
       - { label: "Ano", name: "data", widget: "string" }
       - { label: "Vendas", name: "vendas", widget: "string" }
       - { label: "CEO", name: "CEO", widget: "string" }
-      - { label: "Descricao", name: "descricao", widget: "string" }
-  #|=====================| DATA |====================================================|
-  - name: "data"
+      - { label: "Descricao", name: "descricao", widget: "string" } 
+      
+  - name: "data" #|=====================| DATA |====================================================|
     label: "Data"
     editor:
       preview: true
