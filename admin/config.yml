@@ -28,6 +28,10 @@ collections:
     create: false
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
+      - { label: "Titulo", name: "title", widget: "hidden", default: "read-me" }
+      - { label: "Classe", name: "class", widget: "hidden", default: "" }
+      - { label: "categoria", name: "categoria", widget: "hidden", default: "instrucoes" }
+      - { label: "date", name: "date", widget: "hidden", format: "YYYY-MM-DD hh:mma" }
       - { label: "READ ME", name: "body", widget: "markdown" }
 
   - name: "equipa"
