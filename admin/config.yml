@@ -10,17 +10,17 @@ backend:
 
 
 collections: #====================| POSTS |===================================================|  
-  # - name: "posts"
-  #   label: "Instruções"
-  #   folder: "_posts"
-  #   create: false
-  #   slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-  #   fields:
-  #     - { label: "Titulo", name: "title", widget: "hidden", default: "read-me" }
-  #     - { label: "Classe", name: "class", widget: "hidden", default: "" }
-  #     - { label: "categoria", name: "categoria", widget: "hidden", default: "instrucoes" }
-  #     - { label: "date", name: "date", widget: "hidden", format: "YYYY-MM-DD hh:mma" }
-  #     - { label: "READ ME", name: "body", widget: "markdown" }
+  - name: "posts"
+    label: "Instruções"
+    folder: "_posts"
+    create: false
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Titulo", name: "title", widget: "hidden", default: "read-me" }
+      - { label: "Classe", name: "class", widget: "hidden", default: "" }
+      - { label: "categoria", name: "categoria", widget: "hidden", default: "instrucoes" }
+      - { label: "date", name: "date", widget: "hidden", format: "YYYY-MM-DD hh:mma" }
+      - { label: "READ ME", name: "body", widget: "markdown" }
 
   - name: "equipa"
     label: "Equipa"
