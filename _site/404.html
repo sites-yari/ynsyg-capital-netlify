@@ -14,15 +14,15 @@
     <title>Insignya Capital Partners</title>
     <meta name="keywords" value="" />
     <meta name="description" value="" />
-    <link rel="stylesheet" type="text/css" href="../../cloud.typography.com/6094532/659008/css/fonts.html" />
+    <!--<link rel="stylesheet" type="text/css" href="../../cloud.typography.com/6094532/659008/css/fonts.html" />-->
 
     <link rel="shortcut icon" href="../../assets/sites/insig/theme/images/favicons/favicon9662.ico" type="image/x-icon">
 
-    <!-- js -->
-    <script src="../../assets/sites/insig/theme/javascripts/jquery/jquery3e5af374.js?fcb343413e332a9327f04205b61a7ac9" type="text/javascript" ></script>
-    <script src="../../assets/sites/insig/theme/javascripts/jquery/jquery-migrate.min1576d9db.js?56193bb3df1d9ec3d55e7cf7f0c55914" type="text/javascript" ></script>
-    <script src="../../assets/sites/insig/theme/javascripts/modernizr-2.6.2.minab17d040.js?2f3f1bb2b08b7cbfb9a2615e0ccb9e61" type="text/javascript" ></script>
-    <script src="../../assets/sites/insig/theme/javascripts/comment-reply.minab178f6d.js?157624c0c0bbd94f39425079cf2a6e81" type="text/javascript" ></script>
+    <!-- js -->  
+    <script src="../../assets/sites/insig/theme/javascripts/jquery/jquery3e5af374.js" type="text/javascript" ></script>
+    <script src="../../assets/sites/insig/theme/javascripts/jquery/jquery-migrate.min1576d9db.js" type="text/javascript" ></script>
+    <script src="../../assets/sites/insig/theme/javascripts/modernizr-2.6.2.minab17d040.js" type="text/javascript" ></script>
+    <script src="../../assets/sites/insig/theme/javascripts/comment-reply.minab178f6d.js" type="text/javascript" ></script>
 
     <!-- netlify -->
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
@@ -399,26 +399,26 @@
                         <a href="#home" style="color:#37abee;" id="hide-home-link">Home</a>
                         </li> -->
                         <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1512 current_page_item">
-                        <a href="#quem-somos">
+                        <a class="scroll" data-speed="500" href="#quem-somos">
                             Quem Somos
                         </a>
                         </li>
                         <li class="menu-item menu-item-type-post_type menu-item-object-page active-children page-section">
-                        <a href="#equipa" >Equipa</a>
+                        <a class="scroll" data-speed="500" href="#equipa" >Equipa</a>
                         </li>
                         <li class="menu-item menu-item-type-post_type menu-item-object-page active-children page-section">
-                        <a href="#private-equity">Áreas de Negócio</a>
+                        <a class="scroll" data-speed="500" href="#private-equity">Áreas de Negócio</a>
                         <ul>
                             <li class="menu-item menu-item-type-post_type menu-item-object-page active-children page-section" >
-                            <a href="#private-equity">Private Equity</a>
+                            <a class="scroll" data-speed="500" href="#private-equity">Private Equity</a>
                             </li>
                             <li class="menu-item menu-item-type-post_type menu-item-object-page active-children page-section">
-                            <a href="#corporate-finance">Corporate Finance</a>
+                            <a class="scroll" data-speed="500" href="#corporate-finance">Corporate Finance</a>
                             </li>
                         </ul>
                         </li>
                         <li class="menu-item menu-item-type-post_type menu-item-object-page active-children page-section">
-                        <a href="#contact">Contactos</a>
+                        <a class="scroll" data-speed="500" href="#contact">Contactos</a>
                         </li>
 
                     </ul>
@@ -478,6 +478,87 @@
         </div> 
         
         <!-- scripts -->
+        <script>
+            (function() {
+                
+                'use strict';
+        
+            // Feature Test
+            if ( 'querySelector' in document && 'addEventListener' in window && Array.prototype.forEach ) {
+        
+                // Function to animate the scroll
+                var smoothScroll = function (anchor, duration) {
+        
+                    // Calculate how far and how fast to scroll
+                    var startLocation = window.pageYOffset;
+                    var endLocation = anchor.offsetTop;
+                    var distance = endLocation - startLocation;
+                    var increments = distance/(duration/16);
+                    var stopAnimation;
+        
+                    // Scroll the page by an increment, and check if it's time to stop
+                    var animateScroll = function () {
+                        window.scrollBy(0, increments);
+                        stopAnimation();
+                    };
+        
+                    // If scrolling down
+                    if ( increments >= 0 ) {
+                        // Stop animation when you reach the anchor OR the bottom of the page
+                        stopAnimation = function () {
+                            var travelled = window.pageYOffset;
+                            if ( (travelled >= (endLocation - increments)) || ((window.innerHeight + travelled) >= document.body.offsetHeight) ) {
+                                clearInterval(runAnimation);
+                            }
+                        };
+                    }
+                    // If scrolling up
+                    else {
+                        // Stop animation when you reach the anchor OR the top of the page
+                        stopAnimation = function () {
+                            var travelled = window.pageYOffset;
+                            if ( travelled <= (endLocation || 0) ) {
+                                clearInterval(runAnimation);
+                            }
+                        };
+                    }
+        
+                    // Loop the animation function
+                    var runAnimation = setInterval(animateScroll, 16);
+                
+                };
+        
+                // Define smooth scroll links
+                var scrollToggle = document.querySelectorAll('.scroll');
+        
+                // For each smooth scroll link
+                [].forEach.call(scrollToggle, function (toggle) {
+        
+                    // When the smooth scroll link is clicked
+                    toggle.addEventListener('click', function(e) {
+        
+                        // Prevent the default link behavior
+                        e.preventDefault();
+        
+                        // Get anchor link and calculate distance from the top
+                        var dataID = toggle.getAttribute('href');
+                        var dataTarget = document.querySelector(dataID);
+                        var dataSpeed = toggle.getAttribute('data-speed');
+        
+                        // If the anchor exists
+                        if (dataTarget) {
+                            // Scroll to the anchor
+                            smoothScroll(dataTarget, dataSpeed || 500);
+                        }
+        
+                    }, false);
+        
+                });
+        
+            }
+        
+            })();
+        </script>
         <script type="text/Javascript">
             function sub(a,b)
             {
@@ -510,15 +591,15 @@
         </script>
 
         <script type='text/javascript' src='https://maps.googleapis.com/maps/api/js?sensor=false&amp;v=3.13&amp;ver=1.0;key=AIzaSyCGq4U7CCMWYPfuDZbNKMzj9e6C-nBdTrY'></script>
-        <script src="assets/sites/insig/theme/javascripts/theme/zoo/plugins/zoo-shortcodes-plugins51525786.js?92e409bd68b1ebef256b9e8f554877fb" type="text/javascript" ></script>
-        <script src="assets/sites/insig/theme/javascripts/theme/zoo/plugins/zoo-shortcodes-script51523c34.js?c5361d8157d5ed00ebb5bb6e932d3da9" type="text/javascript" ></script>
+        <script src="assets/sites/insig/theme/javascripts/theme/zoo/plugins/zoo-shortcodes-plugins51525786.js" type="text/javascript" ></script>
+        <script src="assets/sites/insig/theme/javascripts/theme/zoo/plugins/zoo-shortcodes-script51523c34.js" type="text/javascript" ></script>
 
         <script type='text/javascript'>
             var _wpcf7 = {"loaderUrl":"images\/ajax-loader.gif","sending":"Sending ..."};
         </script>
 
-        <script src="assets/sites/insig/theme/javascripts/theme/zoo/plugins/plugins4974d5d4.js?80f7f4ea20dfad52a1615a92cc182d3b" type="text/javascript" ></script>
-        <script src="assets/sites/insig/theme/javascripts/theme/Zoo/script49749c43.js?175e13dc1015f51edc270b55e1d63f16" type="text/javascript" ></script>
+        <script src="assets/sites/insig/theme/javascripts/theme/zoo/plugins/plugins4974d5d4.js" type="text/javascript" ></script>
+        <script src="assets/sites/insig/theme/javascripts/theme/Zoo/script49749c43.js" type="text/javascript" ></script>
             
     </body>
 </html>

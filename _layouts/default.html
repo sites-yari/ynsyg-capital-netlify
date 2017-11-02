@@ -15,6 +15,87 @@
         </div> 
         
         <!-- scripts -->
+        <script>
+            (function() {
+                
+                'use strict';
+        
+            // Feature Test
+            if ( 'querySelector' in document && 'addEventListener' in window && Array.prototype.forEach ) {
+        
+                // Function to animate the scroll
+                var smoothScroll = function (anchor, duration) {
+        
+                    // Calculate how far and how fast to scroll
+                    var startLocation = window.pageYOffset;
+                    var endLocation = anchor.offsetTop;
+                    var distance = endLocation - startLocation;
+                    var increments = distance/(duration/16);
+                    var stopAnimation;
+        
+                    // Scroll the page by an increment, and check if it's time to stop
+                    var animateScroll = function () {
+                        window.scrollBy(0, increments);
+                        stopAnimation();
+                    };
+        
+                    // If scrolling down
+                    if ( increments >= 0 ) {
+                        // Stop animation when you reach the anchor OR the bottom of the page
+                        stopAnimation = function () {
+                            var travelled = window.pageYOffset;
+                            if ( (travelled >= (endLocation - increments)) || ((window.innerHeight + travelled) >= document.body.offsetHeight) ) {
+                                clearInterval(runAnimation);
+                            }
+                        };
+                    }
+                    // If scrolling up
+                    else {
+                        // Stop animation when you reach the anchor OR the top of the page
+                        stopAnimation = function () {
+                            var travelled = window.pageYOffset;
+                            if ( travelled <= (endLocation || 0) ) {
+                                clearInterval(runAnimation);
+                            }
+                        };
+                    }
+        
+                    // Loop the animation function
+                    var runAnimation = setInterval(animateScroll, 16);
+                
+                };
+        
+                // Define smooth scroll links
+                var scrollToggle = document.querySelectorAll('.scroll');
+        
+                // For each smooth scroll link
+                [].forEach.call(scrollToggle, function (toggle) {
+        
+                    // When the smooth scroll link is clicked
+                    toggle.addEventListener('click', function(e) {
+        
+                        // Prevent the default link behavior
+                        e.preventDefault();
+        
+                        // Get anchor link and calculate distance from the top
+                        var dataID = toggle.getAttribute('href');
+                        var dataTarget = document.querySelector(dataID);
+                        var dataSpeed = toggle.getAttribute('data-speed');
+        
+                        // If the anchor exists
+                        if (dataTarget) {
+                            // Scroll to the anchor
+                            smoothScroll(dataTarget, dataSpeed || 500);
+                        }
+        
+                    }, false);
+        
+                });
+        
+            }
+        
+            })();
+        </script>
         <script type="text/Javascript">
             function sub(a,b)
             {
@@ -47,15 +128,15 @@
         </script>
 
         <script type='text/javascript' src='https://maps.googleapis.com/maps/api/js?sensor=false&amp;v=3.13&amp;ver=1.0;key=AIzaSyCGq4U7CCMWYPfuDZbNKMzj9e6C-nBdTrY'></script>
-        <script src="assets/sites/insig/theme/javascripts/theme/zoo/plugins/zoo-shortcodes-plugins51525786.js?92e409bd68b1ebef256b9e8f554877fb" type="text/javascript" ></script>
-        <script src="assets/sites/insig/theme/javascripts/theme/zoo/plugins/zoo-shortcodes-script51523c34.js?c5361d8157d5ed00ebb5bb6e932d3da9" type="text/javascript" ></script>
+        <script src="assets/sites/insig/theme/javascripts/theme/zoo/plugins/zoo-shortcodes-plugins51525786.js" type="text/javascript" ></script>
+        <script src="assets/sites/insig/theme/javascripts/theme/zoo/plugins/zoo-shortcodes-script51523c34.js" type="text/javascript" ></script>
 
         <script type='text/javascript'>
             var _wpcf7 = {"loaderUrl":"images\/ajax-loader.gif","sending":"Sending ..."};
         </script>
 
-        <script src="assets/sites/insig/theme/javascripts/theme/zoo/plugins/plugins4974d5d4.js?80f7f4ea20dfad52a1615a92cc182d3b" type="text/javascript" ></script>
-        <script src="assets/sites/insig/theme/javascripts/theme/Zoo/script49749c43.js?175e13dc1015f51edc270b55e1d63f16" type="text/javascript" ></script>
+        <script src="assets/sites/insig/theme/javascripts/theme/zoo/plugins/plugins4974d5d4.js" type="text/javascript" ></script>
+        <script src="assets/sites/insig/theme/javascripts/theme/Zoo/script49749c43.js" type="text/javascript" ></script>
             
     </body>
 </html>
