@@ -4,23 +4,24 @@ media_folder: "assets/uploads" # Media files will be stored in the repo under up
 
 backend:
   name: git-gateway
-  repo: https://github.com/aerolp/netlify-insignia-capital-teste3
-  branch: devlp # Branch to update (optional; defaults to master)
-  site_domain: biologist-badger-47215.netlify.com
+  repo: https://github.com/sites-yari/ynsyg-capital-netlify
+  branch: master # Branch to update (optional; defaults to master)
+  site_domain: www.insignyacapital.com
 
-collections:
-  #- name: "posts"
-  #  label: "Posts"
-  #  folder: "_posts"
-  #  create: true
-  #  slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-  #  fields:
-  #    - { label: "Titulo", name: "title", widget: "string" }
-  #    - { label: "Classe", name: "class", widget: "hidden", default: "test-post" }  
-  #    - { label: "Data de publicação", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mma" }
-  #    - { label: "Genero de Post", name: "categoria",  widget: "select", options: [ " ", "rip"] }
 
-#====================| POSTS |===================================================|  
+collections: #====================| POSTS |===================================================|  
+  - name: "posts"
+    label: "Instruções"
+    folder: "_posts"
+    create: false
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - { label: "Titulo", name: "title", widget: "hidden", default: "read-me" }
+      - { label: "Classe", name: "class", widget: "hidden", default: "" }
+      - { label: "categoria", name: "categoria", widget: "hidden", default: "instrucoes" }
+      - { label: "date", name: "date", widget: "hidden", format: "YYYY-MM-DD hh:mma" }
+      - { label: "READ ME", name: "body", widget: "markdown" }
+
   - name: "equipa"
     label: "Equipa"
     folder: "_posts/equipa"
@@ -57,9 +58,9 @@ collections:
       - { label: "Ano", name: "data", widget: "string" }
       - { label: "Vendas", name: "vendas", widget: "string" }
       - { label: "CEO", name: "CEO", widget: "string" }
-      - { label: "Descricao", name: "descricao", widget: "string" }
-#|=====================| DATA |====================================================|
-  - name: "data"
+      - { label: "Descricao", name: "descricao", widget: "string" } 
+
+  - name: "data" #|=====================| DATA |====================================================|
     label: "Data"
     editor:
       preview: true
@@ -177,7 +178,7 @@ collections:
                 widget: "list"
                 fields:
                   - { label: "Pergunta", name: "pergunta", widget: "string" }
-                  - { label: "Resposta", name: "resposta", widget: "string" }
+                  - { label: "Resposta", name: "resposta", widget: "markdown" }
       #---| RECRUTAMENTO |---
       - name: "recrutamento"
         label: "Recrutamento"
