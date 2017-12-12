@@ -5,7 +5,7 @@ classe: Trabalhador
 background_image_path: assets/sites/insig/content2/miguel/files/Miguel7462.jpg
 post_category: equipa
 categoria: executivo
-nome-imagem: Miguel Oliveira
+nome-imagem: Miguel Carvalho
 cargo: Sócio e Fundador
 email: miguel.oliveira@insignyacapital.com
 ---
