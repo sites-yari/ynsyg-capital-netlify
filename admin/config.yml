@@ -48,7 +48,7 @@ collections: #====================| POSTS |=====================================
       - { label: "Layout", name: "layout" , widget: "hidden", default: "portfolio" }
       - { label: "Titulo", name: "title", widget: "string" }
       - { label: "Class", name: "classe", widget: "hidden", default: "Trabalhador" }
-      - { label: "imagem de Esterior", name: "fora_image_path", widget: "image" }
+      - { label: "imagem de Exterior", name: "fora_image_path", widget: "image" }
       - { label: "imagem de interior", name: "dentro_image_path", widget: "image" }
       - { label: "Categoria", name: "category", widget: "hidden", default: "portfolios" }
       - { label: "Nome da Imagem", name: "nome-imagem", widget: "string" }
@@ -87,7 +87,7 @@ collections: #====================| POSTS |=====================================
                 name: fre
                 widget: "object"
                 fields:
-                  - { label: "Drescrição sobre insignya FRE", name: "texto", widget: "markdown" }
+                  - { label: "Descrição sobre insignya FRE", name: "texto", widget: "markdown" }
                   - { label: "Tipo de Operações", name: "tipo_operacoes", widget: "string" }
                   - { label: "Empresas Alvo", name: "empresas_alvo", widget: "string" }
                   - { label: "Setores Alvo", name: "setores_alvo", widget: "string" }
