@@ -7,7 +7,7 @@ post_category: equipa
 categoria: executivo
 nome-imagem: Miguel Oliveira
 cargo: Sócio e Fundador
-email: miguel.oliveira@insignyacapital.com
+email: miguel.oliveira@insignyacapital.comm
 ---
 Iniciou a carreira em 1997 como analista financeiro no departamento de Corporate Finance do CENTRAL-Banco de Investimento, tendo participado em operações de M&A, IPO’s, project finance, debt & equity raising. Entre Março de 2001 e Setembro de 2006 integrou o Conselho de Administração do Grupo Império Pneus como Administrador Financeiro.
 
