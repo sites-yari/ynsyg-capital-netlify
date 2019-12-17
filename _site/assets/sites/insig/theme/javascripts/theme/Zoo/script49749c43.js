@@ -20,8 +20,6 @@ jQuery(document).ready(function($) {
 	
 	/*Active Item Highlight Bar*/
 	function activeNav() {
-		//console.log(alert("olá, funciono?"));
-		//console.log($(".nav-active"));
 		xMove = $(".nav-active").offset().left;
 		barWidth =  $(".nav-active").outerWidth() + 'px';
 		$('#active-bar').css({ left: xMove, width: barWidth }); 
@@ -40,14 +38,6 @@ jQuery(document).ready(function($) {
  	$('.nav-links li.page-section-parent > a').removeClass('external');
 	
 	/*Smooth Scrolling*/
-	/*$('.nav-links').onePageNav({
-		currentClass: 'nav-active',
-		scrollThreshold: 0.5,
-		scrollSpeed: 800,
-		scrollOffset: 54,
-		filter: ':not(.external)'
-	}); */
-
 	if($('body').hasClass('home')){
 		$('.mainLogo a, .footerLogo').click(function(event){
 			 event.preventDefault();
